@@ -1,0 +1,136 @@
+/*=================================================*/
+/*= FONT                                          =*/
+/*=================================================*/
+
+@font-face {
+    font-family: "Conduit ITC";
+    src: url('../assets/fonts/Conduit-ITC.woff');
+}
+
+/*=================================================*/
+/*= BASE                                          =*/
+/*=================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Conduit ITC";
+    font-size: 10pt;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+html {
+    color: #926333;
+    font-family: "Conduit ITC", sans-serif;
+    overflow: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+head {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: #181818;
+}
+
+/*=================================================*/
+/*= DEFAULTS                                      =*/
+/*=================================================*/
+
+a  {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+    a:hover {
+        color: #b3b3b3;
+        cursor: pointer;
+    }
+    a:visited {
+        
+    }
+
+/*=================================================*/
+/*= MAIN                                          =*/
+/*=================================================*/
+
+.main { 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*=================================================*/
+/*= MAIN | NAVIGATION                             =*/
+/*=================================================*/
+
+.main-nav { 
+    height: 4em;
+    background: #131313a8;
+    border-bottom: 1px solid #926333a1;
+    display: flex;
+    align-items: center;
+}
+
+    .nav-header { }
+        .nav-header-container { }
+            .nav-header-menu { }
+            .nav-header-title { }
+
+    .nav-footer { }
+    .nav-content { }
+
+/*=================================================*/
+/*= MAIN | CONTENT                                =*/
+/*=================================================*/
+
+.main-content { 
+    flex: 1;
+}
+
+/*=================================================*/
+/*= MAIN | FOOTER                                 =*/
+/*=================================================*/
+
+.main-footer {
+    height: 4em;
+    display: flex;
+}
+    #footer-title {
+        margin: auto;
+        color: #9263339c;
+        text-shadow: 0 0 5px #1b1b1b;
+    }
+
+/*=================================================*/
+/*= MAIN | BACKGROUND                             =*/
+/*=================================================*/
+
+.main-background {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    pointer-events: none;
+    z-index: -1;
+}
+    #background {
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        position: fixed;
+    }
