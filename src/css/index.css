@@ -91,18 +91,12 @@ a  {
         display: flex;
         list-style: none;
         padding: 0 1em 0 1em;
+        flex-direction: row;
     }
         .nav-menu-option {
-            width: 5em;
             height: 3em;
             display: flex;
-            justify-content: center;
-        }
-        .nav-menu-option > * {
-            pointer-events: none;
-        }
-        .nav-menu-option > * {
-            pointer-events: none;
+            text-transform: uppercase;
         }
             .nav-option-link {
                 width: 100%;
