@@ -81,15 +81,61 @@ a  {
     border-bottom: 1px solid #926333a1;
     display: flex;
     align-items: center;
+    padding: 0 15% 0 15%;
 }
-
-    .nav-header { }
-        .nav-header-container { }
-            .nav-header-menu { }
-            .nav-header-title { }
-
-    .nav-footer { }
-    .nav-content { }
+    .nav-logo {
+        height: 3em;
+    }
+    .nav-menu-options {
+        flex: 1;
+        display: flex;
+        list-style: none;
+        padding: 0 1em 0 1em;
+    }
+        .nav-menu-option {
+            width: 5em;
+            height: 3em;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-menu-option > * {
+            pointer-events: none;
+        }
+        .nav-menu-option > * {
+            pointer-events: none;
+        }
+            .nav-option-link {
+                width: 100%;
+                font-size: 1.1em;
+                text-decoration: none;
+                padding: 0 16px;
+                display: flex;
+                cursor: pointer;
+                flex-direction: column;
+                justify-content: center;
+                position: relative;
+            }
+                .nav-option-link:link, 
+                .nav-option-link:visited {
+                    color: inherit;
+                }
+                .nav-option-link:hover {
+                    background-color: rgba(54,58,62,.63);
+                }
+            .nav-option-link.selected:after {
+                content: "";
+                height: 2px;
+                background-color: #926333;
+            }
+                .nav-option-link:hover:not(.selected):after {
+                    content: "";                
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    height: 2px;
+                    position: absolute;
+                    background-color: #926333;
+                }
 
 /*=================================================*/
 /*= MAIN | CONTENT                                =*/
