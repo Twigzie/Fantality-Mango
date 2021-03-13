@@ -175,11 +175,11 @@ a  {
             }
             .message-header-title {
                 font-size: 26px;
-                color: #fff;
                 font-weight: 300;
                 display: block;
                 text-align: center;
                 padding: 1em;
+                text-transform: uppercase;
             }
         .message-content-footer {
             flex: 1;
