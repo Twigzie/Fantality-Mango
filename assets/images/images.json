@@ -1,0 +1,16 @@
+{
+    "current": [
+        {
+            "type": "image",
+            "name": "Nameplates",
+            "endpoint": "/assets/images/nameplates/nameplates.json",
+            "description": ""
+        },
+        {
+            "type": "image",
+            "name": "Ranks",
+            "endpoint": "/assets/images/ranks/ranks.json",
+            "description": ""
+        }
+    ]
+}

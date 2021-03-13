@@ -1,0 +1,16 @@
+{
+    "current": [
+        {
+            "type": "image",
+            "name": "Images",
+            "endpoint": "/community/assets/images.json",
+            "description": ""
+        },
+        {
+            "type": "video",
+            "name": "Videos",
+            "endpoint": "/community/assets/videos.json",
+            "description": ""
+        }
+    ]
+}
