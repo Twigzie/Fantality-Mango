@@ -11,6 +11,12 @@
             "name": "Videos",
             "endpoint": "/community/assets/videos.json",
             "description": ""
+        },
+        {
+            "type": "color",
+            "name": "Colors",
+            "endpoint": "/community/assets/colors.json",
+            "description": ""
         }
     ]
 }
