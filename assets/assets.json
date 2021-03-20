@@ -3,19 +3,19 @@
         {
             "type": "image",
             "name": "Images",
-            "endpoint": "/community/assets/images.json",
+            "endpoint": "/community/assets/images/images.json",
             "description": ""
         },
         {
             "type": "video",
             "name": "Videos",
-            "endpoint": "/community/assets/videos.json",
+            "endpoint": "/community/assets/videos/videos.json",
             "description": ""
         },
         {
             "type": "color",
             "name": "Colors",
-            "endpoint": "/community/assets/colors.json",
+            "endpoint": "/community/assets/colors/colors.json",
             "description": ""
         }
     ]
