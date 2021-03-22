@@ -139,6 +139,7 @@ a  {
 .main-content { 
     flex: 1;
     display: flex;
+    overflow: auto;
 }
 
 /*=================================================*/
@@ -193,21 +194,6 @@ a  {
                 line-height: 22px;
                 text-align: center;
             }
-
-
-/*=================================================*/
-/*= MAIN | FOOTER                                 =*/
-/*=================================================*/
-
-.main-footer {
-    height: 4em;
-    display: flex;
-}
-    #footer-title {
-        margin: auto;
-        color: #9263339c;
-        text-shadow: 0 0 5px #1b1b1b;
-    }
 
 /*=================================================*/
 /*= MAIN | BACKGROUND                             =*/

@@ -5,30 +5,13 @@ var Assets = {
             /**
             * Retrieve the json asset for colors
             */
+            $.getJSON("https://fantalitystudios.ca/assets/colors/colors.json", (colors) => {
 
-            $.getJSON("https://fantalitystudios.ca/assets/colors/colors.json", (assets) => {
+                console.log("Current Assets", colors);
 
-                console.log("Current Assets", assets);
-
-                /**
-                 * Remove any previous content
-                 */
-                $("main-content").empty();
-
-                /**
-                 * 
-                 */
-                assets.current.forEach((asset) => {
-
-                    /**
-                     * Remove any previous content
-                     */
-                    $("main-content")
-                        .append();
-
-                    console.log("Asset", asset);
-                    
-                });
+                $(".main-content")
+                    .empty()
+                    .append(Handlebars.templates['colors'](colors));
 
             });
 
@@ -37,7 +20,7 @@ var Assets = {
             /**
              * Remove any previous content
              */
-            $("main-content").empty();
+            $(".main-content").empty();
 
         }
     },

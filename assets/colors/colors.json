@@ -29,7 +29,6 @@
         { "name": "Peach",    "color": "#EBAD89" },
         { "name": "Gold",     "color": "#B28430" },
         { "name": "Yellow",   "color": "#DEC44F" },
-        { "name": "Butter",   "color": "#F1EB7B" },
-        { "name": "Blank",    "color": "#00FFFFFF" }
+        { "name": "Butter",   "color": "#F1EB7B" }
     ]
 }
