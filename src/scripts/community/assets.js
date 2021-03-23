@@ -1,13 +1,19 @@
 var Assets = {
     init: () => {
-        try {            
-            
+        try {   
+
+            if (Fantality.utils.params) {
+
+            }
+
             /**
             * Retrieve the json asset for colors
             */
             $.getJSON("https://fantalitystudios.ca/assets/colors/colors.json", (colors) => {
 
                 console.log("Current Assets", colors);
+
+                
 
                 $(".main-content")
                     .empty()
@@ -27,5 +33,7 @@ var Assets = {
 }
 
 $(document).ready(() => {
+
     Assets.init();
+
 });

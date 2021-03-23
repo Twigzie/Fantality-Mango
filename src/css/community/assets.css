@@ -1,11 +1,8 @@
-
 /*=================================================*/
-/*= ASSETS                                        =*/
+/*= ASSETS | COLORS                               =*/
 /*=================================================*/
 
-.assets-options-container {
-    display: flex;
-    flex-direction: row;
+.assets-color-options-container {
     background: #131313a8;
     border-left: 1px solid #926333a1;
     border-right: 1px solid #926333a1;
@@ -17,14 +14,72 @@
     overflow-y: auto;
     user-select: none;
     padding: 1em;
-    flex-wrap: wrap;
     box-shadow: #000000f0 0 0 5px 0px;
 }
+    .assets-color-options-header {
+        display: flex;
+        align-items: center;
+    }
+    .assets-color-options-footer {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 /*=================================================*/
 /*= ASSETS | COLORS | MENU                        =*/
 /*=================================================*/
 
+.assets-color-title {
+    font-size: 4em;
+    text-transform: uppercase;
+    text-shadow: #000000f0 0px 0px 4px;
+}
+.assets-color-menu-container {
+    flex: 1;
+    display: flex;
+    list-style: none;
+    padding: 0 1em 0 1em;
+    flex-direction: row;
+}
+    .assets-color-menu-item {
+        height: 3em;
+        display: flex;
+        text-transform: uppercase;
+    }
+        .assets-color-menu-item-link {
+            width: 100%;
+            font-size: 1.1em;
+            text-decoration: none;
+            padding: 0 16px;
+            display: flex;
+            cursor: pointer;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+        }
+            .assets-color-menu-item-link:link, 
+            .assets-color-menu-item-link:visited {
+                color: inherit;
+            }
+            .assets-color-menu-item-link:hover {
+                background-color: rgba(54,58,62,.63);
+            }
+        .assets-color-menu-item-link.selected:after {
+            content: "";
+            height: 2px;
+            background-color: #926333;
+        }
+            .assets-color-menu-item-link:hover:not(.selected):after {
+                content: "";                
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 2px;
+                position: absolute;
+                background-color: #926333;
+            }
+            
 /*=================================================*/
 /*= ASSETS | COLORS | OPTIONS                     =*/
 /*=================================================*/

@@ -1,4 +1,5 @@
 {
+    "title": "Colors",
     "current": [
         {
             "name": "Halo: CE",
@@ -21,7 +22,8 @@
                 { "name": "Tan",    "color": "#BC9263" },
                 { "name": "Maroon", "color": "#930306" },
                 { "name": "Salmon", "color": "#EB8F94" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=0"
         },
         {
             "name": "Halo: 2",
@@ -44,7 +46,8 @@
                 { "name": "Crimson", "color": "#8D093B" },
                 { "name": "Brown",   "color": "#5D4434" },
                 { "name": "Tan",     "color": "#A7874D" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=1"
         },        {
             "name": "Halo: 2A",
             "colors": [
@@ -77,7 +80,8 @@
                 { "name": "Peach",    "color": "#CB6338" },
                 { "name": "Gold",     "color": "#6A3300" },
                 { "name": "Yellow",   "color": "#B28400" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=2"
         },        {
             "name": "Halo: 3",
             "colors": [
@@ -111,7 +115,8 @@
                 { "name": "Brown",    "color": "#513714" },
                 { "name": "Tan",      "color": "#AC8A6E" },
                 { "name": "Khaki",    "color": "#E0BEA2" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=3"
         },
         {
             "name": "Halo 3: ODST",
@@ -146,7 +151,8 @@
                 { "name": "Violet",   "color": "#252541" },
                 { "name": "Lavender", "color": "#4D3A57" },
                 { "name": "Pink",     "color": "#8F5F72" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=4"
         },
         {
             "name": "Halo: Reach",
@@ -181,7 +187,8 @@
                 { "name": "Gold",     "color": "#B28430" },
                 { "name": "Yellow",   "color": "#DEC44F" },
                 { "name": "Pale",     "color": "#F1EB7B" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=5"
         },  
         {
             "name": "Halo: 4",
@@ -215,7 +222,8 @@
                 { "name": "Peach",    "color": "#EBAD89" },
                 { "name": "Gold",     "color": "#B28430" },
                 { "name": "Yellow",   "color": "#DEC44F" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=6"
         },        
         {
             "name": "Halo: 5",
@@ -280,7 +288,8 @@
                 { "name": "Violet",         "color": "#9301C6" },
                 { "name": "Grimace",        "color": "#63008B" },
                 { "name": "Aubergine",      "color": "#3C0050" }
-            ]
+            ],
+            "endpoint": "/community/assets?type=colors&colors=7"
         }
     ]
 }
