@@ -22,6 +22,14 @@ var Settings = {
     })(jQuery)
 };
 
-$(document).ready(() => { 
-    Settings.init(); 
-});
+$(document)
+    .ready(() => {
+
+        new ClipboardJS('.copy');
+        NProgress.settings.showSpinner = false;
+
+        Settings.init(); 
+
+    })
+    .ajaxStart(() => NProgress.start())
+    .ajaxStop(() => NProgress.done());
