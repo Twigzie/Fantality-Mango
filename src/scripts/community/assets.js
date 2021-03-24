@@ -1,21 +1,28 @@
 
 var Assets = {
-    init: (source) => {
+    Initialize: (params) => {
         try {
 
-            /**
-            * Retrieve the json asset
-            */
-            $.getJSON(source.endpoint, (cache) => {
+            var options = {
+                params: params || null,
+                target: Endpoints[params.type] || null
+            };
+
+            if (!options.params)
+                console.error('[]', "");
+            if (!options.target)
+                console.error('[]', "");
+
+            $.getJSON(options.target.endpoint, (cache) => {
 
                 console.log("Assets", cache);
 
+                if (options.params.index >= 0 && cache.current[options.params.index])
+                    cache.current[options.params.index].selected = true;
+
                 $(".main-content")
                     .empty()
-                    .append(Handlebars.templates[source.template]({
-                        current: cache.current,
-                        selected: source.selected
-                    }));
+                    .append(Handlebars.templates[options.target.template](cache));
 
             });
 
@@ -38,8 +45,8 @@ var Assets = {
                 if (params.hasOwnProperty(option[0]))
                     continue;
                 switch (option[0]) {
-                    case "type":     params.type     = option[1]; break;
-                    case "selected": params.selected = option[1]; break;
+                    case "type":  params.type  = option[1]; break;
+                    case "index": params.index = option[1]; break;
                     default: continue;
                 }
 
@@ -52,18 +59,15 @@ var Assets = {
 var Endpoints = {
     colors: {
         template: "colors",
-        selected: 0,
         endpoint: "https://fantalitystudios.ca/assets/colors/colors.json"
     }
 };
 
 $(document).ready(() => {
-
+    
     var params = Assets.GetUrlParams();
-    if (params && Endpoints[params.type]) {
-
-        Assets.init(Endpoints[params.type]);
-
+    if (params) {
+        Assets.Initialize(params);
     }
 
 });
