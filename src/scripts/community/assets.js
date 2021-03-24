@@ -1,4 +1,3 @@
-
 var Assets = {
     Initialize: (params) => {
         try {
@@ -17,12 +16,16 @@ var Assets = {
 
                 console.log("Assets", cache);
 
-                if (options.params.index >= 0 && cache.current[options.params.index])
-                    cache.current[options.params.index].selected = true;
+                if (options.params.index >= 0) {
+                    if (cache.current[options.params.index]) {
+                        cache.current[options.params.index].selected = true;
+                    }
+                }                    
 
                 $(".main-content")
                     .empty()
-                    .append(Handlebars.templates[options.target.template](cache));
+                    .append(Handlebars.templates[options.target.template](cache))
+                        .on('click', options.target.element, options.target.callback);
 
             });
 
@@ -55,10 +58,13 @@ var Assets = {
         return params || {};
     }
 }
-
 var Endpoints = {
     colors: {
         template: "colors",
+        element: ".color-swatch-container",
+        callback: (e) => {
+            alert("TODO: CLICK EVENT")
+        },
         endpoint: "https://fantalitystudios.ca/assets/colors/colors.json"
     }
 };

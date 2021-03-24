@@ -8,6 +8,21 @@
 }
 
 /*=================================================*/
+/*= ROOT                                          =*/
+/*=================================================*/
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #926333a2
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/*=================================================*/
 /*= BASE                                          =*/
 /*=================================================*/
 
