@@ -4,19 +4,19 @@
         {
             "type": "image",
             "name": "Images",
-            "endpoint": "/community/assets/images/images.json",
+            "endpoint": "/community/assets.html?type=images",
             "description": ""
         },
         {
             "type": "video",
             "name": "Videos",
-            "endpoint": "/community/assets/videos/videos.json",
+            "endpoint": "/community/assets.html?type=videos",
             "description": ""
         },
         {
             "type": "color",
             "name": "Colors",
-            "endpoint": "/community/assets/colors/colors.json",
+            "endpoint": "/community/assets.html?type=colors",
             "description": ""
         }
     ]
