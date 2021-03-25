@@ -1,8 +1,8 @@
 /*=================================================*/
-/*= ASSETS | COLORS                               =*/
+/*= ASSETS                                        =*/
 /*=================================================*/
 
-.assets-color-options-container {
+.assets-container {
     background: #131313a8;
     border-left: 1px solid #926333a1;
     border-right: 1px solid #926333a1;
@@ -16,15 +16,20 @@
     padding: 1em;
     box-shadow: #000000f0 0 0 5px 0px;
 }
-    .assets-color-options-header {
-        display: flex;
-        align-items: center;
-    }
-    .assets-color-options-footer {
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-    }
+
+/*=================================================*/
+/*= ASSETS | COLORS                               =*/
+/*=================================================*/
+
+.assets-color-options-header {
+    display: flex;
+    align-items: center;
+}
+.assets-color-options-footer {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*=================================================*/
 /*= ASSETS | COLORS | MENU                        =*/
@@ -105,7 +110,6 @@
     .color-swatch-container * {
         pointer-events: none;
     }
-
         .color-text-options {
             left: 0;
             bottom: 0;
@@ -118,15 +122,9 @@
             justify-content: center;
             background: #131313a8;
         }
-            .color-text-options > span {
+            .color-title-name {
+                color: #cccccc;
+                font-size: 3em;
                 text-shadow: #000000f0 0px 0px 4px;
                 text-transform: uppercase;
             }
-                .color-title-name {
-                    color: #cccccc;
-                    font-size: 3em;
-                }
-                .color-title-value {
-                    margin-left: 1em;
-                    font-size: 1.2em;
-                }

@@ -9,13 +9,13 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="../src/assets/favicon.png">
 	<!-- STYLES -->
 	<link rel="stylesheet" href="../src/css/index.css">
-	<link rel="stylesheet" href="../src/css/external/nprogress-0.2.0.css">
 	<link rel="stylesheet" href="../src/css/community/assets.css">
+	<link rel="stylesheet" href="../src/css/external/nprogress.min.css">
 	<!-- SCRIPTS -->
-    <script src="../src/scripts/external/jquery-3.5.1.min.js"></script>
-    <script src="../src/scripts/external/handlebars-4.7.7.min.js"></script>
+    <script src="../src/scripts/external/jquery.min.js"></script>
+    <script src="../src/scripts/external/handlebars.min.js"></script>
 	<script src="../src/scripts/external/clipboard.min.js"></script>
-	<script src="../src/scripts/external/nprogress-0.2.0.js"></script>
+	<script src="../src/scripts/external/nprogress.min.js"></script>
 </head>
 <body>
     
@@ -32,25 +32,14 @@
 		</div>
 		<div class="main-content">
 
-			<div class="message-container">
-				<div class="message-content">
-				  <div class="message-content-header">
-					<img class="message-image" src="../src/img/assets/construction.svg" alt="Loading...">
-					<span class="message-header-title">Under Construction</span>
-				  </div>
-				  <div class="message-content-footer">
-					<span class="message-footer-title">You may now close this window or tab.</span>
-				  </div>
-				</div>
-			  </div>
-
 		</div>
 		<div class="main-background">
 			<video id="background" type="video/webm" src poster autoplay muted loop></video>
 		</div>
 	</div>
-	<script src="../src/scripts/templates/templates.js"></script>
-    <script src="../src/scripts/index.js"></script>
+
+	<script src="../src/scripts/helpers/utilities.js"></script>
+	<script src="../src/scripts/helpers/templates.js"></script>
 	<script src="../src/scripts/community/assets.js"></script>
 
 </body>

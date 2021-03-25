@@ -1,79 +1,94 @@
-var Assets = {
-    Initialize: (params) => {
+var Assets = (() => {
+    function onInit() {
+        console.info("[Assets::Init]");
         try {
 
-            var options = {
-                params: params || null,
-                target: Endpoints[params.type] || null
-            };
+            $(".main-content").empty();
 
-            if (!options.params)
-                console.error('[]', "");
-            if (!options.target)
-                console.error('[]', "");
-
-            $.getJSON(options.target.endpoint, (cache) => {
-
-                console.log("Assets", cache);
-
-                if (options.params.index >= 0) {
-                    if (cache.current[options.params.index]) {
-                        cache.current[options.params.index].selected = true;
-                    }
-                }                    
+            $.getJSON("https://fantalitystudios.ca/assets/assets.json", (cache) => {
 
                 $(".main-content")
-                    .empty()
-                    .append(Handlebars.templates[options.target.template](cache))
-                        .on('click', options.target.element, options.target.callback);
+                    .append(Handlebars.templates['assets'](cache))
+                        .off('click')
+                        .on('click', (e) => {
+
+                        });
 
             });
 
-        } catch (e) {
+        } 
+        catch (error) {
+            $(".main-content").empty();
+            console.error("[Assets::Init]", error);
+        }
+    }
+    function onLoad(params) {
+        console.info("[Assets::Load]", params);
+        try {
 
-            /**
-             * Remove any previous content
-             */
+            //
+            var target = Endpoints[params.type];
+            
+            //
             $(".main-content").empty();
 
-        }
-    },
-    GetUrlParams() {
-        var params = {};
-        var search = window.location.search.substring(1);
-        var options = search.split('&');
-        for (var i = 0; i < options.length; i++) {
-            var option = options[i].split('=');
-            if (option && option.length === 2) {
-                if (params.hasOwnProperty(option[0]))
-                    continue;
-                switch (option[0]) {
-                    case "type":  params.type  = option[1]; break;
-                    case "index": params.index = option[1]; break;
-                    default: continue;
-                }
+            //
+            $.getJSON(target.endpoint, (cache) => {
 
-            }
+                //
+                if (cache.current[params.index])
+                    cache.current[params.index].selected = true;
+
+                //
+                $(".main-content")
+                    .append(Handlebars.templates[target.template](cache));
+            
+                //
+                if (target.element) {
+                    $(target.element).off('click')
+                        .on('click', target.callback);
+                }
+            
+            });
+
+        } 
+        catch (error) {
+            $(".main-content").empty();
+            console.error("[Assets::Init]", error);
         }
-        return params || {};
     }
-}
+    return {
+        Init: onInit,
+        Load: onLoad
+    }
+})();
+
 var Endpoints = {
     colors: {
-        template: "colors",
         element: ".color-swatch-container",
+        template: "colors",
+        endpoint: "https://fantalitystudios.ca/assets/colors/colors.json",
         callback: (e) => {
-            alert("TODO: CLICK EVENT")
-        },
-        endpoint: "https://fantalitystudios.ca/assets/colors/colors.json"
+            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
+        }
     }
 };
 
 $(document).ready(() => {
     
-    var params = Assets.GetUrlParams();
-    if (params) {
-        Assets.Initialize(params);
+    try {
+
+        var params = Helpers.GetURLParams();
+        if (Helpers.IsEmpty(params)) {
+            Assets.Init();
+        }
+        else {
+            Assets.Load(params);
+        }
+        
+    } 
+    catch (error) {
+        console.error("[]", error);
     }
 
-});
+});w
