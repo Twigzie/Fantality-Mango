@@ -5,10 +5,10 @@ var Assets = (() => {
 
             $(".main-content").empty();
 
-            $.getJSON("https://fantalitystudios.ca/assets/assets.json", (cache) => {
+            $.getJSON("https://fantalitystudios.ca/assets/images/nameplates/nameplates.json", (cache) => {
 
                 $(".main-content")
-                    .append(Handlebars.templates['assets'](cache))
+                    .append(Handlebars.templates['nameplates'](cache))
                         .off('click')
                         .on('click', (e) => {
 
@@ -91,4 +91,4 @@ $(document).ready(() => {
         console.error("[]", error);
     }
 
-});w
+});

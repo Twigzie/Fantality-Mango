@@ -3,13 +3,13 @@
         {
             "type": "image",
             "name": "Nameplates",
-            "endpoint": "/assets/images/nameplates/nameplates.json",
+            "endpoint": "/community/assets.html?type=images&group=nameplates",
             "description": ""
         },
         {
             "type": "image",
             "name": "Ranks",
-            "endpoint": "/assets/images/ranks/ranks.json",
+            "endpoint": "/community/assets.html?type=images&group=ranks",
             "description": ""
         }
     ]
