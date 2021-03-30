@@ -5,10 +5,10 @@ var Assets = (() => {
 
             $(".main-content").empty();
 
-            $.getJSON("https://fantalitystudios.ca/assets/images/nameplates/nameplates.json", (cache) => {
+            $.getJSON("https://fantalitystudios.ca/assets/assets.json", (cache) => {
 
                 $(".main-content")
-                    .append(Handlebars.templates['nameplates'](cache))
+                    .append(Handlebars.templates['assets'](cache))
                         .off('click')
                         .on('click', (e) => {
 
@@ -68,6 +68,18 @@ var Endpoints = {
         element: ".color-swatch-container",
         template: "colors",
         endpoint: "https://fantalitystudios.ca/assets/colors/colors.json",
+        callback: (e) => {
+            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
+        }
+    },
+    images: {
+        template: "images",
+        endpoint: "https://fantalitystudios.ca/assets/images/images.json"
+    },
+    nameplates: {
+        element: ".nameplate-image",
+        template: "nameplates",
+        endpoint: "https://fantalitystudios.ca/assets/images/nameplates/nameplates.json",
         callback: (e) => {
             console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
         }

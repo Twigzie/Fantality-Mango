@@ -129,20 +129,20 @@
 /*=================================================*/
 
 .nameplate-container {
-    height: 2em;
     padding: 5px;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
     position: relative;
 }
     .nameplate-image-container {
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-        position: relative;
-        opacity: 0.5;
-        box-shadow: #000000f0 0 0 5px 0px;
+        display: flex;
     }
-        .nameplate-image-container:hover {
-            opacity: 1;
+        .nameplate-image {
+            margin: auto;
+            cursor: pointer;
+            opacity: 0.5;
+            box-shadow: #000000f0 0 0 5px 0px;
         }
+            .nameplate-image:hover {
+                opacity: 1;
+            }
