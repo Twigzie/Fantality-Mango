@@ -97,7 +97,7 @@ var Groups = {
         }
     },
     "mcc-ranks": {
-        element: ".mcc-rank-image",
+        element: ".mcc-ranks-image",
         template: "mcc-ranks",
         endpoint: "https://fantalitystudios.ca/assets/images/ranks/mcc/ranks/ranks.json",
         callback: (e) => {
