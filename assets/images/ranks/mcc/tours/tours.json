@@ -1,0 +1,16 @@
+{
+    "title": "MCC/Tours",
+    "current": [
+        { "name": "Tour 1",        "image":"/assets/images/ranks/mcc/tours/1.png" },
+        { "name": "Tour 2",        "image":"/assets/images/ranks/mcc/tours/2.png" },
+        { "name": "Tour 3",        "image":"/assets/images/ranks/mcc/tours/3.png" },
+        { "name": "Tour 4",        "image":"/assets/images/ranks/mcc/tours/4.png" },
+        { "name": "Tour 5",        "image":"/assets/images/ranks/mcc/tours/5.png" },
+        { "name": "Tour 6",        "image":"/assets/images/ranks/mcc/tours/6.png" },
+        { "name": "Tour 7",        "image":"/assets/images/ranks/mcc/tours/7.png" },
+        { "name": "Tour 8",        "image":"/assets/images/ranks/mcc/tours/8.png" },
+        { "name": "Tour 9",        "image":"/assets/images/ranks/mcc/tours/9.png" },
+        { "name": "Tour 10",       "image":"/assets/images/ranks/mcc/tours/10.png" },
+        { "name": "Tour 11 (MAX)", "image":"/assets/images/ranks/mcc/tours/11.png" }
+    ]
+}

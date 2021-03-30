@@ -26,30 +26,32 @@ var Assets = (() => {
         console.info("[Assets::Load]", params);
         try {
 
-            //
-            var target = Endpoints[params.type];
-            if (params.group)
-                target = Endpoints[params.group];
-
+            // If we have an endpoint of the specified type, use it.
+            var source = Types[params.type];
+            if (params.group) {
+                //If we have an endpoint of the specified group, use it instead.
+                source = Groups[params.group];
+            }
 
             //
             $(".main-content").empty();
 
             //
-            $.getJSON(target.endpoint, (cache) => {
+            $.getJSON(source.endpoint, (cache) => {
 
                 //
-                if (cache.current[params.index])
+                if (params.index >= 0 && cache.current[params.index]) {
                     cache.current[params.index].selected = true;
+                }
 
                 //
                 $(".main-content")
-                    .append(Handlebars.templates[target.template](cache));
+                    .append(Handlebars.templates[source.template](cache));
             
                 //
-                if (target.element) {
-                    $(target.element).off('click')
-                        .on('click', target.callback);
+                if (source.element) {
+                    $(source.element).off('click')
+                        .on('click', source.callback);
                 }
             
             });
@@ -66,8 +68,8 @@ var Assets = (() => {
     }
 })();
 
-var Endpoints = {
-    colors: {
+var Types = {
+    "colors": {
         element: ".color-swatch-container",
         template: "colors",
         endpoint: "https://fantalitystudios.ca/assets/colors/colors.json",
@@ -75,19 +77,50 @@ var Endpoints = {
             console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
         }
     },
-    images: {
+    "images": {
         template: "images",
         endpoint: "https://fantalitystudios.ca/assets/images/images.json"
     },
-    nameplates: {
+    "videos": {}
+};
+var Groups = {
+    "ranks": {
+        template: "ranks",
+        endpoint: "https://fantalitystudios.ca/assets/images/ranks/ranks.json"
+    },
+    "nameplates": {
         element: ".nameplate-image",
         template: "nameplates",
         endpoint: "https://fantalitystudios.ca/assets/images/nameplates/nameplates.json",
         callback: (e) => {
             console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
         }
+    },
+    "mcc-ranks": {
+        element: ".mcc-rank-image",
+        template: "mcc-ranks",
+        endpoint: "https://fantalitystudios.ca/assets/images/ranks/mcc/ranks/ranks.json",
+        callback: (e) => {
+            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
+        }
+    },
+    "mcc-tours": {
+        element: ".mcc-tour-image",
+        template: "mcc-tours",
+        endpoint: "https://fantalitystudios.ca/assets/images/ranks/mcc/tours/tours.json",
+        callback: (e) => {
+            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
+        }
+    },
+    "mcc-competitive": {
+        element: ".mcc-competitive-image",
+        template: "mcc-competitive",
+        endpoint: "https://fantalitystudios.ca/assets/images/ranks/mcc/competitive/competitive.json",
+        callback: (e) => {
+            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
+        }
     }
-};
+}
 
 $(document).ready(() => {
     

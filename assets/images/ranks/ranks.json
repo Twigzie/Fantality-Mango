@@ -1,0 +1,20 @@
+{
+    "title": "MCC Ranks",
+    "current": [
+        {
+            "name": "Ranks",
+            "endpoint": "/community/assets.html?type=images&group=mcc-ranks",
+            "description": ""
+        },
+        {
+            "name": "Tours",
+            "endpoint": "/community/assets.html?type=images&group=mcc-tours",
+            "description": ""
+        },
+        {
+            "name": "Competitive",
+            "endpoint": "/community/assets.html?type=images&group=mcc-competitive",
+            "description": ""
+        }
+    ]
+}

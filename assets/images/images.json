@@ -2,16 +2,14 @@
     "title": "Images",
     "current": [
         {
-            "type": "image",
-            "name": "Nameplates",
-            "endpoint": "/community/assets.html?type=images&group=nameplates",
-            "description": ""
-        },
-        {
-            "type": "image",
             "name": "Ranks",
             "endpoint": "/community/assets.html?type=images&group=ranks",
             "description": ""
-        }
+        },
+        {
+            "name": "Nameplates",
+            "endpoint": "/community/assets.html?type=images&group=nameplates",
+            "description": ""
+        }        
     ]
 }   
