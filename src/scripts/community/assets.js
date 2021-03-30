@@ -105,7 +105,7 @@ var Groups = {
         }
     },
     "mcc-tours": {
-        element: ".mcc-tour-image",
+        element: ".mcc-tours-image",
         template: "mcc-tours",
         endpoint: "https://fantalitystudios.ca/assets/images/ranks/mcc/tours/tours.json",
         callback: (e) => {
