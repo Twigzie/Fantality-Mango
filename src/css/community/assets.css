@@ -146,3 +146,27 @@
             .nameplate-image:hover {
                 opacity: 1;
             }
+
+/*=================================================*/
+/*= ASSETS | MCC | RANKS                          =*/
+/*=================================================*/
+
+.mcc-ranks-container {}
+    .mcc-ranks-image-container {}
+        .mcc-ranks-image {}
+
+/*=================================================*/
+/*= ASSETS | MCC | TOURS                          =*/
+/*=================================================*/
+
+.mcc-tours-container {}
+    .mcc-tours-image-container {}
+        .mcc-tours-image {}
+
+/*=================================================*/
+/*= ASSETS | MCC | COMPETITIVE                    =*/
+/*=================================================*/
+
+.mcc-competitive-container {}
+    .mcc-competitive-image-container {}
+        .mcc-competitive-image {}
