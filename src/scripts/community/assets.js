@@ -28,7 +28,10 @@ var Assets = (() => {
 
             //
             var target = Endpoints[params.type];
-            
+            if (params.group)
+                target = Endpoints[params.group];
+
+
             //
             $(".main-content").empty();
 
