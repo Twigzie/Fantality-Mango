@@ -80,10 +80,10 @@ $(document).ready(() => {
 
         var params = Helpers.GetURLParams();
         if (Helpers.IsEmpty(params)) {
-            Assets.Init();
+            Tutorials.Init();
         }
         else {
-            Assets.Load(params);
+            Tutorials.Load(params);
         }
         
     } 
