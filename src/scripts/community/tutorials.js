@@ -8,7 +8,7 @@ var Tutorials = (() => {
             $.getJSON("https://fantalitystudios.ca/community/tutorials/tutorials.json", (cache) => {
 
                 $(".main-content")
-                    .append(Handlebars.templates['assets'](cache))
+                    .append(Handlebars.templates['tutorials'](cache))
                         .off('click')
                         .on('click', (e) => {
 
@@ -23,7 +23,7 @@ var Tutorials = (() => {
         }
     }
     function onLoad(params) {
-        console.info("[Assets::Load]", params);
+        console.info("[Tutorials::Load]", params);
         try {
 
             // If we have an endpoint of the specified type, use it.
@@ -59,7 +59,7 @@ var Tutorials = (() => {
         } 
         catch (error) {
             $(".main-content").empty();
-            console.error("[Assets::Init]", error);
+            console.error("[Tutorials::Init]", error);
         }
     }
     return {
