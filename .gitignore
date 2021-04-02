@@ -37,3 +37,6 @@ $RECYCLE.BIN/
 
 #Project Folders
 /development
+
+#Project Tutorial Files
+/community/tutorials/controller/skins/tutorial.txt

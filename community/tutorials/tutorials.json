@@ -1,0 +1,10 @@
+{
+    "title": "Tutorials",
+    "current": [
+        {
+            "name": "Skins",
+            "endpoint": "/community/tutorials.html?type=skins",
+            "description": ""
+        }
+    ]
+}

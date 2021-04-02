@@ -1,0 +1,226 @@
+{
+    "title": "Tutorials/Skins",
+    "tutorial": {
+        "notes": [
+            {
+                "name": "1)",
+                "note": "This tutorial was written for OBS (Though it should work with StreamLabs OBS)"
+            },
+            {
+                "name": "2)",
+                "note": "This tutorial was also created for those who had skins made for them by yours truly",
+                "notes": [
+                    {
+                        "name": "a)",
+                        "note": "My skins are made from the same Controller SVG"
+                    },
+                    {
+                        "name": "b)",
+                        "note": "My skins are made with the same dimensions so they are scaled correctly each time"
+                    },
+                    {
+                        "name": "c)",
+                        "note": "If I wasn't the creater of your skin, this tutorial might not work for you or, you'll need to do some annoying manual resizing in OBS in order to get the Skin\\Browser assets to align correctly"
+                    }
+                ]
+            }
+        ],
+        "steps": [
+            {
+                "name": "1)",
+                "step": "Open OBS"
+            },            
+            {
+                "name": "2)",
+                "step": "Group",
+                "note": "If you already have a 'Group' for your current controller, skip to the next step.",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "Under 'Sources', Add a new group called 'Controller' (Or whatever name you want)",
+                        "image": "/community/tutorials/controller/skins/images/step_2a.png"
+                    }
+                ]
+            },            
+            {
+                "name": "3)",
+                "step": "Browser Source",
+                "note": "If you already have a 'Brower Source' for your current controller, Please remove it before continuing.",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "'Right Click' the 'Group' you just created and select 'Add > Browser' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
+                        "image": "/community/tutorials/controller/skins/images/step_3a.png",
+                        "steps": [
+                            {
+                                "name": "1)",
+                                "step": "With the 'Properties' window open for the 'Browser' you just created, complete the next steps",
+                                "image": "/community/tutorials/controller/skins/images/step_3a1.png"
+                            },
+                            {
+                                "name": "2)",
+                                "step": "Click on any of the following properties to copy its value (or manually enter each one)",
+                                "properties": [
+                                    {
+                                        "name": "URL",
+                                        "value": "https://gamepadviewer.com/?p=1"
+                                    },
+                                    {
+                                        "name": "Width",
+                                        "value": "1280"
+                                    },                                    
+                                    {
+                                        "name": "Height",
+                                        "value": "720"
+                                    },                                    
+                                    {
+                                        "name": "Custom CSS",
+                                        "value": ".controller.xbox { background-image: url(''); }"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "3)",
+                                "step": "Paste or enter each property into is respective text field (See image above)"
+                            },
+                            {
+                                "name": "4)",
+                                "step": "Once you're done entering each value, click 'OK' to close the window"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "b)",
+                        "step": "Once closed, press any button on your controller to activate the 'Browser Source'. If successfull, you should see the following.",
+                        "image": "/community/tutorials/controller/skins/images/step_3b.png"
+                    },
+                    {
+                        "name": "c)",
+                        "step": "If for some reason you don't see the above image, Open the properties window for your 'Browser Source' and click the following to refresh it.",
+                        "image": "/community/tutorials/controller/skins/images/step_3c.png"
+                    },
+                    {
+                        "name": "d)",
+                        "step": "If for some reason you still don't see the above image, delete the 'Browser Source' restart OBS and repeat 'Step 3'."
+                    }
+                ]
+            },
+            {
+                "name": "4)",
+                "step": "Browser Skin",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "'Right Click' the 'Group' you just created and select 'Add > Browser' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
+                        "image": "/community/tutorials/controller/skins/images/step_4a.png",
+                        "steps": [
+                            {
+                                "name": "1)",
+                                "step": "With the 'Properties' window open for the 'Browser' you just created, complete the next steps'Right Click' the 'Group' you created in 'Step 2' and select 'Add > Image' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
+                                "image": "/community/tutorials/controller/skins/images/step_4a1.png"
+                            },
+                            {
+                                "name": "2)",
+                                "step": "Browse for the skin in which you want to use, I'll be using the one I made for EliX"
+                            },
+                            {
+                                "name": "3)",
+                                "step": "Once you're done browsing, click 'OK' to close the window"
+                            }
+                        ]
+                    }
+                ]
+            },            
+            {
+                "name": "5)",
+                "step": "Grouping",
+                "note": "If for some reason either the 'Browser Source' or the 'Image Source' you created didn't get added to the 'Group' you created in 'Step 2' manually drag them into it",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "Make sure the 'Browser Source' is 'Above' the 'Image Source'.",
+                        "image": "/community/tutorials/controller/skins/images/step_5a.png"
+                    }
+                ]
+            },            
+            {
+                "name": "6)",
+                "step": "Alignment",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "Browser Source",
+                        "steps": [
+                            {
+                                "name": "1)",
+                                "step": "'Click' the 'Browser Source' you created and press 'Ctrl+E' on your keyboard or 'Right Click' it and select 'Transform > Edit Transform' to bring up the following window",
+                                "image": "/community/tutorials/controller/skins/images/step_6.png"
+                            },
+                            {
+                                "name": "2)",
+                                "step": "Regardless of your base canvas resolution, make sure the following properties are exactly the same (See above image)"
+                            },
+                            {
+                                "name": "3)",
+                                "step": "Once you're sure each property is exactly the same, click 'Close'."
+                            },
+                            {
+                                "name": "4)",
+                                "step": "Optional, 'Click' the 'Padlock' icon next to the 'Browser Source' to lock the layer so you don't accidentally resize the layer."
+                            }
+                        ]
+                    },            
+                    {
+                        "name": "b)",
+                        "step": "Image Source",
+                        "steps": [
+                            {
+                                "name": "1)",
+                                "step": "Again 'Click' the 'Image Source' you created and press 'Ctrl+E' on your keyboard or 'Right Click' it and select 'Transform > Edit Transform' to bring up the following window",
+                                "image": "/community/tutorials/controller/skins/images/step_6.png"
+                            },
+                            {
+                                "name": "2)",
+                                "step": "Again, regardless of your base canvas resolution, make sure the following properties are exactly the same (See above image)"
+                            },
+                            {
+                                "name": "3)",
+                                "step": "Again, Once you're sure each property is exactly the same, click 'Close'."
+                            },
+                            {
+                                "name": "4)",
+                                "step": "Optional, 'Click' the 'Padlock' icon next to the 'Image Source' to lock the layer so you don't accidentally resize the layer."
+                            }
+                        ]
+                    }
+                ]
+            },            
+            {
+                "name": "7)",
+                "step": "Resizing",
+                "image": "/community/tutorials/controller/skins/images/step_7.png",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "Now this is important, If you ever want to resize the controller you MUST select the 'Group' you created in 'Step 2'. If you don't and you skipped the optional steps within 'Step 6' you run the risk of resizing the layer and will need to repeat 'Step 6' for the specified layer. If you had to manually resize the 'Image source' because it wasn't a skin that I made, I feel bad for you."
+                    }
+                ]
+            },            
+            {
+                "name": "8)",
+                "step": "Complete",
+                "image": "/community/tutorials/controller/skins/images/step_8.png",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "If you followed the tutorial and were successful, congrats! If not, you can always message me personally on Discord and I'll try my best to help you with your problem."
+                    },            
+                    {
+                        "name": "b)",
+                        "step": "If you had a skin made for you by someone other than me and would like to get it updated or just want a new one, again, message me on Discord."
+                    }
+                ]
+            }
+        ]
+    }
+}
