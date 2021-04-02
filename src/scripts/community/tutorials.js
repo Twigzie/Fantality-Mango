@@ -70,7 +70,7 @@ var Tutorials = (() => {
 
 var Types = {
     "skins": {
-        endpoint: "https://fantalitystudios.ca/community/tutorials/controller/skins/skins.json"
+        endpoint: "https://fantalitystudios.ca/community/tutorials/controller/skins.json"
     }
 };
 
