@@ -1,0 +1,108 @@
+{
+    "title": "Tutorials/Backgrounds",
+    "author": "Twigzie",
+    "updated": "April 3, 2021",
+    "tutorial": {
+        "notes": [
+            {
+                "name": "*",
+                "note": "This tutorial was written for use with the steam version of Halo: The Master Chief Collection"
+            }
+        ],
+        "steps": [
+            {
+                "name": "STEP 1",
+                "step": "Downloads",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "The files listed here have their names already renamed so knowing which is which might be a problem to most."
+                    }
+                ],
+                "steps": [
+                    {
+                        "name": "1)",
+                        "step": "Head to the following URL and download the background files you wish to change",
+                        "link": "https://drive.google.com/drive/folders/1x9JO2eCr0zfs27cTDGPBvq5pzmWKXo9i?usp=sharing"
+                    }
+                ]
+            },            
+            {
+                "name": "STEP 2",
+                "step": "Install Location",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "If you know where you have Halo: The Master Chief Collection installed, Skip this step and browse to that folder."
+                    }
+                ],
+                "steps": [
+                    {
+                        "name": "1)",
+                        "step": "Launch steam and click the 'Library' menu item. (See image below)",
+                        "image": "/community/tutorials/backgrounds/images/step_2_1.png"
+                    },
+                    {
+                        "name": "2)",
+                        "step": "Locate 'Halo: The Master Chief Collection' on the left side of the window. (See image below)",
+                        "image": "/community/tutorials/backgrounds/images/step_2_2.png"
+                    },
+                    {
+                        "name": "3)",
+                        "step": "'Right Click' and select 'Manage > Browse Local Files'. The following file explorer should open up. (See image below)",
+                        "image": "/community/tutorials/backgrounds/images/step_2_3.png"
+                    },
+                    {
+                        "name": "4)",
+                        "step": "From there, navigate into 'MCC\\Content\\Movies' (See image below)",
+                        "image": "/community/tutorials/backgrounds/images/step_2_4.png"
+                    }
+                ]
+            },
+            {
+                "name": "STEP 3",
+                "step": "Backup Existing Files",
+                "steps": [
+                    {
+                        "name": "1)",
+                        "step": "Once navigated into the folder from 'Step 2' make a backup of each file you downloaded from 'Step 1'. (See image below)",
+                        "image": "/community/tutorials/backgrounds/images/step_3.png"
+                    }
+                ]
+            },
+            {
+                "name": "STEP 4",
+                "step": "Overwrite Existing Files",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "If you haven't made any backups, it's recommended that you do so."
+                    }
+                ],
+                "steps": [
+                    {
+                        "name": "1)",
+                        "step": "Simple 'Copy' or 'Drag' over the files that you downloaded in 'Step 1'."
+                    }
+                ]
+            },
+            {
+                "name": "STEP 5",
+                "step": "Complete",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "If you haven't made any backups, you'll need to 'Verify' files within steam inorder to get the originals back."
+                    }
+                ],
+                "steps": [
+                    {
+                        "name": "1)",
+                        "step": "Once all the files were overwritten, simply launch Halo: The Master Chief Collection and enjoy your new background(s).",
+                        "image": "/community/tutorials/backgrounds/images/step_5.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

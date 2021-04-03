@@ -5,6 +5,11 @@
             "name": "Skins",
             "endpoint": "/community/tutorials.html?type=skins",
             "description": ""
+        },
+        {
+            "name": "Backgrounds",
+            "endpoint": "/community/tutorials.html?type=backgrounds",
+            "description": ""
         }
     ]
 }

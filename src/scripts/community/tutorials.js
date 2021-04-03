@@ -82,6 +82,10 @@ var Types = {
     "skins": {
         template: "tutorial",
         endpoint: "https://fantalitystudios.ca/community/tutorials/controller/skins.json"
+    },
+    "backgrounds": {
+        template: "tutorial",
+        endpoint: "https://fantalitystudios.ca/community/tutorials/backgrounds/backgrounds.json"
     }
 };
 
