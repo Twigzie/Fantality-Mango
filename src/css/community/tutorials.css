@@ -158,6 +158,8 @@
             }
     .step-container-footer {
         padding: 1em;
+        display: flex;
+        flex-direction: column;
     }
         .step-content-container {
             display: flex;
