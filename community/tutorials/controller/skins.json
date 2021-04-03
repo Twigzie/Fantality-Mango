@@ -35,7 +35,12 @@
             {
                 "name": "STEP 2",
                 "step": "Create Controller Group",
-                "note": "If you already have a 'Group' for an exisiting controller, skip to the next step.",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "If you already have a 'Group' for an exisiting controller, skip to the next step."
+                    }
+                ],
                 "steps": [
                     {
                         "name": "a)",
@@ -47,7 +52,12 @@
             {
                 "name": "STEP 3",
                 "step": "Create Controller Source",
-                "note": "If you already have a 'Browser Source' for your current controller, Please remove it before continuing.",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "If you already have a 'Browser Source' for your current controller, Please remove it before continuing."
+                    }
+                ],
                 "steps": [
                     {
                         "name": "a)",
@@ -136,7 +146,12 @@
             {
                 "name": "STEP 5",
                 "step": "Controller Grouping",
-                "note": "If for some reason either the 'Browser Source' or the 'Image Source' you created didn't get added to the 'Group' you created in 'Step 2' manually drag them into it",
+                "notes": [
+                    {
+                        "name": "*",
+                        "note": "If for some reason either the 'Browser Source' or the 'Image Source' you created didn't get added to the 'Group' you created in 'Step 2' manually drag them into it"
+                    }
+                ],                
                 "steps": [
                     {
                         "name": "a)",
