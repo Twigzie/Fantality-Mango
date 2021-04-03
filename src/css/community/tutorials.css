@@ -86,7 +86,6 @@
 
 .tutorials-note-container {
     width: 100%;
-    min-height: 4em;
     display: flex;
     flex-direction: column;
     background: #131313a8;
@@ -131,7 +130,6 @@
 
 .tutorials-step-container {
     width: 100%;
-    min-height: 4em;
     display: flex;
     flex-direction: column;
     background: #131313a8;
@@ -154,3 +152,18 @@
             flex: 1;
             margin: auto;
         }
+
+    .tutorials-title-name {
+            margin: auto;
+            font-size: 2em;
+            text-align: center;
+        }
+    .tutorials-title-value {
+        margin: auto auto 1em auto;
+        font-size: 1.5em;
+        text-align: center;
+        border-bottom: 1px solid #926333a1;
+    }
+    .tutorials-step-image {
+        margin: 1em auto;
+    }
