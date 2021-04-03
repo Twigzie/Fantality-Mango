@@ -27,11 +27,11 @@
         ],
         "steps": [
             {
-                "name": "1)",
+                "name": "STEP 1",
                 "step": "Open OBS"
             },            
             {
-                "name": "2)",
+                "name": "STEP 2",
                 "step": "Group",
                 "note": "If you already have a 'Group' for your current controller, skip to the next step.",
                 "steps": [
@@ -43,7 +43,7 @@
                 ]
             },            
             {
-                "name": "3)",
+                "name": "STEP 3",
                 "step": "Browser Source",
                 "note": "If you already have a 'Brower Source' for your current controller, Please remove it before continuing.",
                 "steps": [
@@ -106,7 +106,7 @@
                 ]
             },
             {
-                "name": "4)",
+                "name": "STEP 4",
                 "step": "Browser Skin",
                 "steps": [
                     {
@@ -132,7 +132,7 @@
                 ]
             },            
             {
-                "name": "5)",
+                "name": "STEP 5",
                 "step": "Grouping",
                 "note": "If for some reason either the 'Browser Source' or the 'Image Source' you created didn't get added to the 'Group' you created in 'Step 2' manually drag them into it",
                 "steps": [
@@ -144,7 +144,7 @@
                 ]
             },            
             {
-                "name": "6)",
+                "name": "STEP 6",
                 "step": "Alignment",
                 "steps": [
                     {
@@ -196,7 +196,7 @@
                 ]
             },            
             {
-                "name": "7)",
+                "name": "STEP 7",
                 "step": "Resizing",
                 "image": "/community/tutorials/controller/skins/images/step_7.png",
                 "steps": [
@@ -207,7 +207,7 @@
                 ]
             },            
             {
-                "name": "8)",
+                "name": "STEP 8",
                 "step": "Complete",
                 "image": "/community/tutorials/controller/skins/images/step_8.png",
                 "steps": [

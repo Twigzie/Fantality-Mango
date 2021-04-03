@@ -79,3 +79,78 @@
                 position: absolute;
                 background-color: #926333;
             }
+
+/*=================================================*/
+/*= TUTORIALS | NOTES                             =*/
+/*=================================================*/
+
+.tutorials-note-container {
+    width: 100%;
+    min-height: 4em;
+    display: flex;
+    flex-direction: column;
+    background: #131313a8;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #926333a1;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px #000000e8;
+}
+    .tutorials-note-title {
+        margin: auto;
+        text-align: center;
+        font-size: 1.5em;
+        border-bottom: 1px solid #926333a1;
+        margin-bottom: 5px;
+    }
+    .tutorials-note {
+        flex: 1;
+        display: flex;
+    }
+        .tutorials-note-name {
+            font-size: 16px;
+            padding-right: 0.5em;
+        }
+        .tutorials-note-value {
+            font-size: 13px;
+            flex: 1;
+            margin: auto;
+        }
+    .tutorials-note.section {
+        flex-direction: column;
+    }
+        .tutorials-note-header {
+        }
+        .tutorials-note-footer {
+            padding-left: 2em;
+        }
+
+/*=================================================*/
+/*= TUTORIALS | STEPS                             =*/
+/*=================================================*/
+
+.tutorials-step-container {
+    width: 100%;
+    min-height: 4em;
+    display: flex;
+    flex-direction: column;
+    background: #131313a8;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #926333a1;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px #000000e8;
+}
+    .tutorials-step {
+        flex: 1;
+        display: flex;
+    }
+        .tutorials-step-name {
+            font-size: 16px;
+            padding-right: 0.5em;
+        }
+        .tutorials-step-value {
+            font-size: 13px;
+            flex: 1;
+            margin: auto;
+        }
