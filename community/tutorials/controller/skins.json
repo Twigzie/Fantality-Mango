@@ -33,7 +33,7 @@
                 "step": "OBS",
                 "steps": [
                     {
-                        "name": "a)",
+                        "name": "1)",
                         "step": "Launch it, this is a critical step :)"
                     }
                 ]
@@ -49,8 +49,8 @@
                 ],
                 "steps": [
                     {
-                        "name": "a)",
-                        "step": "Under 'Sources', Add a new group called 'Controller' (Or whatever name you want)",
+                        "name": "1)",
+                        "step": "Under 'Sources', Add a new group called 'Controller' (Or whatever name you want, See image below)",
                         "image": "/community/tutorials/controller/skins/images/step_2a.png"
                     }
                 ]
@@ -66,18 +66,18 @@
                 ],
                 "steps": [
                     {
-                        "name": "a)",
-                        "step": "'Right Click' the 'Group' you just created and select 'Add > Browser' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
+                        "name": "1)",
+                        "step": "'Right Click' the 'Group' you just created and select 'Add > Browser' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New', See image below)",
                         "image": "/community/tutorials/controller/skins/images/step_3a.png",
                         "steps": [
                             {
-                                "name": "1)",
+                                "name": "1a)",
                                 "step": "With the 'Properties' window open for the 'Browser Source' you just created, complete the next steps",
                                 "image": "/community/tutorials/controller/skins/images/step_3a1.png"
                             },
                             {
-                                "name": "2)",
-                                "step": "Click on any of the following properties to copy its value (or manually enter each one)",
+                                "name": "2a)",
+                                "step": "Click on any of the following properties to copy its value to your clipboard (or manually enter each one)",
                                 "properties": [
                                     {
                                         "name": "URL",
@@ -98,27 +98,27 @@
                                 ]
                             },
                             {
-                                "name": "3)",
+                                "name": "3a)",
                                 "step": "Paste or enter each property into is respective text field (See image above)"
                             },
                             {
-                                "name": "4)",
+                                "name": "4a)",
                                 "step": "Once you're done entering each value, click 'OK' to close the window."
                             }
                         ]
                     },
                     {
-                        "name": "b)",
+                        "name": "2)",
                         "step": "Once closed, press any button on your controller to activate the 'Browser Source'. If successfull, you should see the following.",
                         "image": "/community/tutorials/controller/skins/images/step_3b.png"
                     },
                     {
-                        "name": "c)",
+                        "name": "3)",
                         "step": "If for some reason you don't see the above image, Open the properties window for your 'Browser Source' and click the following to refresh it.",
                         "image": "/community/tutorials/controller/skins/images/step_3c.png"
                     },
                     {
-                        "name": "d)",
+                        "name": "4)",
                         "step": "If for some reason you still don't see the above image, delete the 'Browser Source' restart OBS and repeat 'Step 3'."
                     }
                 ]
@@ -128,21 +128,21 @@
                 "step": "Create Controller Skin",
                 "steps": [
                     {
-                        "name": "a)",
+                        "name": "1)",
                         "step": "'Right Click' the 'Group' you created and select 'Add > Image' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
                         "image": "/community/tutorials/controller/skins/images/step_4a.png",
                         "steps": [
                             {
-                                "name": "1)",
+                                "name": "1a)",
                                 "step": "With the 'Properties' window open for the 'Image Source' you just created, complete the next steps."                                
                             },
                             {
-                                "name": "2)",
+                                "name": "2a)",
                                 "step": "Browse for the skin in which you want to use, I'll be using the one I made for Eli X",
                                 "image": "/community/tutorials/controller/skins/images/step_4a1.png"
                             },
                             {
-                                "name": "3)",
+                                "name": "3a)",
                                 "step": "Once you're done browsing, click 'OK' to close the window"
                             }
                         ]
@@ -160,7 +160,7 @@
                 ],                
                 "steps": [
                     {
-                        "name": "a)",
+                        "name": "1)",
                         "step": "Make sure the 'Browser Source' is 'Above' the 'Image Source'.",
                         "image": "/community/tutorials/controller/skins/images/step_5a.png"
                     }
@@ -171,47 +171,47 @@
                 "step": "Controller Alignment",
                 "steps": [
                     {
-                        "name": "a)",
+                        "name": "1)",
                         "step": "Browser Source",
                         "steps": [
                             {
-                                "name": "1)",
+                                "name": "1a)",
                                 "step": "'Click' the 'Browser Source' you created and press 'Ctrl+E' on your keyboard or 'Right Click' it and select 'Transform > Edit Transform' to bring up the following window",
                                 "image": "/community/tutorials/controller/skins/images/step_6.png"
                             },
                             {
-                                "name": "2)",
+                                "name": "2a)",
                                 "step": "Regardless of your base canvas resolution, make sure the following properties are exactly the same (See above image)"
                             },
                             {
-                                "name": "3)",
+                                "name": "3a)",
                                 "step": "Once you're sure each property is exactly the same, click 'Close'."
                             },
                             {
-                                "name": "4)",
+                                "name": "4a)",
                                 "step": "Optional, 'Click' the 'Padlock' icon next to the 'Browser Source' to lock the layer so you don't accidentally resize the layer."
                             }
                         ]
                     },            
                     {
-                        "name": "b)",
+                        "name": "2)",
                         "step": "Image Source",
                         "steps": [
                             {
-                                "name": "1)",
+                                "name": "1b)",
                                 "step": "Again 'Click' the 'Image Source' you created and press 'Ctrl+E' on your keyboard or 'Right Click' it and select 'Transform > Edit Transform' to bring up the following window",
                                 "image": "/community/tutorials/controller/skins/images/step_6.png"
                             },
                             {
-                                "name": "2)",
+                                "name": "2b)",
                                 "step": "Again, regardless of your base canvas resolution, make sure the following properties are exactly the same (See above image)"
                             },
                             {
-                                "name": "3)",
+                                "name": "3b)",
                                 "step": "Again, Once you're sure each property is exactly the same, click 'Close'."
                             },
                             {
-                                "name": "4)",
+                                "name": "4b)",
                                 "step": "Optional, 'Click' the 'Padlock' icon next to the 'Image Source' to lock the layer so you don't accidentally resize the layer."
                             }
                         ]
@@ -224,7 +224,7 @@
                 "image": "/community/tutorials/controller/skins/images/step_7.png",
                 "steps": [
                     {
-                        "name": "a)",
+                        "name": "1)",
                         "step": "Now this is important, If you ever want to resize the controller you MUST select the 'Group' you created in 'Step 2'. If you don't and you skipped the optional steps within 'Step 6' you run the risk of resizing the layer and will need to repeat 'Step 6' for the specified layer. If you had to manually resize the 'Image source' because it wasn't a skin that I made, I feel bad for you."
                     }
                 ]
@@ -235,11 +235,11 @@
                 "image": "/community/tutorials/controller/skins/images/step_8.png",
                 "steps": [
                     {
-                        "name": "a)",
+                        "name": "1)",
                         "step": "If you followed the tutorial and were successful, congrats! If not, you can always message me personally on Discord and I'll try my best to help you with your problem."
                     },            
                     {
-                        "name": "b)",
+                        "name": "2)",
                         "step": "If you had a skin made for you by someone other than me and would like to get it updated or just want a new one, again, message me on Discord."
                     }
                 ]
