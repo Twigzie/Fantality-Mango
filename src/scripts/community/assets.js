@@ -82,10 +82,7 @@ var Types = {
     "colors": {
         element: ".color-swatch-container",
         template: "colors",
-        endpoint: "https://fantalitystudios.ca/assets/colors/colors.json",
-        callback: (e) => {
-            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
-        }
+        endpoint: "https://fantalitystudios.ca/assets/colors/colors.json"
     },
     "images": {
         template: "images",
