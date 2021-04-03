@@ -167,3 +167,41 @@
     .tutorials-step-image {
         margin: 1em auto;
     }
+
+
+/*=================================================*/
+/*= TUTORIALS | NOTES                             =*/
+/*=================================================*/
+
+/*=================================================*/
+/*= TUTORIALS | STEPS                             =*/
+/*=================================================*/
+
+.step-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #131313a8;
+    margin-bottom: 15px;
+    border: 1px solid #926333a1;
+    box-shadow: 0 0 5px #000000e8;
+}
+    .step-container-header {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        background: darkslategray;
+    }
+        .step-container-header > span {
+            margin: auto;
+        }
+            .step-container-title {
+                font-size: 2em;
+            }
+            .step-container-value {
+                font-size: 1.5em;
+            }
+
+    .step-container-footer {
+    }

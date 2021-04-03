@@ -30,7 +30,13 @@
         "steps": [
             {
                 "name": "STEP 1",
-                "step": "Open OBS, Critial step XD."
+                "step": "OBS",
+                "steps": [
+                    {
+                        "name": "a)",
+                        "step": "Launch it, this is a critical step :)"
+                    }
+                ]
             },            
             {
                 "name": "STEP 2",
