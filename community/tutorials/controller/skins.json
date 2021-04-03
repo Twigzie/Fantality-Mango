@@ -1,26 +1,28 @@
 {
     "title": "Tutorials/Skins",
+    "author": "Twigzie",
+    "updated": "April 2, 2021",
     "tutorial": {
         "notes": [
             {
-                "name": "1)",
-                "note": "This tutorial was written for OBS (Though it should work with StreamLabs OBS)"
+                "name": "*",
+                "note": "This tutorial was written for use with OBS (Although it might also work with StreamLabs OBS)"
             },
             {
-                "name": "2)",
-                "note": "This tutorial was also created for those who had skins made for them by yours truly",
+                "name": "*",
+                "note": "This tutorial was also created for those who had skins made for them by me.",
                 "notes": [
                     {
-                        "name": "a)",
-                        "note": "My skins are made from the same Controller SVG"
+                        "name": "*",
+                        "note": "My skins are made from the same Controller SVG."
                     },
                     {
-                        "name": "b)",
-                        "note": "My skins are made with the same dimensions so they are scaled correctly each time"
+                        "name": "*",
+                        "note": "My skins are made with the same dimensions so they are scaled correctly each time."
                     },
                     {
-                        "name": "c)",
-                        "note": "If I wasn't the creater of your skin, this tutorial might not work for you or, you'll need to do some annoying manual resizing in OBS in order to get the Skin\\Browser assets to align correctly"
+                        "name": "*",
+                        "note": "If I wasn't the creater of your skin, this tutorial might not work for you or, you'll need to do some annoying manual resizing in OBS in order to get the assets to align correctly."
                     }
                 ]
             }
@@ -28,12 +30,12 @@
         "steps": [
             {
                 "name": "STEP 1",
-                "step": "Open OBS"
+                "step": "Open OBS, Critial step XD."
             },            
             {
                 "name": "STEP 2",
-                "step": "Group",
-                "note": "If you already have a 'Group' for your current controller, skip to the next step.",
+                "step": "Create Controller Group",
+                "note": "If you already have a 'Group' for an exisiting controller, skip to the next step.",
                 "steps": [
                     {
                         "name": "a)",
@@ -44,8 +46,8 @@
             },            
             {
                 "name": "STEP 3",
-                "step": "Browser Source",
-                "note": "If you already have a 'Brower Source' for your current controller, Please remove it before continuing.",
+                "step": "Create Controller Source",
+                "note": "If you already have a 'Browser Source' for your current controller, Please remove it before continuing.",
                 "steps": [
                     {
                         "name": "a)",
@@ -54,7 +56,7 @@
                         "steps": [
                             {
                                 "name": "1)",
-                                "step": "With the 'Properties' window open for the 'Browser' you just created, complete the next steps",
+                                "step": "With the 'Properties' window open for the 'Browser Source' you just created, complete the next steps",
                                 "image": "/community/tutorials/controller/skins/images/step_3a1.png"
                             },
                             {
@@ -68,11 +70,11 @@
                                     {
                                         "name": "Width",
                                         "value": "1280"
-                                    },                                    
+                                    },
                                     {
                                         "name": "Height",
                                         "value": "720"
-                                    },                                    
+                                    },
                                     {
                                         "name": "Custom CSS",
                                         "value": ".controller.xbox { background-image: url(''); }"
@@ -85,7 +87,7 @@
                             },
                             {
                                 "name": "4)",
-                                "step": "Once you're done entering each value, click 'OK' to close the window"
+                                "step": "Once you're done entering each value, click 'OK' to close the window."
                             }
                         ]
                     },
@@ -107,21 +109,21 @@
             },
             {
                 "name": "STEP 4",
-                "step": "Browser Skin",
+                "step": "Create Controller Skin",
                 "steps": [
                     {
                         "name": "a)",
-                        "step": "'Right Click' the 'Group' you just created and select 'Add > Browser' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
+                        "step": "'Right Click' the 'Group' you created and select 'Add > Image' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
                         "image": "/community/tutorials/controller/skins/images/step_4a.png",
                         "steps": [
                             {
                                 "name": "1)",
-                                "step": "With the 'Properties' window open for the 'Browser' you just created, complete the next steps'Right Click' the 'Group' you created in 'Step 2' and select 'Add > Image' and rename it to whatever you want. (If you get a dialog, make sure you 'Create New')",
-                                "image": "/community/tutorials/controller/skins/images/step_4a1.png"
+                                "step": "With the 'Properties' window open for the 'Image Source' you just created, complete the next steps."                                
                             },
                             {
                                 "name": "2)",
-                                "step": "Browse for the skin in which you want to use, I'll be using the one I made for EliX"
+                                "step": "Browse for the skin in which you want to use, I'll be using the one I made for Eli X",
+                                "image": "/community/tutorials/controller/skins/images/step_4a1.png"
                             },
                             {
                                 "name": "3)",
@@ -133,7 +135,7 @@
             },            
             {
                 "name": "STEP 5",
-                "step": "Grouping",
+                "step": "Controller Grouping",
                 "note": "If for some reason either the 'Browser Source' or the 'Image Source' you created didn't get added to the 'Group' you created in 'Step 2' manually drag them into it",
                 "steps": [
                     {
@@ -145,7 +147,7 @@
             },            
             {
                 "name": "STEP 6",
-                "step": "Alignment",
+                "step": "Controller Alignment",
                 "steps": [
                     {
                         "name": "a)",
@@ -197,7 +199,7 @@
             },            
             {
                 "name": "STEP 7",
-                "step": "Resizing",
+                "step": "Controller Resizing",
                 "image": "/community/tutorials/controller/skins/images/step_7.png",
                 "steps": [
                     {
