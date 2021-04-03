@@ -23,7 +23,11 @@
                     {
                         "name": "1)",
                         "step": "Head to the following URL and download the background files you wish to change",
-                        "link": "https://drive.google.com/drive/folders/1x9JO2eCr0zfs27cTDGPBvq5pzmWKXo9i?usp=sharing"
+                        "link": {
+                            "name": "Backgrounds",
+                            "icon": "/src/img/assets/logos/gdrive.svg",
+                            "link": "https://drive.google.com/drive/folders/1x9JO2eCr0zfs27cTDGPBvq5pzmWKXo9i?usp=sharing"
+                        }
                     }
                 ]
             },            
