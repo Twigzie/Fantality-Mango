@@ -231,3 +231,38 @@ a  {
         min-height: 100%;
         position: fixed;
     }
+
+/*=================================================*/
+/*= MAIN | BACKGROUND                             =*/
+/*=================================================*/
+
+.main-notifications {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    pointer-events: none;
+}
+    .notification-container {
+        right: 0;
+        bottom: 0;
+        height: 5em;
+        width: 25em;
+        position: absolute;
+        margin-right: 3em;
+        margin-bottom: 3em;
+        background: #131313e0;
+        border: 1px solid #926333a1;
+        border-radius: 5px;
+        display: flex;
+        box-shadow: 0 0 5px #000000e8;
+    }
+        .notification-content {
+            flex: 1;
+            display: flex;
+        }
+            .notification-content-title {
+                margin: auto;
+            }

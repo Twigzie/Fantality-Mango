@@ -46,7 +46,17 @@ var Assets = (() => {
 
                 //
                 $(".main-content")
-                    .append(Handlebars.templates[source.template](cache));
+                    .append(Handlebars.templates[source.template](cache))
+                        .on('click', '.notifier', (e) => {
+                            $('.main-notifications')
+                                .empty()
+                                .append(Handlebars.templates['notification']({
+                                    title: `'${$(e.currentTarget).data('name')}' was copied to your clipboard!`
+                                }));
+                            setTimeout(() => {
+                                $('.main-notifications').empty();
+                            }, 3000);
+                        });
             
                 //
                 if (source.element) {

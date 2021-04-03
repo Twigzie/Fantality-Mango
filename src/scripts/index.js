@@ -1,6 +1,8 @@
 var Settings = {
     init: () => {
+
         Settings.background.change();
+
     },
     background: (() => {
         return { 
