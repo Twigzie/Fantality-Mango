@@ -8,7 +8,7 @@
                 { "name": "Anniversary", "file": "/assets/videos/menus/h1/anniversary.webm", "thumbnail": "/assets/videos/menus/h1/thumbnails/anniversary.jpg"},
                 { "name": "MCC",         "file": "/assets/videos/menus/h1/mcc.webm",         "thumbnail": "/assets/videos/menus/h1/thumbnails/mcc.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=0"
+            "endpoint": "/community/assets?type=videos&group=menus&index=0"
         },
         {
             "name": "Halo: 2",
@@ -16,7 +16,7 @@
                 { "name": "Mainmenu", "file": "/assets/videos/menus/h2/mainmenu.webm", "thumbnail": "/assets/videos/menus/h2/thumbnails/mainmenu.jpg"},
                 { "name": "MCC",      "file": "/assets/videos/menus/h2/mcc.webm",      "thumbnail": "/assets/videos/menus/h2/thumbnails/mcc.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=1"
+            "endpoint": "/community/assets?type=videos&group=menus&index=1"
         },        
         {
             "name": "Halo: 3",
@@ -27,7 +27,7 @@
                 { "name": "Multiplayer", "file": "/assets/videos/menus/h3/multiplayer.webm", "thumbnail": "/assets/videos/menus/h3/thumbnails/multiplayer.jpg"},
                 { "name": "MCC",         "file": "/assets/videos/menus/h3/mcc.webm",         "thumbnail": "/assets/videos/menus/h3/thumbnails/mcc.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=3"
+            "endpoint": "/community/assets?type=videos&group=menus&index=3"
         },
         {
             "name": "Halo 3: ODST",
@@ -35,7 +35,7 @@
                 { "name": "Mainmenu", "file": "/assets/videos/menus/h3o/mainmenu.webm", "thumbnail": "/assets/videos/menus/h3o/thumbnails/mainmenu.jpg"},
                 { "name": "MCC",      "file": "/assets/videos/menus/h3o/mcc.webm",      "thumbnail": "/assets/videos/menus/h3o/thumbnails/mcc.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=4"
+            "endpoint": "/community/assets?type=videos&group=menus&index=4"
         },
         {
             "name": "Halo: Reach",
@@ -51,7 +51,7 @@
                 { "name": "Custom MCC",     "file": "/assets/videos/menus/hr/custom-mcc.webm",    "thumbnail": "/assets/videos/menus/hr/thumbnails/custom-mcc.jpg"},
                 { "name": "MCC",            "file": "/assets/videos/menus/hr/mcc.webm",           "thumbnail": "/assets/videos/menus/hr/thumbnails/mcc.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=5"
+            "endpoint": "/community/assets?type=videos&group=menus&index=5"
         },  
         {
             "name": "Halo: 4",
@@ -59,7 +59,7 @@
                 { "name": "Mainmenu", "file": "/assets/videos/menus/h4/mainmenu.webm", "thumbnail": "/assets/videos/menus/h4/thumbnails/mainmenu.jpg"},
                 { "name": "MCC",      "file": "/assets/videos/menus/h4/mcc.webm",      "thumbnail": "/assets/videos/menus/h4/thumbnails/mcc.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=6"
+            "endpoint": "/community/assets?type=videos&group=menus&index=6"
         },        
         {
             "name": "MCC",
@@ -67,7 +67,7 @@
                 { "name": "Mainmenu", "file": "/assets/videos/menus/mcc/mainmenu.webm", "thumbnail": "/assets/videos/menus/mcc/thumbnails/mainmenu.jpg"},
                 { "name": "Insider",  "file": "/assets/videos/menus/mcc/insider.webm",  "thumbnail": "/assets/videos/menus/mcc/thumbnails/insider.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=7"
+            "endpoint": "/community/assets?type=videos&group=menus&index=7"
         },        
         {
             "name": "Misc",
@@ -78,7 +78,7 @@
                 { "name": "Crash",    "file": "/assets/videos/menus/misc/crash.webm",    "thumbnail": "/assets/videos/menus/s/thumbnails/crash.jpg"},
                 { "name": "Grunt",    "file": "/assets/videos/menus/misc/grunt.webm",    "thumbnail": "/assets/videos/menus/s/thumbnails/grunt.jpg"}
             ],
-            "endpoint": "/community/assets?type=menus&index=8"
+            "endpoint": "/community/assets?type=videos&group=menus&index=8"
         }
     ]
 }
