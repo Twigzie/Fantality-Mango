@@ -131,11 +131,11 @@ var Groups = {
         }
     },
     "menus": {
-        template: "video-menus",
+        template: "videos-menus",
         endpoint: "https://fantalitystudios.ca/assets/videos/menus/menus.json"
     },
     "backgrounds": {
-        template: "video-backgrounds",
+        template: "videos-backgrounds",
         endpoint: "https://fantalitystudios.ca/assets/videos/backgrounds/backgrounds.json"
     }
 }
