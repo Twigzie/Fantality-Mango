@@ -88,7 +88,10 @@ var Types = {
         template: "images",
         endpoint: "https://fantalitystudios.ca/assets/images/images.json"
     },
-    "videos": {}
+    "videos": {
+        template: "videos",
+        endpoint: "https://fantalitystudios.ca/assets/videos/videos.json"
+    }
 };
 var Groups = {
     "ranks": {
@@ -126,6 +129,14 @@ var Groups = {
         callback: (e) => {
             console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
         }
+    },
+    "menus": {
+        template: "video-menus",
+        endpoint: "https://fantalitystudios.ca/assets/videos/menus/menus.json"
+    },
+    "backgrounds": {
+        template: "video-backgrounds",
+        endpoint: "https://fantalitystudios.ca/assets/videos/backgrounds/backgrounds.json"
     }
 }
 

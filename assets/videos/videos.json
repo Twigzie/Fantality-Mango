@@ -1,0 +1,15 @@
+{
+    "title": "Videos",
+    "current": [
+        {
+            "name": "Menus",
+            "endpoint": "/community/assets.html?type=videos&group=menus",
+            "description": ""
+        },
+        {
+            "name": "Backgrounds",
+            "endpoint": "/community/assets.html?type=videos&group=backgrounds",
+            "description": ""
+        }        
+    ]
+}
