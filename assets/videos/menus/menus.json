@@ -73,10 +73,10 @@
             "name": "Misc",
             "videos": [
                 { "name": "MCC", "file": "/assets/videos/menus/misc/mcc.webm",      "thumbnail": "/assets/videos/menus/s/thumbnails/mcc.jpg"},
-                { "name": "Waypoint", "file": "/assets/videos/menus/misc/waypoint.webm", "thumbnail": "/assets/videos/menus/s/thumbnails/waypoint.jpg"},
-                { "name": "Winter",   "file": "/assets/videos/menus/misc/winter.webm",   "thumbnail": "/assets/videos/menus/s/thumbnails/winter.jpg"},
-                { "name": "Crash",    "file": "/assets/videos/menus/misc/crash.webm",    "thumbnail": "/assets/videos/menus/s/thumbnails/crash.jpg"},
-                { "name": "Grunt",    "file": "/assets/videos/menus/misc/grunt.webm",    "thumbnail": "/assets/videos/menus/s/thumbnails/grunt.jpg"}
+                { "name": "Waypoint", "file": "/assets/videos/menus/misc/waypoint.webm", "thumbnail": "/assets/videos/menus/misc/thumbnails/waypoint.jpg"},
+                { "name": "Winter",   "file": "/assets/videos/menus/misc/winter.webm",   "thumbnail": "/assets/videos/menus/misc/thumbnails/winter.jpg"},
+                { "name": "Crash",    "file": "/assets/videos/menus/misc/crash.webm",    "thumbnail": "/assets/videos/menus/misc/thumbnails/crash.jpg"},
+                { "name": "Grunt",    "file": "/assets/videos/menus/misc/grunt.webm",    "thumbnail": "/assets/videos/menus/misc/thumbnails/grunt.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=8"
         }
