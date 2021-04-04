@@ -203,6 +203,40 @@
 /*= ASSETS | MCC | COMPETITIVE                    =*/
 /*=================================================*/
 
-.mcc-competitive-container {}
-    .mcc-competitive-image-container {}
-        .mcc-competitive-image {}
+.mcc-competitive-container {
+    width: 20%;
+    padding: 1em;
+}
+    .mcc-competitive-image-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        background: #131313a8;
+        border: 1px solid #926333a1;
+        box-shadow: #000000f0 0 0 5px 0px;
+    }
+        .mcc-competitive-image {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            opacity: 0.5;
+        }
+            .mcc-competitive-image:hover {
+                opacity: 1;
+            }
+
+/*=================================================*/
+/*= ASSETS | VIDEOS                               =*/
+/*=================================================*/
+
+.video-container {
+    height: 8em;
+    padding: 5px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+}
+    .video-thumbnail {}
+        .video-thumbnail-image {}
+        .video-thumbnail-options {}
+            .video-thumbnail-name {}
