@@ -7,16 +7,15 @@ var Settings = {
     background: (() => {
         return { 
             change: function () {
-                $.getJSON("https://twigzie.github.io/Fantality-Assets/assets/videos.json", (data) => {
-                    if (data.types) {
-                        var game = data[data.types[Math.round(Math.random() * (data.types.length - 1))]];
-                        var item = game[Math.round(Math.random() * (game.length - 1))];
-                        if (item) {
-                            $("#background").attr("poster", item.thumbnail);
-                            setTimeout(() => { 
-                                $("#background").attr("src", item.video);
-                            }, 1500)
-                        }
+                $.getJSON("https://fantalitystudios.ca/assets/videos/menus/menus.json", (data) => {
+                    var game = data.current[Math.floor(Math.random() * data.current.length)];
+                    var item = game.videos[Math.floor(Math.random() * game.videos.length)];
+                    if (item) {
+                        console.log(item);
+                        $("#background").attr("poster", item.thumbnail);
+                        setTimeout(() => { 
+                            $("#background").attr("src", item.file);
+                        }, 1500)
                     }
                 })
             }
