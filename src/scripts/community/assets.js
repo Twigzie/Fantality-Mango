@@ -56,6 +56,22 @@ var Assets = (() => {
                             setTimeout(() => {
                                 $('.main-notifications').empty();
                             }, 3000);
+                        })
+                        .on('click', '.video-thumbnail', (e) => {
+                            $(".main-dialogs")
+                                .empty()
+                                .removeClass('active')
+                                .append(Handlebars.templates['dialog-preview']({
+                                    title: $(e.currentTarget).data('name'),
+                                    preview: $(e.currentTarget).data('file')
+                                }))
+                                    .find(".dialog-option.select")
+                                        .off('click')
+                                        .on("click", (e) => {
+                                            $(".main-dialogs").empty().removeClass('active');
+                                        })
+                                .end()
+                                .addClass('active');
                         });
             
                 //
@@ -63,6 +79,7 @@ var Assets = (() => {
                     $(source.element).off('click')
                         .on('click', source.callback);
                 }
+
             
             });
 
