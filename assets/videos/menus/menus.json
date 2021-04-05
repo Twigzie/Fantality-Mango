@@ -21,12 +21,11 @@
         {
             "name": "Halo: 3",
             "videos": [
-                { "name": "Mainmenu",    "file": "/assets/videos/menus/h3/mainmenu.webm",    "thumbnail": "/assets/videos/menus/h3/thumbnails/mainmenu.jpg"},
                 { "name": "Anniversary", "file": "/assets/videos/menus/h3/anniversary.webm", "thumbnail": "/assets/videos/menus/h3/thumbnails/anniversary.jpg"},
+                { "name": "Mainmenu",    "file": "/assets/videos/menus/h3/mainmenu.webm",    "thumbnail": "/assets/videos/menus/h3/thumbnails/mainmenu.jpg"},
                 { "name": "Campaign",    "file": "/assets/videos/menus/h3/campaign.webm",    "thumbnail": "/assets/videos/menus/h3/thumbnails/campaign.jpg"},
                 { "name": "Customs",     "file": "/assets/videos/menus/h3/customs.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/customs.jpg"},
                 { "name": "Forge",       "file": "/assets/videos/menus/h3/forge.webm",       "thumbnail": "/assets/videos/menus/h3/thumbnails/forge.jpg"},
-                { "name": "Customs",     "file": "/assets/videos/menus/h3/customs.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/customs.jpg"},
                 { "name": "Matchmaking", "file": "/assets/videos/menus/h3/matchmaking.webm", "thumbnail": "/assets/videos/menus/h3/thumbnails/matchmaking.jpg"},
                 { "name": "Theater",     "file": "/assets/videos/menus/h3/theater.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/theater.jpg"},
                 { "name": "Loading",     "file": "/assets/videos/menus/h3/loading.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/loading.jpg"}
