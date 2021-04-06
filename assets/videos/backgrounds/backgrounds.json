@@ -1,0 +1,94 @@
+{
+    "title": "Videos/Backgrounds",
+    "current": [
+        {
+            "name": "Halo: CE",
+            "videos": [
+                { "name": "Mainmenu",    "file": "/assets/videos/backgrounds/h1/mainmenu.zip",    "thumbnail": "/assets/videos/backgrounds/h1/thumbnails/mainmenu.jpg"},
+                { "name": "Anniversary", "file": "/assets/videos/backgrounds/h1/anniversary.zip", "thumbnail": "/assets/videos/backgrounds/h1/thumbnails/anniversary.jpg"},
+                { "name": "MCC",         "file": "/assets/videos/backgrounds/h1/mcc.zip",         "thumbnail": "/assets/videos/backgrounds/h1/thumbnails/mcc.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=0"
+        },
+        {
+            "name": "Halo: 2",
+            "videos": [
+                { "name": "Mainmenu", "file": "/assets/videos/backgrounds/h2/mainmenu.zip", "thumbnail": "/assets/videos/backgrounds/h2/thumbnails/mainmenu.jpg"},
+                { "name": "MCC",      "file": "/assets/videos/backgrounds/h2/mcc.zip",      "thumbnail": "/assets/videos/backgrounds/h2/thumbnails/mcc.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=1"
+        },        
+        {
+            "name": "Halo: 3",
+            "videos": [
+                { "name": "Anniversary", "file": "/assets/videos/backgrounds/h3/anniversary.zip", "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/anniversary.jpg"},
+                { "name": "Mainmenu",    "file": "/assets/videos/backgrounds/h3/mainmenu.zip",    "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/mainmenu.jpg"},
+                { "name": "Campaign",    "file": "/assets/videos/backgrounds/h3/campaign.zip",    "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/campaign.jpg"},
+                { "name": "Customs",     "file": "/assets/videos/backgrounds/h3/customs.zip",     "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/customs.jpg"},
+                { "name": "Forge",       "file": "/assets/videos/backgrounds/h3/forge.zip",       "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/forge.jpg"},
+                { "name": "Matchmaking", "file": "/assets/videos/backgrounds/h3/matchmaking.zip", "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/matchmaking.jpg"},
+                { "name": "Theater",     "file": "/assets/videos/backgrounds/h3/theater.zip",     "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/theater.jpg"},
+                { "name": "Loading",     "file": "/assets/videos/backgrounds/h3/loading.zip",     "thumbnail": "/assets/videos/backgrounds/h3/thumbnails/loading.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=2"
+        },
+        {
+            "name": "Halo 3: ODST",
+            "videos": [
+                { "name": "Mainmenu", "file": "/assets/videos/backgrounds/h3o/mainmenu.zip", "thumbnail": "/assets/videos/backgrounds/h3o/thumbnails/mainmenu.jpg"},
+                { "name": "MCC",      "file": "/assets/videos/backgrounds/h3o/mcc.zip",      "thumbnail": "/assets/videos/backgrounds/h3o/thumbnails/mcc.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=3"
+        },
+        {
+            "name": "Halo: Reach",
+            "videos": [
+                { "name": "Mainmenu",       "file": "/assets/videos/backgrounds/hr/mainmenu.zip",      "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/mainmenu.jpg"},
+                { "name": "Campaign Act 1", "file": "/assets/videos/backgrounds/hr/campaign_act1.zip", "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/campaign_act1.jpg"},
+                { "name": "Campaign Act 2", "file": "/assets/videos/backgrounds/hr/campaign_act2.zip", "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/campaign_act2.jpg"},
+                { "name": "Campaign Act 3", "file": "/assets/videos/backgrounds/hr/campaign_act3.zip", "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/campaign_act3.jpg"},
+                { "name": "Forge",          "file": "/assets/videos/backgrounds/hr/forge.zip",         "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/forge.jpg"},
+                { "name": "Firefight",      "file": "/assets/videos/backgrounds/hr/firefight.zip",     "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/firefight.jpg"},
+                { "name": "Multiplayer",    "file": "/assets/videos/backgrounds/hr/multiplayer.zip",   "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/multiplayer.jpg"},
+                { "name": "Custom",         "file": "/assets/videos/backgrounds/hr/custom.zip",        "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/custom.jpg"},
+                { "name": "Custom MCC",     "file": "/assets/videos/backgrounds/hr/custom-mcc.zip",    "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/custom-mcc.jpg"},
+                { "name": "MCC",            "file": "/assets/videos/backgrounds/hr/mcc.zip",           "thumbnail": "/assets/videos/backgrounds/hr/thumbnails/mcc.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=4"
+        },  
+        {
+            "name": "Halo: 4",
+            "videos": [
+                { "name": "Mainmenu", "file": "/assets/videos/backgrounds/h4/mainmenu.zip", "thumbnail": "/assets/videos/backgrounds/h4/thumbnails/mainmenu.jpg"},
+                { "name": "MCC",      "file": "/assets/videos/backgrounds/h4/mcc.zip",      "thumbnail": "/assets/videos/backgrounds/h4/thumbnails/mcc.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=5"
+        },
+        {
+            "name": "Halo: Infinite",
+            "videos": [
+                { "name": "Mainmenu", "file": "/assets/videos/backgrounds/infinite/mainmenu.zip", "thumbnail": "/assets/videos/backgrounds/infinite/thumbnails/mainmenu.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=6"
+        },
+        {
+            "name": "MCC",
+            "videos": [
+                { "name": "Mainmenu", "file": "/assets/videos/backgrounds/mcc/mainmenu.zip", "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/mainmenu.jpg"},
+                { "name": "Insider",  "file": "/assets/videos/backgrounds/mcc/insider.zip",  "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/insider.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=7"
+        },        
+        {
+            "name": "Misc",
+            "videos": [
+                { "name": "MCC",      "file": "/assets/videos/backgrounds/misc/mcc.zip",      "thumbnail": "/assets/videos/backgrounds/misc/thumbnails/mcc.jpg"},
+                { "name": "Waypoint", "file": "/assets/videos/backgrounds/misc/waypoint.zip", "thumbnail": "/assets/videos/backgrounds/misc/thumbnails/waypoint.jpg"},
+                { "name": "Winter",   "file": "/assets/videos/backgrounds/misc/winter.zip",   "thumbnail": "/assets/videos/backgrounds/misc/thumbnails/winter.jpg"},
+                { "name": "Crash",    "file": "/assets/videos/backgrounds/misc/crash.zip",    "thumbnail": "/assets/videos/backgrounds/misc/thumbnails/crash.jpg"},
+                { "name": "Grunt",    "file": "/assets/videos/backgrounds/misc/grunt.zip",    "thumbnail": "/assets/videos/backgrounds/misc/thumbnails/grunt.jpg"}
+            ],
+            "endpoint": "/community/assets?type=videos&group=backgrounds&index=8"
+        }
+    ]
+}
