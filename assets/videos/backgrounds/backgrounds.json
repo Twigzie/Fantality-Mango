@@ -83,8 +83,7 @@
             "videos": [
                 { "name": "Mainmenu",  "file": "https://drive.google.com/uc?export=download&id=1cq6QVBk2naz7cVBBtBrlwSug-qhWjPhi", "preview": "/assets/videos/menus/mcc/mainmenu.webm",  "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/mainmenu.jpg"},
                 { "name": "Insider",   "file": "https://drive.google.com/uc?export=download&id=1S--0nu1qqMxdfjWKuARWDTnToH13B9td", "preview": "/assets/videos/menus/mcc/insider.webm",   "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/insider.jpg"},
-                { "name": "Crossgame", "file": "https://drive.google.com/uc?export=download&id=1o6Z-KmKav0pGDQW8lrAN7xHU4yh1CORf", "preview": "/assets/videos/menus/mcc/crossgame.webm", "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/crossgame.jpg"},
-                { "name": "Original",  "file": "https://drive.google.com/uc?export=download&id=1RnGIn8we5uA6GUPJYiaU0wc9BSWz_QCL", "preview": "/assets/videos/menus/mcc/original.webm",  "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/original.jpg"}
+                { "name": "Crossgame", "file": "https://drive.google.com/uc?export=download&id=1o6Z-KmKav0pGDQW8lrAN7xHU4yh1CORf", "preview": "/assets/videos/menus/mcc/crossgame.webm", "thumbnail": "/assets/videos/backgrounds/mcc/thumbnails/crossgame.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=backgrounds&index=7"
         },        

@@ -83,8 +83,7 @@
             "videos": [
                 { "name": "Mainmenu",  "file": "/assets/videos/menus/mcc/mainmenu.webm",  "thumbnail": "/assets/videos/menus/mcc/thumbnails/mainmenu.jpg"},
                 { "name": "Insider",   "file": "/assets/videos/menus/mcc/insider.webm",   "thumbnail": "/assets/videos/menus/mcc/thumbnails/insider.jpg"},
-                { "name": "Crossgame", "file": "/assets/videos/menus/mcc/crossgame.webm", "thumbnail": "/assets/videos/menus/mcc/thumbnails/crossgame.jpg"},
-                { "name": "Original",  "file": "/assets/videos/menus/mcc/original.webm",  "thumbnail": "/assets/videos/menus/mcc/thumbnails/original.jpg"}
+                { "name": "Crossgame", "file": "/assets/videos/menus/mcc/crossgame.webm", "thumbnail": "/assets/videos/menus/mcc/thumbnails/crossgame.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=7"
         },        
