@@ -6,7 +6,8 @@
             "videos": [
                 { "name": "Mainmenu",    "file": "/assets/videos/menus/h1/mainmenu.webm",    "thumbnail": "/assets/videos/menus/h1/thumbnails/mainmenu.jpg"},
                 { "name": "Anniversary", "file": "/assets/videos/menus/h1/anniversary.webm", "thumbnail": "/assets/videos/menus/h1/thumbnails/anniversary.jpg"},
-                { "name": "MCC",         "file": "/assets/videos/menus/h1/mcc.webm",         "thumbnail": "/assets/videos/menus/h1/thumbnails/mcc.jpg"}
+                { "name": "MCC",         "file": "/assets/videos/menus/h1/mcc.webm",         "thumbnail": "/assets/videos/menus/h1/thumbnails/mcc.jpg"},
+                { "name": "Special",     "file": "/assets/videos/menus/h1/ce.webm",          "thumbnail": "/assets/videos/menus/h1/thumbnails/ce.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=0"
         },
@@ -14,13 +15,15 @@
             "name": "Halo: 2",
             "videos": [
                 { "name": "Mainmenu", "file": "/assets/videos/menus/h2/mainmenu.webm", "thumbnail": "/assets/videos/menus/h2/thumbnails/mainmenu.jpg"},
-                { "name": "MCC",      "file": "/assets/videos/menus/h2/mcc.webm",      "thumbnail": "/assets/videos/menus/h2/thumbnails/mcc.jpg"}
+                { "name": "MCC",      "file": "/assets/videos/menus/h2/mcc.webm",      "thumbnail": "/assets/videos/menus/h2/thumbnails/mcc.jpg"},
+                { "name": "Special",  "file": "/assets/videos/menus/h2/h2.webm",       "thumbnail": "/assets/videos/menus/h2/thumbnails/h2.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=1"
         },        
         {
             "name": "Halo: 3",
             "videos": [
+                { "name": "MCC",         "file": "/assets/videos/menus/h3/mcc.webm",         "thumbnail": "/assets/videos/menus/h3/thumbnails/mcc.jpg"},
                 { "name": "Anniversary", "file": "/assets/videos/menus/h3/anniversary.webm", "thumbnail": "/assets/videos/menus/h3/thumbnails/anniversary.jpg"},
                 { "name": "Mainmenu",    "file": "/assets/videos/menus/h3/mainmenu.webm",    "thumbnail": "/assets/videos/menus/h3/thumbnails/mainmenu.jpg"},
                 { "name": "Campaign",    "file": "/assets/videos/menus/h3/campaign.webm",    "thumbnail": "/assets/videos/menus/h3/thumbnails/campaign.jpg"},
@@ -28,7 +31,8 @@
                 { "name": "Forge",       "file": "/assets/videos/menus/h3/forge.webm",       "thumbnail": "/assets/videos/menus/h3/thumbnails/forge.jpg"},
                 { "name": "Matchmaking", "file": "/assets/videos/menus/h3/matchmaking.webm", "thumbnail": "/assets/videos/menus/h3/thumbnails/matchmaking.jpg"},
                 { "name": "Theater",     "file": "/assets/videos/menus/h3/theater.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/theater.jpg"},
-                { "name": "Loading",     "file": "/assets/videos/menus/h3/loading.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/loading.jpg"}
+                { "name": "Loading",     "file": "/assets/videos/menus/h3/loading.webm",     "thumbnail": "/assets/videos/menus/h3/thumbnails/loading.jpg"},
+                { "name": "Special",     "file": "/assets/videos/menus/h3/h3.webm",          "thumbnail": "/assets/videos/menus/h3/thumbnails/h3.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=2"
         },
@@ -36,7 +40,8 @@
             "name": "Halo 3: ODST",
             "videos": [
                 { "name": "Mainmenu", "file": "/assets/videos/menus/h3o/mainmenu.webm", "thumbnail": "/assets/videos/menus/h3o/thumbnails/mainmenu.jpg"},
-                { "name": "MCC",      "file": "/assets/videos/menus/h3o/mcc.webm",      "thumbnail": "/assets/videos/menus/h3o/thumbnails/mcc.jpg"}
+                { "name": "MCC",      "file": "/assets/videos/menus/h3o/mcc.webm",      "thumbnail": "/assets/videos/menus/h3o/thumbnails/mcc.jpg"},
+                { "name": "Special",  "file": "/assets/videos/menus/h3o/h3o.webm",      "thumbnail": "/assets/videos/menus/h3o/thumbnails/h3o.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=3"
         },
@@ -52,7 +57,8 @@
                 { "name": "Multiplayer",    "file": "/assets/videos/menus/hr/multiplayer.webm",   "thumbnail": "/assets/videos/menus/hr/thumbnails/multiplayer.jpg"},
                 { "name": "Custom",         "file": "/assets/videos/menus/hr/custom.webm",        "thumbnail": "/assets/videos/menus/hr/thumbnails/custom.jpg"},
                 { "name": "Custom MCC",     "file": "/assets/videos/menus/hr/custom-mcc.webm",    "thumbnail": "/assets/videos/menus/hr/thumbnails/custom-mcc.jpg"},
-                { "name": "MCC",            "file": "/assets/videos/menus/hr/mcc.webm",           "thumbnail": "/assets/videos/menus/hr/thumbnails/mcc.jpg"}
+                { "name": "MCC",            "file": "/assets/videos/menus/hr/mcc.webm",           "thumbnail": "/assets/videos/menus/hr/thumbnails/mcc.jpg"},
+                { "name": "Special",        "file": "/assets/videos/menus/hr/hr.webm",            "thumbnail": "/assets/videos/menus/hr/thumbnails/hr.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=4"
         },  
@@ -60,7 +66,8 @@
             "name": "Halo: 4",
             "videos": [
                 { "name": "Mainmenu", "file": "/assets/videos/menus/h4/mainmenu.webm", "thumbnail": "/assets/videos/menus/h4/thumbnails/mainmenu.jpg"},
-                { "name": "MCC",      "file": "/assets/videos/menus/h4/mcc.webm",      "thumbnail": "/assets/videos/menus/h4/thumbnails/mcc.jpg"}
+                { "name": "MCC",      "file": "/assets/videos/menus/h4/mcc.webm",      "thumbnail": "/assets/videos/menus/h4/thumbnails/mcc.jpg"},
+                { "name": "Special",  "file": "/assets/videos/menus/h4/h4.webm",       "thumbnail": "/assets/videos/menus/h4/thumbnails/h4.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=5"
         },
@@ -74,19 +81,24 @@
         {
             "name": "MCC",
             "videos": [
-                { "name": "Mainmenu", "file": "/assets/videos/menus/mcc/mainmenu.webm", "thumbnail": "/assets/videos/menus/mcc/thumbnails/mainmenu.jpg"},
-                { "name": "Insider",  "file": "/assets/videos/menus/mcc/insider.webm",  "thumbnail": "/assets/videos/menus/mcc/thumbnails/insider.jpg"}
+                { "name": "Mainmenu",  "file": "/assets/videos/menus/mcc/mainmenu.webm",  "thumbnail": "/assets/videos/menus/mcc/thumbnails/mainmenu.jpg"},
+                { "name": "Insider",   "file": "/assets/videos/menus/mcc/insider.webm",   "thumbnail": "/assets/videos/menus/mcc/thumbnails/insider.jpg"},
+                { "name": "Crossgame", "file": "/assets/videos/menus/mcc/crossgame.webm", "thumbnail": "/assets/videos/menus/mcc/thumbnails/crossgame.jpg"},
+                { "name": "Original",  "file": "/assets/videos/menus/mcc/original.webm",  "thumbnail": "/assets/videos/menus/mcc/thumbnails/original.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=7"
         },        
         {
             "name": "Misc",
             "videos": [
-                { "name": "MCC",      "file": "/assets/videos/menus/misc/mcc.webm",      "thumbnail": "/assets/videos/menus/misc/thumbnails/mcc.jpg"},
-                { "name": "Waypoint", "file": "/assets/videos/menus/misc/waypoint.webm", "thumbnail": "/assets/videos/menus/misc/thumbnails/waypoint.jpg"},
-                { "name": "Winter",   "file": "/assets/videos/menus/misc/winter.webm",   "thumbnail": "/assets/videos/menus/misc/thumbnails/winter.jpg"},
-                { "name": "Crash",    "file": "/assets/videos/menus/misc/crash.webm",    "thumbnail": "/assets/videos/menus/misc/thumbnails/crash.jpg"},
-                { "name": "Grunt",    "file": "/assets/videos/menus/misc/grunt.webm",    "thumbnail": "/assets/videos/menus/misc/thumbnails/grunt.jpg"}
+                { "name": "MCC",         "file": "/assets/videos/menus/misc/mcc.webm",         "thumbnail": "/assets/videos/menus/misc/thumbnails/mcc.jpg"},
+                { "name": "Waypoint",    "file": "/assets/videos/menus/misc/waypoint.webm",    "thumbnail": "/assets/videos/menus/misc/thumbnails/waypoint.jpg"},
+                { "name": "Winter",      "file": "/assets/videos/menus/misc/winter.webm",      "thumbnail": "/assets/videos/menus/misc/thumbnails/winter.jpg"},
+                { "name": "Crash",       "file": "/assets/videos/menus/misc/crash.webm",       "thumbnail": "/assets/videos/menus/misc/thumbnails/crash.jpg"},
+                { "name": "Grunt",       "file": "/assets/videos/menus/misc/grunt.webm",       "thumbnail": "/assets/videos/menus/misc/thumbnails/grunt.jpg"},
+                { "name": "Multiplayer", "file": "/assets/videos/menus/misc/multiplayer.webm", "thumbnail": "/assets/videos/menus/misc/thumbnails/multiplayer.jpg"},
+                { "name": "Flood",       "file": "/assets/videos/menus/misc/flood.webm",       "thumbnail": "/assets/videos/menus/misc/thumbnails/flood.jpg"},
+                { "name": "Yap Yap",     "file": "/assets/videos/menus/misc/yap.webm",         "thumbnail": "/assets/videos/menus/misc/thumbnails/yap.jpg"}
             ],
             "endpoint": "/community/assets?type=videos&group=menus&index=8"
         }
