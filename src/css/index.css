@@ -293,15 +293,14 @@ a  {
 }
     .main-dialog-container {
         margin: auto;
-        min-height: 36em;
-        height: var(--scale);
+        height: auto;
         background: linear-gradient(rgb(14 14 14 / 90%), rgb(0 0 0 / 90%));
         transition: opacity 150ms ease-in-out;
         display: flex;
         flex-direction: column;
         overflow: hidden;
         color: #8a8a8a;
-        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.9);
+        box-shadow: 0 0 10px 0px rgb(0 0 0 / 90%);
     }
         .dialog-header {
             width: 100vw;
