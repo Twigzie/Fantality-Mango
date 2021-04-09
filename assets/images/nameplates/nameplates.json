@@ -6,1963 +6,2290 @@
             "id": "1",
             "name": "Blank",
             "requirement": "Unlocked by default",
-            "image": "/assets/images/nameplates/1.png"
+            "image": "/assets/images/nameplates/1.png",
+            "type": "General"
         },
         {
             "id": "2",
             "name": "Halo: CE",
             "requirement": "Halo: CE: Play Halo: CE on the 15th of any month",
-            "image": "/assets/images/nameplates/2.png"
+            "image": "/assets/images/nameplates/2.png",
+            "type": "General"
         },
         {
             "id": "3",
             "name": "Bronze Halo: CE",
             "requirement": "Halo: CE: Beat the par score on all Halo: CE levels",
-            "image": "/assets/images/nameplates/3.png"
+            "image": "/assets/images/nameplates/3.png",
+            "type": "General"
         },
         {
             "id": "4",
             "name": "Silver Halo: CE",
             "requirement": "Halo: CE: Beat par time on all Halo: CE levels",
-            "image": "/assets/images/nameplates/4.png"
+            "image": "/assets/images/nameplates/4.png",
+            "type": "General"
         },
         {
             "id": "5",
             "name": "Gold Halo: CE",
             "requirement": "Halo: CE: Find and claim all Skulls in Halo: CE",
-            "image": "/assets/images/nameplates/5.png"
+            "image": "/assets/images/nameplates/5.png",
+            "type": "General"
         },
         {
             "id": "6",
             "name": "Platinum Halo: CE",
             "requirement": "Halo: CE: Complete all Halo: CE Legendary campaign missions in under 3 hours",
-            "image": "/assets/images/nameplates/6.png"
+            "image": "/assets/images/nameplates/6.png",
+            "type": "General"
         },
         {
             "id": "7",
             "name": "Halo 2",
             "requirement": "Halo 2: Play a game of Halo 2 Anniversary on the 9th of any month",
-            "image": "/assets/images/nameplates/7.png"
+            "image": "/assets/images/nameplates/7.png",
+            "type": "General"
         },
         {
             "id": "8",
             "name": "Bronze Halo 2",
             "requirement": "Halo 2: Beat the par score on every Halo 2 level",
-            "image": "/assets/images/nameplates/8.png"
+            "image": "/assets/images/nameplates/8.png",
+            "type": "General"
         },
         {
             "id": "9",
             "name": "Silver Halo 2",
             "requirement": "Halo 2: Beat par time on all Halo 2 levels",
-            "image": "/assets/images/nameplates/9.png"
+            "image": "/assets/images/nameplates/9.png",
+            "type": "General"
         },
         {
             "id": "10",
             "name": "Gold Halo 2",
             "requirement": "Halo 2: Find and claim all Skulls in Halo 2",
-            "image": "/assets/images/nameplates/10.png"
+            "image": "/assets/images/nameplates/10.png",
+            "type": "General"
         },
         {
             "id": "11",
             "name": "Platinum Halo 2",
             "requirement": "Halo 2: Complete all Halo 2 Legendary campaign missions in under 3 hours",
-            "image": "/assets/images/nameplates/11.png"
+            "image": "/assets/images/nameplates/11.png",
+            "type": "General"
         },
         {
             "id": "17",
             "name": "Halo 3",
             "requirement": "Halo 3: Play a game of Halo 3 on the 25th of any month",
-            "image": "/assets/images/nameplates/17.png"
+            "image": "/assets/images/nameplates/17.png",
+            "type": "General"
         },
         {
             "id": "18",
             "name": "Bronze Halo 3",
             "requirement": "Halo 3: Beat the par score on every Halo 3 level",
-            "image": "/assets/images/nameplates/18.png"
+            "image": "/assets/images/nameplates/18.png",
+            "type": "General"
         },
         {
             "id": "19",
             "name": "Silver Halo 3",
             "requirement": "Halo 3: Beat par time on all Halo 3 levels",
-            "image": "/assets/images/nameplates/19.png"
+            "image": "/assets/images/nameplates/19.png",
+            "type": "General"
         },
         {
             "id": "20",
             "name": "Gold Halo 3",
             "requirement": "Halo 3: Find and claim all Skulls in Halo 3",
-            "image": "/assets/images/nameplates/20.png"
+            "image": "/assets/images/nameplates/20.png",
+            "type": "General"
         },
         {
             "id": "21",
             "name": "Platinum Halo 3",
             "requirement": "Halo 3: Complete all Halo 3 Legendary campaign missions in under 3 hours",
-            "image": "/assets/images/nameplates/21.png"
+            "image": "/assets/images/nameplates/21.png",
+            "type": "General"
         },
         {
             "id": "22",
             "name": "Halo 4",
             "requirement": "Halo 4: play a game of Halo 4 on the 6th of any month",
-            "image": "/assets/images/nameplates/22.png"
+            "image": "/assets/images/nameplates/22.png",
+            "type": "General"
         },
         {
             "id": "23",
             "name": "Bronze Halo 4",
             "requirement": "Halo 4: Beat the par score on every Halo 4 level",
-            "image": "/assets/images/nameplates/23.png"
+            "image": "/assets/images/nameplates/23.png",
+            "type": "General"
         },
         {
             "id": "24",
             "name": "Silver Halo 4",
             "requirement": "Halo 4: Beat the par time on all Halo 4 levels",
-            "image": "/assets/images/nameplates/24.png"
+            "image": "/assets/images/nameplates/24.png",
+            "type": "General"
         },
         {
             "id": "25",
             "name": "Gold Halo 4",
             "requirement": "Halo 4: Complete every level of the game on Legendary difficulty, by yourself",
-            "image": "/assets/images/nameplates/25.png"
+            "image": "/assets/images/nameplates/25.png",
+            "type": "General"
         },
         {
             "id": "26",
             "name": "Platinum Halo 4",
             "requirement": "Halo 4: Compelte all Halo 4 Legendary campaign missions in under 3 hours",
-            "image": "/assets/images/nameplates/26.png"
+            "image": "/assets/images/nameplates/26.png",
+            "type": "General"
         },
         {
             "id": "27",
             "name": "Halo",
             "requirement": "Halo: CE: Complete every level of the game on Easy difficulty",
-            "image": "/assets/images/nameplates/27.png"
+            "image": "/assets/images/nameplates/27.png",
+            "type": "General"
         },
         {
             "id": "28",
             "name": "Bronze Halo",
             "requirement": "Halo 2: complete every level of the game on Easy difficulty",
-            "image": "/assets/images/nameplates/28.png"
+            "image": "/assets/images/nameplates/28.png",
+            "type": "General"
         },
         {
             "id": "29",
             "name": "Silver Halo",
             "requirement": "Halo 3: Complete every level of the game on Easy difficulty",
-            "image": "/assets/images/nameplates/29.png"
+            "image": "/assets/images/nameplates/29.png",
+            "type": "General"
         },
         {
             "id": "30",
             "name": "Gold Halo",
             "requirement": "Halo 4: Complete every level of the game on Easy difficulty",
-            "image": "/assets/images/nameplates/30.png"
+            "image": "/assets/images/nameplates/30.png",
+            "type": "General"
         },
         {
             "id": "31",
             "name": "Platinum Halo",
             "requirement": "Complete all campaigns on Easy difficulty",
-            "image": "/assets/images/nameplates/31.png"
+            "image": "/assets/images/nameplates/31.png",
+            "type": "General"
         },
         {
             "id": "32",
             "name": "DMR",
             "requirement": "Halo 4: Beat the par score on Forerunner",
-            "image": "/assets/images/nameplates/32.png"
+            "image": "/assets/images/nameplates/32.png",
+            "type": "General"
         },
         {
             "id": "33",
             "name": "Bronze DMR",
             "requirement": "Halo 4: Beat the par score on Infinity",
-            "image": "/assets/images/nameplates/33.png"
+            "image": "/assets/images/nameplates/33.png",
+            "type": "General"
         },
         {
             "id": "34",
             "name": "Silver DMR",
             "requirement": "Halo 4: Beat the par score on Reclaimer",
-            "image": "/assets/images/nameplates/34.png"
+            "image": "/assets/images/nameplates/34.png",
+            "type": "General"
         },
         {
             "id": "35",
             "name": "Gold DMR",
             "requirement": "Halo 4: Beat the par score on Shutdown",
-            "image": "/assets/images/nameplates/35.png"
+            "image": "/assets/images/nameplates/35.png",
+            "type": "General"
         },
         {
             "id": "36",
             "name": "Platinum DMR",
             "requirement": "Halo 4: Beat the par score on Composer",
-            "image": "/assets/images/nameplates/36.png"
+            "image": "/assets/images/nameplates/36.png",
+            "type": "General"
         },
         {
             "id": "37",
             "name": "Sniper Rifle",
             "requirement": "Halo 4: Beat the par score on 343 Guilty Spark ",
-            "image": "/assets/images/nameplates/37.png"
+            "image": "/assets/images/nameplates/37.png",
+            "type": "General"
         },
         {
             "id": "38",
             "name": "Bronze Sniper Rifle",
             "requirement": "Halo: CE: Beat the par time on The Library",
-            "image": "/assets/images/nameplates/38.png"
+            "image": "/assets/images/nameplates/38.png",
+            "type": "General"
         },
         {
             "id": "39",
             "name": "Silver Sniper Rifle",
             "requirement": "Halo: CE: Beat the par time on Two Betrayals",
-            "image": "/assets/images/nameplates/39.png"
+            "image": "/assets/images/nameplates/39.png",
+            "type": "General"
         },
         {
             "id": "40",
             "name": "Gold Sniper Rifle",
             "requirement": "Halo: CE: Beat the par time on Keyes",
-            "image": "/assets/images/nameplates/40.png"
+            "image": "/assets/images/nameplates/40.png",
+            "type": "General"
         },
         {
             "id": "41",
             "name": "Platinum Sniper Rifle",
             "requirement": "Halo: CE: Beat the par time on The Maw",
-            "image": "/assets/images/nameplates/41.png"
+            "image": "/assets/images/nameplates/41.png",
+            "type": "General"
         },
         {
             "id": "42",
             "name": "Assault Rifle",
             "requirement": "Halo: CE: Beat the par time on The Silent Cartographer",
-            "image": "/assets/images/nameplates/42.png"
+            "image": "/assets/images/nameplates/42.png",
+            "type": "General"
         },
         {
             "id": "43",
             "name": "Bronze Assault Rifle",
             "requirement": "Halo: CE: Beat the par time on Assault on the Control Room",
-            "image": "/assets/images/nameplates/43.png"
+            "image": "/assets/images/nameplates/43.png",
+            "type": "General"
         },
         {
             "id": "44",
             "name": "Silver Assault Rifle",
             "requirement": "Halo: CE: Beat the par time on The Pillar of Autumn",
-            "image": "/assets/images/nameplates/44.png"
+            "image": "/assets/images/nameplates/44.png",
+            "type": "General"
         },
         {
             "id": "45",
             "name": "Gold Assault Rifle",
             "requirement": "Halo: CE: Beat the par time on Halo",
-            "image": "/assets/images/nameplates/45.png"
+            "image": "/assets/images/nameplates/45.png",
+            "type": "General"
         },
         {
             "id": "46",
             "name": "Platinum Assault Rifle",
             "requirement": "Halo: CE: Beat the par time on The Truch and Reconciliation",
-            "image": "/assets/images/nameplates/46.png"
+            "image": "/assets/images/nameplates/46.png",
+            "type": "General"
         },
         {
             "id": "47",
             "name": "Battle Rifle",
             "requirement": "Win 100 multiplayer games",
-            "image": "/assets/images/nameplates/47.png"
+            "image": "/assets/images/nameplates/47.png",
+            "type": "General"
         },
         {
             "id": "48",
             "name": "Bronze Battle Rifle",
             "requirement": "Complete 150 missions or multiplayer games",
-            "image": "/assets/images/nameplates/48.png"
+            "image": "/assets/images/nameplates/48.png",
+            "type": "General"
         },
         {
             "id": "49",
             "name": "Silver Battle Rifle",
             "requirement": "Complete 200 missions or multiplayer games",
-            "image": "/assets/images/nameplates/49.png"
+            "image": "/assets/images/nameplates/49.png",
+            "type": "General"
         },
         {
             "id": "50",
             "name": "Gold Battle Rifle",
             "requirement": "Complete 300 missions or multiplayer games",
-            "image": "/assets/images/nameplates/50.png"
+            "image": "/assets/images/nameplates/50.png",
+            "type": "General"
         },
         {
             "id": "51",
             "name": "Platinum Battle Rifle",
             "requirement": "Complete 400 missions or multiplayer games",
-            "image": "/assets/images/nameplates/51.png"
+            "image": "/assets/images/nameplates/51.png",
+            "type": "General"
         },
         {
             "id": "52",
             "name": "Rocket Launcher",
             "requirement": "Halo 2: Beat the par time on Cairo Station",
-            "image": "/assets/images/nameplates/52.png"
+            "image": "/assets/images/nameplates/52.png",
+            "type": "General"
         },
         {
             "id": "53",
             "name": "Bronze Rocket Launcher",
             "requirement": "Halo 2: Beat the par time on Outskirts",
-            "image": "/assets/images/nameplates/53.png"
+            "image": "/assets/images/nameplates/53.png",
+            "type": "General"
         },
         {
             "id": "54",
             "name": "Silver Rocket Launcher",
             "requirement": "Halo 2: Beat the par time on Metropolis",
-            "image": "/assets/images/nameplates/54.png"
+            "image": "/assets/images/nameplates/54.png",
+            "type": "General"
         },
         {
             "id": "55",
             "name": "Gold Rocket Launcher",
             "requirement": "Halo 2: Beat the par time on The Arbiter",
-            "image": "/assets/images/nameplates/55.png"
+            "image": "/assets/images/nameplates/55.png",
+            "type": "General"
         },
         {
             "id": "56",
             "name": "Platinum Rocket Launcher",
             "requirement": "Halo 2: Beat the par time on The Oracle",
-            "image": "/assets/images/nameplates/56.png"
+            "image": "/assets/images/nameplates/56.png",
+            "type": "General"
         },
         {
             "id": "57",
             "name": "Shotgun",
             "requirement": "Halo 2: Beat the par time on Delta Halo",
-            "image": "/assets/images/nameplates/57.png"
+            "image": "/assets/images/nameplates/57.png",
+            "type": "General"
         },
         {
             "id": "58",
             "name": "Bronze Shotgun",
             "requirement": "Halo 2: Beat the par time on Regret",
-            "image": "/assets/images/nameplates/58.png"
+            "image": "/assets/images/nameplates/58.png",
+            "type": "General"
         },
         {
             "id": "59",
             "name": "Silver Shotgun",
             "requirement": "Halo 2: Beat the par time on Sacred Icon",
-            "image": "/assets/images/nameplates/59.png"
+            "image": "/assets/images/nameplates/59.png",
+            "type": "General"
         },
         {
             "id": "60",
             "name": "Gold Shotgun",
             "requirement": "Halo 2: Beat the par time on Quarantine Zone",
-            "image": "/assets/images/nameplates/60.png"
+            "image": "/assets/images/nameplates/60.png",
+            "type": "General"
         },
         {
             "id": "61",
             "name": "Platinum Shotgun",
             "requirement": "Halo 2: Beat the par time on Gravemind",
-            "image": "/assets/images/nameplates/61.png"
+            "image": "/assets/images/nameplates/61.png",
+            "type": "General"
         },
         {
             "id": "62",
             "name": "Magnum",
             "requirement": "Halo 2: Beat the par time on Uprising",
-            "image": "/assets/images/nameplates/62.png"
+            "image": "/assets/images/nameplates/62.png",
+            "type": "General"
         },
         {
             "id": "63",
             "name": "Bronze Magnum",
             "requirement": "Halo 2: Beat the par time on High Charity",
-            "image": "/assets/images/nameplates/63.png"
+            "image": "/assets/images/nameplates/63.png",
+            "type": "General"
         },
         {
             "id": "64",
             "name": "Silver Magnum",
             "requirement": "Halo 2: Beat the par time on The Great Journey",
-            "image": "/assets/images/nameplates/64.png"
+            "image": "/assets/images/nameplates/64.png",
+            "type": "General"
         },
         {
             "id": "65",
             "name": "Gold Magnum",
             "requirement": "Halo 2: Beat the par score on Cairo Station",
-            "image": "/assets/images/nameplates/65.png"
+            "image": "/assets/images/nameplates/65.png",
+            "type": "General"
         },
         {
             "id": "66",
             "name": "Platinum Magnum",
             "requirement": "Halo 2: Beat the par score on Outskirts",
-            "image": "/assets/images/nameplates/66.png"
+            "image": "/assets/images/nameplates/66.png",
+            "type": "General"
         },
         {
             "id": "67",
             "name": "Energy Sword",
             "requirement": "Halo 2: Beat the par score on Metropolis",
-            "image": "/assets/images/nameplates/67.png"
+            "image": "/assets/images/nameplates/67.png",
+            "type": "General"
         },
         {
             "id": "68",
             "name": "Bronze Energy Sword",
             "requirement": "Halo 2: Beat the par score on The Arbiter",
-            "image": "/assets/images/nameplates/68.png"
+            "image": "/assets/images/nameplates/68.png",
+            "type": "General"
         },
         {
             "id": "69",
             "name": "Silver Energy Sword",
             "requirement": "Halo 2: Beat the par score on The Oracle",
-            "image": "/assets/images/nameplates/69.png"
+            "image": "/assets/images/nameplates/69.png",
+            "type": "General"
         },
         {
             "id": "70",
             "name": "Gold Energy Sword",
             "requirement": "Halo 2: Beat the par score on Delta Halo",
-            "image": "/assets/images/nameplates/70.png"
+            "image": "/assets/images/nameplates/70.png",
+            "type": "General"
         },
         {
             "id": "71",
             "name": "Platinum Energy Sword",
             "requirement": "Halo 2: Beat the par score on Regret",
-            "image": "/assets/images/nameplates/71.png"
+            "image": "/assets/images/nameplates/71.png",
+            "type": "General"
         },
         {
             "id": "72",
             "name": "Gravity Hammer",
             "requirement": "Halo 3: Beat the par score on Floodgate",
-            "image": "/assets/images/nameplates/72.png"
+            "image": "/assets/images/nameplates/72.png",
+            "type": "General"
         },
         {
             "id": "73",
             "name": "Bronze Gravity Hammer",
             "requirement": "Halo 3: Beat the par score on The Ark",
-            "image": "/assets/images/nameplates/73.png"
+            "image": "/assets/images/nameplates/73.png",
+            "type": "General"
         },
         {
             "id": "74",
             "name": "Silver Gravity Hammer",
             "requirement": "Halo 3: Beat the par score on The Covenant",
-            "image": "/assets/images/nameplates/74.png"
+            "image": "/assets/images/nameplates/74.png",
+            "type": "General"
         },
         {
             "id": "75",
             "name": "Gold Gravity Hammer",
             "requirement": "Halo 3: Beat the par score on Cortana",
-            "image": "/assets/images/nameplates/75.png"
+            "image": "/assets/images/nameplates/75.png",
+            "type": "General"
         },
         {
             "id": "76",
             "name": "Platinum Gravity Hammer",
             "requirement": "Halo 3: Beat the par score on Halo",
-            "image": "/assets/images/nameplates/76.png"
+            "image": "/assets/images/nameplates/76.png",
+            "type": "General"
         },
         {
             "id": "77",
             "name": "Frag Grenade",
             "requirement": "Halo 2: Beat the par score on Sacred Icon",
-            "image": "/assets/images/nameplates/77.png"
+            "image": "/assets/images/nameplates/77.png",
+            "type": "General"
         },
         {
             "id": "78",
             "name": "Bronze Frag Grenade",
             "requirement": "Halo 2: Beat the par score on Quarantine Zone",
-            "image": "/assets/images/nameplates/78.png"
+            "image": "/assets/images/nameplates/78.png",
+            "type": "General"
         },
         {
             "id": "79",
             "name": "Silver Frag Grenade",
             "requirement": "Halo 2: Beat the par score on Gravemind",
-            "image": "/assets/images/nameplates/79.png"
+            "image": "/assets/images/nameplates/79.png",
+            "type": "General"
         },
         {
             "id": "80",
             "name": "Gold Frag Grenade",
             "requirement": "Halo 2: Beat the par score on Uprising",
-            "image": "/assets/images/nameplates/80.png"
+            "image": "/assets/images/nameplates/80.png",
+            "type": "General"
         },
         {
             "id": "81",
             "name": "Platinum Frag Grenade",
             "requirement": "Halo 2: Beat the par score on High Charity",
-            "image": "/assets/images/nameplates/81.png"
+            "image": "/assets/images/nameplates/81.png",
+            "type": "General"
         },
         {
             "id": "82",
             "name": "Plasma Grenade",
             "requirement": "Halo 2: Beat the par score on The Great Journey",
-            "image": "/assets/images/nameplates/82.png"
+            "image": "/assets/images/nameplates/82.png",
+            "type": "General"
         },
         {
             "id": "83",
             "name": "Bronze Plasma Grenade",
             "requirement": "Halo 3: Beat the par score on Sierra 117",
-            "image": "/assets/images/nameplates/83.png"
+            "image": "/assets/images/nameplates/83.png",
+            "type": "General"
         },
         {
             "id": "84",
             "name": "Silver Plasma Grenade",
             "requirement": "Halo 3: Beat the par score on Crow's Nest",
-            "image": "/assets/images/nameplates/84.png"
+            "image": "/assets/images/nameplates/84.png",
+            "type": "General"
         },
         {
             "id": "85",
             "name": "Gold Plasma Grenade",
             "requirement": "Halo 3: Beat the par score on Tsavo Highway",
-            "image": "/assets/images/nameplates/85.png"
+            "image": "/assets/images/nameplates/85.png",
+            "type": "General"
         },
         {
             "id": "86",
             "name": "Platinum Plasma Grenade",
             "requirement": "Halo 3: Beat the par score on The Storm",
-            "image": "/assets/images/nameplates/86.png"
+            "image": "/assets/images/nameplates/86.png",
+            "type": "General"
         },
         {
             "id": "87",
             "name": "Warthog",
             "requirement": "Win 50 multiplayer games",
-            "image": "/assets/images/nameplates/87.png"
+            "image": "/assets/images/nameplates/87.png",
+            "type": "General"
         },
         {
             "id": "88",
             "name": "Bronze Warthog",
             "requirement": "Complete 250 missions or multiplayer games",
-            "image": "/assets/images/nameplates/88.png"
+            "image": "/assets/images/nameplates/88.png",
+            "type": "General"
         },
         {
             "id": "89",
             "name": "Silver Warthog",
             "requirement": "Complete 350 missions or multiplayer games",
-            "image": "/assets/images/nameplates/89.png"
+            "image": "/assets/images/nameplates/89.png",
+            "type": "General"
         },
         {
             "id": "90",
             "name": "Gold Warthog",
             "requirement": "Complete 450 missions or multiplayer games",
-            "image": "/assets/images/nameplates/90.png"
+            "image": "/assets/images/nameplates/90.png",
+            "type": "General"
         },
         {
             "id": "91",
             "name": "Platinum Warthog",
             "requirement": "Complete 500 missions or multiplayer games",
-            "image": "/assets/images/nameplates/91.png"
+            "image": "/assets/images/nameplates/91.png",
+            "type": "General"
         },
         {
             "id": "92",
             "name": "Scorpion",
             "requirement": "Halo: CE: Beat the par score on The Silent Cartographer",
-            "image": "/assets/images/nameplates/92.png"
+            "image": "/assets/images/nameplates/92.png",
+            "type": "General"
         },
         {
             "id": "93",
             "name": "Bronze Scorpion",
             "requirement": "Halo: CE: Beat the par score on Assault on the Control Room",
-            "image": "/assets/images/nameplates/93.png"
+            "image": "/assets/images/nameplates/93.png",
+            "type": "General"
         },
         {
             "id": "94",
             "name": "Silver Scorpion",
             "requirement": "Halo: CE Beat the par score on The Pillar of Autumn",
-            "image": "/assets/images/nameplates/94.png"
+            "image": "/assets/images/nameplates/94.png",
+            "type": "General"
         },
         {
             "id": "95",
             "name": "Gold Scorpion",
             "requirement": "Halo: CE: Beat the par score on Halo",
-            "image": "/assets/images/nameplates/95.png"
+            "image": "/assets/images/nameplates/95.png",
+            "type": "General"
         },
         {
             "id": "96",
             "name": "Platinum Scorpion",
             "requirement": "Halo: CE: Beat the par score on The Truth and Reconciliation",
-            "image": "/assets/images/nameplates/96.png"
+            "image": "/assets/images/nameplates/96.png",
+            "type": "General"
         },
         {
             "id": "97",
             "name": "Ghost",
             "requirement": "Halo: CE: Beat the par score on 343 Guilty Spark",
-            "image": "/assets/images/nameplates/97.png"
+            "image": "/assets/images/nameplates/97.png",
+            "type": "General"
         },
         {
             "id": "98",
             "name": "Bronze Ghost",
             "requirement": "Halo: CE: Beat the par score on The Library",
-            "image": "/assets/images/nameplates/98.png"
+            "image": "/assets/images/nameplates/98.png",
+            "type": "General"
         },
         {
             "id": "99",
             "name": "Silver Ghost",
             "requirement": "Halo: CE: Beat the par score on Two Betrayals",
-            "image": "/assets/images/nameplates/99.png"
+            "image": "/assets/images/nameplates/99.png",
+            "type": "General"
         },
         {
             "id": "100",
             "name": "Gold Ghost",
             "requirement": "Halo: CE: Beat the par score on Keyes",
-            "image": "/assets/images/nameplates/100.png"
+            "image": "/assets/images/nameplates/100.png",
+            "type": "General"
         },
         {
             "id": "101",
             "name": "Platinum Ghost",
             "requirement": "Halo: CE: Beat the par score on The Maw",
-            "image": "/assets/images/nameplates/101.png"
+            "image": "/assets/images/nameplates/101.png",
+            "type": "General"
         },
         {
             "id": "102",
             "name": "Banshee",
             "requirement": "Halo 4: Beat the par time on Dawn",
-            "image": "/assets/images/nameplates/102.png"
+            "image": "/assets/images/nameplates/102.png",
+            "type": "General"
         },
         {
             "id": "103",
             "name": "Bronze Banshee",
             "requirement": "Halo 4: Beat the par time on Requiem",
-            "image": "/assets/images/nameplates/103.png"
+            "image": "/assets/images/nameplates/103.png",
+            "type": "General"
         },
         {
             "id": "104",
             "name": "Silver Banshee",
             "requirement": "Halo 4: Beat the par time on Forerunner",
-            "image": "/assets/images/nameplates/104.png"
+            "image": "/assets/images/nameplates/104.png",
+            "type": "General"
         },
         {
             "id": "105",
             "name": "Gold Banshee",
             "requirement": "Halo 4: Beat the par time on Infinity",
-            "image": "/assets/images/nameplates/105.png"
+            "image": "/assets/images/nameplates/105.png",
+            "type": "General"
         },
         {
             "id": "106",
             "name": "Platinum Banshee",
             "requirement": "Halo 4: Beat the par time on Reclaimer",
-            "image": "/assets/images/nameplates/106.png"
+            "image": "/assets/images/nameplates/106.png",
+            "type": "General"
         },
         {
             "id": "107",
             "name": "Mongoose",
             "requirement": "Halo 4: Beat the par time on Shutdown",
-            "image": "/assets/images/nameplates/107.png"
+            "image": "/assets/images/nameplates/107.png",
+            "type": "General"
         },
         {
             "id": "108",
             "name": "Bronze Mongoose",
             "requirement": "Halo 4: Beat the par time on Composer",
-            "image": "/assets/images/nameplates/108.png"
+            "image": "/assets/images/nameplates/108.png",
+            "type": "General"
         },
         {
             "id": "109",
             "name": "Silver Mongoose",
             "requirement": "Halo 4: Beat the par time on Midnight",
-            "image": "/assets/images/nameplates/109.png"
+            "image": "/assets/images/nameplates/109.png",
+            "type": "General"
         },
         {
             "id": "110",
             "name": "Gold Mongoose",
             "requirement": "Halo 4: Beat the par score on Dawn",
-            "image": "/assets/images/nameplates/110.png"
+            "image": "/assets/images/nameplates/110.png",
+            "type": "General"
         },
         {
             "id": "111",
             "name": "Platinum Mongoose",
             "requirement": "Halo 4: Beat the par score on Requiem",
-            "image": "/assets/images/nameplates/111.png"
+            "image": "/assets/images/nameplates/111.png",
+            "type": "General"
         },
         {
             "id": "112",
             "name": "Forge",
             "requirement": "Halo 2A MP: Get 25 melee kills in multiplayer",
-            "image": "/assets/images/nameplates/112.png"
+            "image": "/assets/images/nameplates/112.png",
+            "type": "General"
         },
         {
             "id": "113",
             "name": "Bronze Forge",
             "requirement": "Halo 2A MP: In Anniversary multiplayer, receive 2 or more Double Kill medals",
-            "image": "/assets/images/nameplates/113.png"
+            "image": "/assets/images/nameplates/113.png",
+            "type": "General"
         },
         {
             "id": "114",
             "name": "Silver Forge",
             "requirement": "Halo 2A MP: In Anniversary matchmaking, stop the killing spree of another player",
-            "image": "/assets/images/nameplates/114.png"
+            "image": "/assets/images/nameplates/114.png",
+            "type": "General"
         },
         {
             "id": "115",
             "name": "Gold Forge",
             "requirement": "Created and saved 5 Custom Game types",
-            "image": "/assets/images/nameplates/115.png"
+            "image": "/assets/images/nameplates/115.png",
+            "type": "General"
         },
         {
             "id": "116",
             "name": "Platinum Forge",
             "requirement": "Created and saved 5 Custom Maps in Forge",
-            "image": "/assets/images/nameplates/116.png"
+            "image": "/assets/images/nameplates/116.png",
+            "type": "General"
         },
         {
             "id": "117",
             "name": "Dog tags",
             "requirement": "Halo: CE: Complete three Halo: CE playlists",
-            "image": "/assets/images/nameplates/117.png"
+            "image": "/assets/images/nameplates/117.png",
+            "type": "General"
         },
         {
             "id": "118",
             "name": "Bronze Dog tags",
             "requirement": "Halo 2: Complete three Halo 2 playlists",
-            "image": "/assets/images/nameplates/118.png"
+            "image": "/assets/images/nameplates/118.png",
+            "type": "General"
         },
         {
             "id": "119",
             "name": "Silver Dog tags",
             "requirement": "Halo 3: Complete three Halo 3 playlists",
-            "image": "/assets/images/nameplates/119.png"
+            "image": "/assets/images/nameplates/119.png",
+            "type": "General"
         },
         {
             "id": "120",
             "name": "Gold Dog tags",
             "requirement": "Halo 4: Complete three Halo 4 playlists",
-            "image": "/assets/images/nameplates/120.png"
+            "image": "/assets/images/nameplates/120.png",
+            "type": "General"
         },
         {
             "id": "121",
             "name": "Platinum Dog tags",
             "requirement": "Complete the Master Chief Saga playlist",
-            "image": "/assets/images/nameplates/121.png"
+            "image": "/assets/images/nameplates/121.png",
+            "type": "General"
         },
         {
             "id": "122",
             "name": "Reclaimer",
             "requirement": "Halo: CE: Activate all Halo: CE Terminals",
-            "image": "/assets/images/nameplates/122.png"
+            "image": "/assets/images/nameplates/122.png",
+            "type": "General"
         },
         {
             "id": "123",
             "name": "Bronze Reclaimer",
             "requirement": "Halo 2: Activate all Halo 2 Terminals",
-            "image": "/assets/images/nameplates/123.png"
+            "image": "/assets/images/nameplates/123.png",
+            "type": "General"
         },
         {
             "id": "124",
             "name": "Silver Reclaimer",
             "requirement": "Halo 3: Activate all Halo 3 Terminals",
-            "image": "/assets/images/nameplates/124.png"
+            "image": "/assets/images/nameplates/124.png",
+            "type": "General"
         },
         {
             "id": "125",
             "name": "Gold Reclaimer",
             "requirement": "Halo 4: Activate all Halo 4 Terminals",
-            "image": "/assets/images/nameplates/125.png"
+            "image": "/assets/images/nameplates/125.png",
+            "type": "General"
         },
         {
             "id": "126",
             "name": "Platinum Reclaimer",
             "requirement": "Activate every terminal",
-            "image": "/assets/images/nameplates/126.png"
+            "image": "/assets/images/nameplates/126.png",
+            "type": "General"
         },
         {
             "id": "127",
             "name": "Demon",
             "requirement": "Halo: CE: Complete every level of the game on Normal difficulty",
-            "image": "/assets/images/nameplates/127.png"
+            "image": "/assets/images/nameplates/127.png",
+            "type": "General"
         },
         {
             "id": "128",
             "name": "Bronze Demon",
             "requirement": "Halo 2: Complete every level of the game on Normal difficulty",
-            "image": "/assets/images/nameplates/128.png"
+            "image": "/assets/images/nameplates/128.png",
+            "type": "General"
         },
         {
             "id": "129",
             "name": "Silver Demon",
             "requirement": "Halo 3: Complete every level of the game on Normal difficulty",
-            "image": "/assets/images/nameplates/129.png"
+            "image": "/assets/images/nameplates/129.png",
+            "type": "General"
         },
         {
             "id": "130",
             "name": "Gold Demon",
             "requirement": "Halo 4: Complete every level of the game on Normal difficulty",
-            "image": "/assets/images/nameplates/130.png"
+            "image": "/assets/images/nameplates/130.png",
+            "type": "General"
         },
         {
             "id": "131",
             "name": "Platinum Demon",
             "requirement": "Complete all campaigns on Normal difficulty",
-            "image": "/assets/images/nameplates/131.png"
+            "image": "/assets/images/nameplates/131.png",
+            "type": "General"
         },
         {
             "id": "132",
             "name": "Hero",
             "requirement": "Halo: CE: Complete every level of the game on Heroic difficulty",
-            "image": "/assets/images/nameplates/132.png"
+            "image": "/assets/images/nameplates/132.png",
+            "type": "General"
         },
         {
             "id": "133",
             "name": "Bronze Hero",
             "requirement": "Halo 2: Complete every level of the game on Heroic difficulty",
-            "image": "/assets/images/nameplates/133.png"
+            "image": "/assets/images/nameplates/133.png",
+            "type": "General"
         },
         {
             "id": "134",
             "name": "Silver Hero",
             "requirement": "Halo 3: Complete every level of the game on Heroic difficulty",
-            "image": "/assets/images/nameplates/134.png"
+            "image": "/assets/images/nameplates/134.png",
+            "type": "General"
         },
         {
             "id": "135",
             "name": "Gold Hero",
             "requirement": "Halo 4: Complete every level of the game on Heroic difficulty",
-            "image": "/assets/images/nameplates/135.png"
+            "image": "/assets/images/nameplates/135.png",
+            "type": "General"
         },
         {
             "id": "136",
             "name": "Platinum Hero",
             "requirement": "Complete all campaigns on Heroic difficulty",
-            "image": "/assets/images/nameplates/136.png"
+            "image": "/assets/images/nameplates/136.png",
+            "type": "General"
         },
         {
             "id": "137",
             "name": "Legend",
             "requirement": "Halo: CE: Complete every level of the game on Legendary difficulty",
-            "image": "/assets/images/nameplates/137.png"
+            "image": "/assets/images/nameplates/137.png",
+            "type": "General"
         },
         {
             "id": "138",
             "name": "Bronze Legend",
             "requirement": "Halo 2: Complete every level of the game on Legendary difficulty",
-            "image": "/assets/images/nameplates/138.png"
+            "image": "/assets/images/nameplates/138.png",
+            "type": "General"
         },
         {
             "id": "139",
             "name": "Silver Legend",
             "requirement": "Halo 3: Complete every level of the game on Legendary difficulty",
-            "image": "/assets/images/nameplates/139.png"
+            "image": "/assets/images/nameplates/139.png",
+            "type": "General"
         },
         {
             "id": "140",
             "name": "Gold Legend",
             "requirement": "Halo 4: Complete every level of the game on Legendary difficulty",
-            "image": "/assets/images/nameplates/140.png"
+            "image": "/assets/images/nameplates/140.png",
+            "type": "General"
         },
         {
             "id": "141",
             "name": "Platinum Legend",
             "requirement": "Complete all campaigns on Legendary difficulty",
-            "image": "/assets/images/nameplates/141.png"
+            "image": "/assets/images/nameplates/141.png",
+            "type": "General"
         },
         {
             "id": "142",
             "name": "Skulls",
             "requirement": "Halo: CE: Complete the Halo: CE LASO campaign playlist",
-            "image": "/assets/images/nameplates/142.png"
+            "image": "/assets/images/nameplates/142.png",
+            "type": "General"
         },
         {
             "id": "143",
             "name": "Bronze Skulls",
             "requirement": "Halo 2: Complete the Halo 2 LASO Campaign playlist",
-            "image": "/assets/images/nameplates/143.png"
+            "image": "/assets/images/nameplates/143.png",
+            "type": "General"
         },
         {
             "id": "144",
             "name": "Silver Skulls",
             "requirement": "Halo 3: Complete the Halo 3 LASO Campaign playlist",
-            "image": "/assets/images/nameplates/144.png"
+            "image": "/assets/images/nameplates/144.png",
+            "type": "General"
         },
         {
             "id": "145",
             "name": "Gold Skulls",
             "requirement": "Halo 4: Complete the Halo 4 LASO Campaign playlist",
-            "image": "/assets/images/nameplates/145.png"
+            "image": "/assets/images/nameplates/145.png",
+            "type": "General"
         },
         {
             "id": "146",
             "name": "Platinum Skulls",
             "requirement": "Complete the LASO playlist for every Halo game",
-            "image": "/assets/images/nameplates/146.png"
+            "image": "/assets/images/nameplates/146.png",
+            "type": "General"
         },
         {
             "id": "147",
             "name": "Slayer",
             "requirement": "Complete 50 missions or multiplayer games.",
-            "image": "/assets/images/nameplates/147.png"
+            "image": "/assets/images/nameplates/147.png",
+            "type": "General"
         },
         {
             "id": "148",
             "name": "Flag",
             "requirement": "Complete 100 missions or multiplayer games",
-            "image": "/assets/images/nameplates/148.png"
+            "image": "/assets/images/nameplates/148.png",
+            "type": "General"
         },
         {
             "id": "149",
             "name": "Assault",
             "requirement": "Win 150 multiplayer games",
-            "image": "/assets/images/nameplates/149.png"
+            "image": "/assets/images/nameplates/149.png",
+            "type": "General"
         },
         {
             "id": "150",
             "name": "Grifball",
             "requirement": "Win 250 multiplayer games",
-            "image": "/assets/images/nameplates/150.png"
+            "image": "/assets/images/nameplates/150.png",
+            "type": "General"
         },
         {
             "id": "151",
             "name": "Oddball",
             "requirement": "Win 350 multiplayer games",
-            "image": "/assets/images/nameplates/151.png"
+            "image": "/assets/images/nameplates/151.png",
+            "type": "General"
         },
         {
             "id": "153",
             "name": "Juggernaut",
             "requirement": "Win 450 multiplayer games",
-            "image": "/assets/images/nameplates/153.png"
+            "image": "/assets/images/nameplates/153.png",
+            "type": "General"
         },
         {
             "id": "154",
             "name": "Ricochet",
             "requirement": "Halo 4: Beat the par score on Midnight",
-            "image": "/assets/images/nameplates/154.png"
+            "image": "/assets/images/nameplates/154.png",
+            "type": "General"
         },
         {
             "id": "165",
             "name": "Bronze Slayer",
             "requirement": "Win 200 multiplayer games",
-            "image": "/assets/images/nameplates/165.png"
+            "image": "/assets/images/nameplates/165.png",
+            "type": "General"
         },
         {
             "id": "166",
             "name": "Silver Slayer",
             "requirement": "Win 300 multiplayer games",
-            "image": "/assets/images/nameplates/166.png"
+            "image": "/assets/images/nameplates/166.png",
+            "type": "General"
         },
         {
             "id": "167",
             "name": "Gold Slayer",
             "requirement": "Win 400 multiplayer games",
-            "image": "/assets/images/nameplates/167.png"
+            "image": "/assets/images/nameplates/167.png",
+            "type": "General"
         },
         {
             "id": "168",
             "name": "Platinum Slayer",
             "requirement": "Win 500 multiplayer games",
-            "image": "/assets/images/nameplates/168.png"
+            "image": "/assets/images/nameplates/168.png",
+            "type": "General"
         },
         {
             "id": "169",
             "name": "Golden",
             "requirement": "Play Halo: The Master Chief Collection before December 19, 2014.",
-            "image": "/assets/images/nameplates/169.png"
+            "image": "/assets/images/nameplates/169.png",
+            "type": "General"
         },
         {
             "id": "170",
             "name": "Halo Championship Series",
             "requirement": "Granted to players who held the previous 'Pro' nameplate.",
-            "image": "/assets/images/nameplates/170.png"
+            "image": "/assets/images/nameplates/170.png",
+            "type": "General"
         },
         {
             "id": "171",
             "name": "Fronk",
             "requirement": "Granted to players who held the previous 'MVP' nameplate.",
-            "image": "/assets/images/nameplates/171.png"
+            "image": "/assets/images/nameplates/171.png",
+            "type": "General"
         },
         {
             "id": "172",
             "name": "UNSC",
             "requirement": "Play Halo: The Master Chief Collection before December 19, 2014.",
-            "image": "/assets/images/nameplates/172.png"
+            "image": "/assets/images/nameplates/172.png",
+            "type": "General"
         },
         {
             "id": "173",
             "name": "1th",
             "requirement": "Play Halo: The Master Chief Collection before December 19, 2014.",
-            "image": "/assets/images/nameplates/173.png"
+            "image": "/assets/images/nameplates/173.png",
+            "type": "General"
         },
         {
             "id": "174",
             "name": "Keep It Clean",
             "requirement": "H3: ODST: Find the 1st Audio Log",
-            "image": "/assets/images/nameplates/174.png"
+            "image": "/assets/images/nameplates/174.png",
+            "type": "General"
         },
         {
             "id": "175",
             "name": "Bronze Keep It Clean",
             "requirement": "H3: ODST: Beat par time on all Halo 3: ODST levels",
-            "image": "/assets/images/nameplates/175.png"
+            "image": "/assets/images/nameplates/175.png",
+            "type": "General"
         },
         {
             "id": "176",
             "name": "Silver Keep It Clean",
             "requirement": "H3: ODST: Beat par score on all Halo 3: ODST levels",
-            "image": "/assets/images/nameplates/176.png"
+            "image": "/assets/images/nameplates/176.png",
+            "type": "General"
         },
         {
             "id": "177",
             "name": "Gold Keep It Clean",
             "requirement": "H3: ODST: Find all 3D Audio Logs",
-            "image": "/assets/images/nameplates/177.png"
+            "image": "/assets/images/nameplates/177.png",
+            "type": "General"
         },
         {
             "id": "178",
             "name": "Platinum Keep It Clean",
             "requirement": "H3: ODST: Complete Coastal Highway on 4-player Legendary co-op, with Iron and no 'Hog or Scorpion",
-            "image": "/assets/images/nameplates/178.png"
+            "image": "/assets/images/nameplates/178.png",
+            "type": "General"
         },
         {
             "id": "179",
             "name": "Superintendent",
             "requirement": "H3: ODST: Play a game of Halo 3: ODST on the 22nd of any month",
-            "image": "/assets/images/nameplates/179.png"
+            "image": "/assets/images/nameplates/179.png",
+            "type": "General"
         },
         {
             "id": "180",
             "name": "Silver Superintendent",
             "requirement": "H3: ODST: Complete every level of the game on Easy difficulty",
-            "image": "/assets/images/nameplates/180.png"
+            "image": "/assets/images/nameplates/180.png",
+            "type": "General"
         },
         {
             "id": "181",
             "name": "Bronze Superintendent",
             "requirement": "H3: ODST: Complete every level of the game on Normal difficulty",
-            "image": "/assets/images/nameplates/181.png"
+            "image": "/assets/images/nameplates/181.png",
+            "type": "General"
         },
         {
             "id": "182",
             "name": "Gold Superintendent",
             "requirement": "H3: ODST: Complete every level of the game on Heroic difficulty",
-            "image": "/assets/images/nameplates/182.png"
+            "image": "/assets/images/nameplates/182.png",
+            "type": "General"
         },
         {
             "id": "183",
             "name": "Platinum Superintendent",
             "requirement": "H3: ODST: Complete every level of the game on Legendary difficulty",
-            "image": "/assets/images/nameplates/183.png"
+            "image": "/assets/images/nameplates/183.png",
+            "type": "General"
         },
         {
             "id": "184",
             "name": "New Mombasa",
             "requirement": "H3: ODST: Finish any level solo on Legendary, with no shots fired or grenades thrown",
-            "image": "/assets/images/nameplates/184.png"
+            "image": "/assets/images/nameplates/184.png",
+            "type": "General"
         },
         {
             "id": "185",
             "name": "Bronze New Mombasa",
             "requirement": "H3: ODST: Complete a Halo 3: ODST playlist",
-            "image": "/assets/images/nameplates/185.png"
+            "image": "/assets/images/nameplates/185.png",
+            "type": "General"
         },
         {
             "id": "186",
             "name": "Silver New Mombasa",
             "requirement": "H3: ODST: Complete three Halo 3: ODST playlists",
-            "image": "/assets/images/nameplates/186.png"
+            "image": "/assets/images/nameplates/186.png",
+            "type": "General"
         },
         {
             "id": "187",
             "name": "Gold New Mombasa",
             "requirement": "H3: ODST: Complete all Halo 3: ODST Legendary campaign missions in under 3 hours",
-            "image": "/assets/images/nameplates/187.png"
+            "image": "/assets/images/nameplates/187.png",
+            "type": "General"
         },
         {
             "id": "188",
             "name": "Platinum New Mombasa",
             "requirement": "H3: ODST: Complete a Halo 3: ODST LASO campaign playlist",
-            "image": "/assets/images/nameplates/188.png"
+            "image": "/assets/images/nameplates/188.png",
+            "type": "General"
         },
         {
             "id": "206",
             "name": "DMR",
             "requirement": "Halo: Reach: Complete Winter Contingency",
-            "image": "/assets/images/nameplates/206.png"
+            "image": "/assets/images/nameplates/206.png",
+            "type": "General"
         },
         {
             "id": "207",
             "name": "ONI",
             "requirement": "Halo: Reach: Complete ONI: Sword Base",
-            "image": "/assets/images/nameplates/207.png"
+            "image": "/assets/images/nameplates/207.png",
+            "type": "General"
         },
         {
             "id": "208",
             "name": "Jun",
             "requirement": "Halo: Reach: Complete Nightfall",
-            "image": "/assets/images/nameplates/208.png"
+            "image": "/assets/images/nameplates/208.png",
+            "type": "General"
         },
         {
             "id": "209",
             "name": "Grenade Launcher",
             "requirement": "Halo: Reach: Complete Tip of the Spear",
-            "image": "/assets/images/nameplates/209.png"
+            "image": "/assets/images/nameplates/209.png",
+            "type": "General"
         },
         {
             "id": "210",
             "name": "Jorge",
             "requirement": "Halo: Reach: Complete Long Night of Solace",
-            "image": "/assets/images/nameplates/210.png"
+            "image": "/assets/images/nameplates/210.png",
+            "type": "General"
         },
         {
             "id": "211",
             "name": "Falcon",
             "requirement": "Halo: Reach: Complete Exodus",
-            "image": "/assets/images/nameplates/211.png"
+            "image": "/assets/images/nameplates/211.png",
+            "type": "General"
         },
         {
             "id": "212",
             "name": "Kat",
             "requirement": "Halo: Reach: Complete New Alexandria",
-            "image": "/assets/images/nameplates/212.png"
+            "image": "/assets/images/nameplates/212.png",
+            "type": "General"
         },
         {
             "id": "213",
             "name": "Carter",
             "requirement": "Halo: Reach: Complete The Package",
-            "image": "/assets/images/nameplates/213.png"
+            "image": "/assets/images/nameplates/213.png",
+            "type": "General"
         },
         {
             "id": "214",
             "name": "Emile",
             "requirement": "Halo: Reach: Complete The Pillar of Autumn",
-            "image": "/assets/images/nameplates/214.png"
+            "image": "/assets/images/nameplates/214.png",
+            "type": "General"
         },
         {
             "id": "215",
             "name": "Halo: Reach",
             "requirement": "Halo: Reach: Achieve a score of 150,000 points on Lone Wolf",
-            "image": "/assets/images/nameplates/215.png"
+            "image": "/assets/images/nameplates/215.png",
+            "type": "General"
         },
         {
             "id": "216",
             "name": "Halo: Reach",
             "requirement": "Halo: Reach: Find all Data pads",
-            "image": "/assets/images/nameplates/216.png"
+            "image": "/assets/images/nameplates/216.png",
+            "type": "General"
         },
         {
             "id": "217",
             "name": "Firefight",
             "requirement": "Halo: Reach: Complete a Firefight set",
-            "image": "/assets/images/nameplates/217.png"
+            "image": "/assets/images/nameplates/217.png",
+            "type": "General"
         },
         {
             "id": "218",
             "name": "Headhunter",
             "requirement": "Halo: Reach: Get a Skullamanjaro in a matchmade Headhunter game",
-            "image": "/assets/images/nameplates/218.png"
+            "image": "/assets/images/nameplates/218.png",
+            "type": "General"
         },
         {
             "id": "219",
             "name": "Forklift",
             "requirement": "Halo: Reach: Splatter an enemy using the forklift",
-            "image": "/assets/images/nameplates/219.png"
+            "image": "/assets/images/nameplates/219.png",
+            "type": "General"
         },
         {
             "id": "220",
             "name": "Invasion",
             "requirement": "Halo: Reach: Win a game of Invasion in the first phase",
-            "image": "/assets/images/nameplates/220.png"
+            "image": "/assets/images/nameplates/220.png",
+            "type": "General"
         },
         {
             "id": "221",
             "name": "Remember Reach",
             "requirement": "Halo: Reach: Play a game of Halo: Reach on the 14th of any month",
-            "image": "/assets/images/nameplates/221.png"
+            "image": "/assets/images/nameplates/221.png",
+            "type": "General"
         },
         {
             "id": "222",
             "name": "Skirmisher",
             "requirement": "Halo: Reach: Kill 1000 Skirmishers",
-            "image": "/assets/images/nameplates/222.png"
+            "image": "/assets/images/nameplates/222.png",
+            "type": "General"
         },
         {
             "id": "223",
             "name": "Assassin",
             "requirement": "Halo: Reach: Complete 10 assassinations on enemy players",
-            "image": "/assets/images/nameplates/223.png"
+            "image": "/assets/images/nameplates/223.png",
+            "type": "General"
         },
         {
             "id": "224",
             "name": "Moa",
             "requirement": "Halo: Reach: Kill seven Moa during the level Winter Contingency",
-            "image": "/assets/images/nameplates/224.png"
+            "image": "/assets/images/nameplates/224.png",
+            "type": "General"
         },
         {
             "id": "225",
             "name": "Planet",
             "requirement": "Halo: Reach: Complete all Halo: Reach Legendary campaign missions under 3 hours",
-            "image": "/assets/images/nameplates/225.png"
+            "image": "/assets/images/nameplates/225.png",
+            "type": "General"
         },
         {
             "id": "226",
             "name": "343 vs. The World",
             "requirement": "Play and complete a match against Team 343 on December 5 in 2019.",
-            "image": "/assets/images/nameplates/226.png"
+            "image": "/assets/images/nameplates/226.png",
+            "type": "General"
         },
         {
             "id": "227",
             "name": "Unicorn Slayer",
             "requirement": "Play and win a match against Team 343 on December 5 in 2019.",
-            "image": "/assets/images/nameplates/227.png"
+            "image": "/assets/images/nameplates/227.png",
+            "type": "General"
         },
         {
             "id": "354",
             "name": "Quick Draw",
             "requirement": "During (January 27, 2021 - April 7, 2021), Complete 30 weekly challenges.",
-            "image": "/assets/images/nameplates/354.png"
+            "image": "/assets/images/nameplates/354.png",
+            "type": "General"
         },
         {
             "id": "235",
             "name": "Halo: Combat Evolved Anniversary",
             "requirement": "Season: 2 - Tier 3",
-            "image": "/assets/images/nameplates/235.png"
+            "image": "/assets/images/nameplates/235.png",
+            "type": "Season"
         },
         {
             "id": "301",
             "name": "MCC PC",
             "requirement": "Season: 2 - Tier 4",
-            "image": "/assets/images/nameplates/301.png"
+            "image": "/assets/images/nameplates/301.png",
+            "type": "Season"
         },
         {
             "id": "279",
             "name": "Blue Splatter",
             "requirement": "Season: 2 - Tier 5",
-            "image": "/assets/images/nameplates/279.png"
+            "image": "/assets/images/nameplates/279.png",
+            "type": "Season"
         },
         {
             "id": "252",
             "name": "Miranda Keyes",
             "requirement": "Season: 2 - Tier 6",
-            "image": "/assets/images/nameplates/252.png"
+            "image": "/assets/images/nameplates/252.png",
+            "type": "Season"
         },
         {
             "id": "256",
             "name": "Halo 3 Master Chief",
             "requirement": "Season: 2 - Tier 18",
-            "image": "/assets/images/nameplates/256.png"
+            "image": "/assets/images/nameplates/256.png",
+            "type": "Season"
         },
         {
             "id": "289",
             "name": "Covenant Hex",
             "requirement": "Season: 2 - Tier 21",
-            "image": "/assets/images/nameplates/289.png"
+            "image": "/assets/images/nameplates/289.png",
+            "type": "Season"
         },
         {
             "id": "237",
             "name": "Halo: Comat Evolved Cortana",
             "requirement": "Season: 2 - Tier 23",
-            "image": "/assets/images/nameplates/237.png"
+            "image": "/assets/images/nameplates/237.png",
+            "type": "Season"
         },
         {
             "id": "281",
             "name": "Pink Splatter",
             "requirement": "Season: 2 - Tier 24",
-            "image": "/assets/images/nameplates/281.png"
+            "image": "/assets/images/nameplates/281.png",
+            "type": "Season"
         },
         {
             "id": "239",
             "name": "Halo: Comat Evolved Johnson",
             "requirement": "Season: 2 - Tier 27",
-            "image": "/assets/images/nameplates/239.png"
+            "image": "/assets/images/nameplates/239.png",
+            "type": "Season"
         },
         {
             "id": "238",
             "name": "Guilty Spark",
             "requirement": "Season: 2 - Tier 35",
-            "image": "/assets/images/nameplates/238.png"
+            "image": "/assets/images/nameplates/238.png",
+            "type": "Season"
         },
         {
             "id": "241",
             "name": "Halo 2 Anniversary",
             "requirement": "Season: 2 - Tier 43",
-            "image": "/assets/images/nameplates/241.png"
+            "image": "/assets/images/nameplates/241.png",
+            "type": "Season"
         },
         {
             "id": "248",
             "name": "Warthog",
             "requirement": "Season: 2 - Tier 45",
-            "image": "/assets/images/nameplates/248.png"
+            "image": "/assets/images/nameplates/248.png",
+            "type": "Season"
         },
         {
             "id": "280",
             "name": "Green Splatter",
             "requirement": "Season: 2 - Tier 50",
-            "image": "/assets/images/nameplates/280.png"
+            "image": "/assets/images/nameplates/280.png",
+            "type": "Season"
         },
         {
             "id": "242",
             "name": "Halo 2 Forerunner",
             "requirement": "Season: 2 - Tier 51",
-            "image": "/assets/images/nameplates/242.png"
+            "image": "/assets/images/nameplates/242.png",
+            "type": "Season"
         },
         {
             "id": "236",
             "name": "Halo: Comat Evolved Master Chief",
             "requirement": "Season: 2 - Tier 54",
-            "image": "/assets/images/nameplates/236.png"
+            "image": "/assets/images/nameplates/236.png",
+            "type": "Season"
         },
         {
             "id": "245",
             "name": "Halo Ring",
             "requirement": "Season: 2 - Tier 56",
-            "image": "/assets/images/nameplates/245.png"
+            "image": "/assets/images/nameplates/245.png",
+            "type": "Season"
         },
         {
             "id": "244",
             "name": "Halo 2",
             "requirement": "Season: 2 - Tier 59",
-            "image": "/assets/images/nameplates/244.png"
+            "image": "/assets/images/nameplates/244.png",
+            "type": "Season"
         },
         {
             "id": "246",
             "name": "The Ark",
             "requirement": "Season: 2 - Tier 64",
-            "image": "/assets/images/nameplates/246.png"
+            "image": "/assets/images/nameplates/246.png",
+            "type": "Season"
         },
         {
             "id": "268",
             "name": "Spartan Helmet",
             "requirement": "Season: 2 - Tier 67",
-            "image": "/assets/images/nameplates/268.png"
+            "image": "/assets/images/nameplates/268.png",
+            "type": "Season"
         },
         {
             "id": "240",
             "name": "Halo: Comat Evolved Master Chief 2",
             "requirement": "Season: 2 - Tier 68",
-            "image": "/assets/images/nameplates/240.png"
+            "image": "/assets/images/nameplates/240.png",
+            "type": "Season"
         },
         {
             "id": "249",
             "name": "Bubble Shield",
             "requirement": "Season: 2 - Tier 71",
-            "image": "/assets/images/nameplates/249.png"
+            "image": "/assets/images/nameplates/249.png",
+            "type": "Season"
         },
         {
             "id": "253",
             "name": "Pelican 1",
             "requirement": "Season: 2 - Tier 74",
-            "image": "/assets/images/nameplates/253.png"
+            "image": "/assets/images/nameplates/253.png",
+            "type": "Season"
         },
         {
             "id": "254",
             "name": "Pelican 2",
             "requirement": "Season: 2 - Tier 74",
-            "image": "/assets/images/nameplates/254.png"
+            "image": "/assets/images/nameplates/254.png",
+            "type": "Season"
         },
         {
             "id": "250",
             "name": "Chasm",
             "requirement": "Season: 2 - Tier 76",
-            "image": "/assets/images/nameplates/250.png"
+            "image": "/assets/images/nameplates/250.png",
+            "type": "Season"
         },
         {
             "id": "243",
             "name": "Halo 2 Master Chief",
             "requirement": "Season: 2 - Tier 82",
-            "image": "/assets/images/nameplates/243.png"
+            "image": "/assets/images/nameplates/243.png",
+            "type": "Season"
         },
         {
             "id": "286",
             "name": "Cartoona",
             "requirement": "Season: 2 - Tier 84",
-            "image": "/assets/images/nameplates/286.png"
+            "image": "/assets/images/nameplates/286.png",
+            "type": "Season"
         },
         {
             "id": "251",
             "name": "Halo 3 Johnson",
             "requirement": "Season: 2 - Tier 88",
-            "image": "/assets/images/nameplates/251.png"
+            "image": "/assets/images/nameplates/251.png",
+            "type": "Season"
         },
         {
             "id": "255",
             "name": "Legendary",
             "requirement": "Season: 2 - Tier 98",
-            "image": "/assets/images/nameplates/255.png"
+            "image": "/assets/images/nameplates/255.png",
+            "type": "Season"
         },
         {
             "id": "287",
             "name": "Master Chief and Cortana",
             "requirement": "Season: 2 - Tier 99",
-            "image": "/assets/images/nameplates/287.png"
+            "image": "/assets/images/nameplates/287.png",
+            "type": "Season"
         },
         {
             "id": "296",
             "name": "Halo",
             "requirement": "Season: 2 - Tier 100",
-            "image": "/assets/images/nameplates/296.png"
+            "image": "/assets/images/nameplates/296.png",
+            "type": "Season"
         },
         {
             "id": "317",
             "name": "Ripples",
             "requirement": "Season: 3 - Tier 2",
-            "image": "/assets/images/nameplates/317.png"
+            "image": "/assets/images/nameplates/317.png",
+            "type": "Season"
         },
         {
             "id": "306",
             "name": "Adorned Mitts",
             "requirement": "Season: 3 - Tier 4",
-            "image": "/assets/images/nameplates/306.png"
+            "image": "/assets/images/nameplates/306.png",
+            "type": "Season"
         },
         {
             "id": "308",
             "name": "Tiler Filer",
             "requirement": "Season: 3 - Tier 5",
-            "image": "/assets/images/nameplates/308.png"
+            "image": "/assets/images/nameplates/308.png",
+            "type": "Season"
         },
         {
             "id": "310",
             "name": "Battle Worn",
             "requirement": "Season: 3 - Tier 6",
-            "image": "/assets/images/nameplates/310.png"
+            "image": "/assets/images/nameplates/310.png",
+            "type": "Season"
         },
         {
             "id": "309",
             "name": "KUP",
             "requirement": "Season: 3 - Tier 7",
-            "image": "/assets/images/nameplates/309.png"
+            "image": "/assets/images/nameplates/309.png",
+            "type": "Season"
         },
         {
             "id": "311",
             "name": "Omen",
             "requirement": "Season: 3 - Tier 9",
-            "image": "/assets/images/nameplates/311.png"
+            "image": "/assets/images/nameplates/311.png",
+            "type": "Season"
         },
         {
             "id": "312",
             "name": "Night Walk",
             "requirement": "Season: 3 - Tier 10",
-            "image": "/assets/images/nameplates/312.png"
+            "image": "/assets/images/nameplates/312.png",
+            "type": "Season"
         },
         {
             "id": "313",
             "name": "Corsairs",
             "requirement": "Season: 3 - Tier 11",
-            "image": "/assets/images/nameplates/313.png"
+            "image": "/assets/images/nameplates/313.png",
+            "type": "Season"
         },
         {
             "id": "314",
             "name": "Max Sax",
             "requirement": "Season: 3 - Tier 12",
-            "image": "/assets/images/nameplates/314.png"
+            "image": "/assets/images/nameplates/314.png",
+            "type": "Season"
         },
         {
             "id": "315",
             "name": "New Mombasa",
             "requirement": "Season: 3 - Tier 13",
-            "image": "/assets/images/nameplates/315.png"
+            "image": "/assets/images/nameplates/315.png",
+            "type": "Season"
         },
         {
             "id": "316",
             "name": "ODST",
             "requirement": "Season: 3 - Tier 16",
-            "image": "/assets/images/nameplates/316.png"
+            "image": "/assets/images/nameplates/316.png",
+            "type": "Season"
         },
         {
             "id": "318",
             "name": "Helljumpers",
             "requirement": "Season: 3 - Tier 18",
-            "image": "/assets/images/nameplates/318.png"
+            "image": "/assets/images/nameplates/318.png",
+            "type": "Season"
         },
         {
             "id": "319",
             "name": "The Life",
             "requirement": "Season: 3 - Tier 20",
-            "image": "/assets/images/nameplates/319.png"
+            "image": "/assets/images/nameplates/319.png",
+            "type": "Season"
         },
         {
             "id": "320",
             "name": "Captain Keys",
             "requirement": "Season: 3 - Tier 21",
-            "image": "/assets/images/nameplates/320.png"
+            "image": "/assets/images/nameplates/320.png",
+            "type": "Season"
         },
         {
             "id": "322",
             "name": "M7S",
             "requirement": "Season: 3 - Tier 24",
-            "image": "/assets/images/nameplates/322.png"
+            "image": "/assets/images/nameplates/322.png",
+            "type": "Season"
         },
         {
             "id": "323",
             "name": "BIPI",
             "requirement": "Season: 3 - Tier 26",
-            "image": "/assets/images/nameplates/323.png"
+            "image": "/assets/images/nameplates/323.png",
+            "type": "Season"
         },
         {
             "id": "324",
             "name": "Shock Troops",
             "requirement": "Season: 3 - Tier 28",
-            "image": "/assets/images/nameplates/324.png"
+            "image": "/assets/images/nameplates/324.png",
+            "type": "Season"
         },
         {
             "id": "259",
             "name": "Poisonous",
             "requirement": "Season: 3 - Tier 30",
-            "image": "/assets/images/nameplates/259.png"
+            "image": "/assets/images/nameplates/259.png",
+            "type": "Season"
         },
         {
             "id": "260",
             "name": "Shark Teeth",
             "requirement": "Season: 3 - Tier 32",
-            "image": "/assets/images/nameplates/260.png"
+            "image": "/assets/images/nameplates/260.png",
+            "type": "Season"
         },
         {
             "id": "262",
             "name": "Snow Leopard",
             "requirement": "Season: 3 - Tier 34",
-            "image": "/assets/images/nameplates/262.png"
+            "image": "/assets/images/nameplates/262.png",
+            "type": "Season"
         },
         {
             "id": "269",
             "name": "Studded",
             "requirement": "Season: 3 - Tier 36",
-            "image": "/assets/images/nameplates/269.png"
+            "image": "/assets/images/nameplates/269.png",
+            "type": "Season"
         },
         {
             "id": "288",
             "name": "Cortana",
             "requirement": "Season: 3 - Tier 39",
-            "image": "/assets/images/nameplates/288.png"
+            "image": "/assets/images/nameplates/288.png",
+            "type": "Season"
         },
         {
             "id": "282",
             "name": "Bullet Holes",
             "requirement": "Season: 3 - Tier 40",
-            "image": "/assets/images/nameplates/282.png"
+            "image": "/assets/images/nameplates/282.png",
+            "type": "Season"
         },
         {
             "id": "277",
             "name": "Bacon",
             "requirement": "Season: 3 - Tier 41",
-            "image": "/assets/images/nameplates/277.png"
+            "image": "/assets/images/nameplates/277.png",
+            "type": "Season"
         },
         {
             "id": "293",
             "name": "Diamond Plate",
             "requirement": "Season: 3 - Tier 43",
-            "image": "/assets/images/nameplates/293.png"
+            "image": "/assets/images/nameplates/293.png",
+            "type": "Season"
         },
         {
             "id": "294",
             "name": "Dino Tracker",
             "requirement": "Season: 3 - Tier 45",
-            "image": "/assets/images/nameplates/294.png"
+            "image": "/assets/images/nameplates/294.png",
+            "type": "Season"
         },
         {
             "id": "300",
             "name": "Halo 3: ODST",
             "requirement": "Season: 3 - Tier 47",
-            "image": "/assets/images/nameplates/300.png"
+            "image": "/assets/images/nameplates/300.png",
+            "type": "Season"
         },
         {
             "id": "273",
             "name": "Woodland Camo",
             "requirement": "Season: 3 - Tier 48",
-            "image": "/assets/images/nameplates/273.png"
+            "image": "/assets/images/nameplates/273.png",
+            "type": "Season"
         },
         {
             "id": "271",
             "name": "Tiger Stripe",
             "requirement": "Season: 3 - Tier 49",
-            "image": "/assets/images/nameplates/271.png"
+            "image": "/assets/images/nameplates/271.png",
+            "type": "Season"
         },
         {
             "id": "327",
             "name": "Swift and Quiet",
             "requirement": "Season: 3 - Tier 50",
-            "image": "/assets/images/nameplates/327.png"
+            "image": "/assets/images/nameplates/327.png",
+            "type": "Season"
         },
         {
             "id": "276",
             "name": "Assassin",
             "requirement": "Season: 4 - Tier 1",
-            "image": "/assets/images/nameplates/276.png"
+            "image": "/assets/images/nameplates/276.png",
+            "type": "Season"
         },
         {
             "id": "336",
             "name": "Didactic",
             "requirement": "Season: 4 - Tier 2",
-            "image": "/assets/images/nameplates/336.png"
+            "image": "/assets/images/nameplates/336.png",
+            "type": "Season"
         },
         {
             "id": "297",
             "name": "MCC Helmet",
             "requirement": "Season: 4 - Tier 4",
-            "image": "/assets/images/nameplates/297.png"
+            "image": "/assets/images/nameplates/297.png",
+            "type": "Season"
         },
         {
             "id": "305",
             "name": "Awakening",
             "requirement": "Season: 4 - Tier 6",
-            "image": "/assets/images/nameplates/305.png"
+            "image": "/assets/images/nameplates/305.png",
+            "type": "Season"
         },
         {
             "id": "325",
             "name": "Pizza Time",
             "requirement": "Season: 4 - Tier 8",
-            "image": "/assets/images/nameplates/325.png"
+            "image": "/assets/images/nameplates/325.png",
+            "type": "Season"
         },
         {
             "id": "295",
             "name": "Elite",
             "requirement": "Season: 4 - Tier 9",
-            "image": "/assets/images/nameplates/295.png"
+            "image": "/assets/images/nameplates/295.png",
+            "type": "Season"
         },
         {
             "id": "321",
             "name": "The Maw",
             "requirement": "Season: 4 - Tier 11",
-            "image": "/assets/images/nameplates/321.png"
+            "image": "/assets/images/nameplates/321.png",
+            "type": "Season"
         },
         {
             "id": "275",
             "name": "117",
             "requirement": "Season: 4 - Tier 14",
-            "image": "/assets/images/nameplates/275.png"
+            "image": "/assets/images/nameplates/275.png",
+            "type": "Season"
         },
         {
             "id": "341",
             "name": "Ibie'Shan",
             "requirement": "Season: 4 - Tier 16",
-            "image": "/assets/images/nameplates/341.png"
+            "image": "/assets/images/nameplates/341.png",
+            "type": "Season"
         },
         {
             "id": "342",
             "name": "Remnants",
             "requirement": "Season: 4 - Tier 17",
-            "image": "/assets/images/nameplates/342.png"
+            "image": "/assets/images/nameplates/342.png",
+            "type": "Season"
         },
         {
             "id": "346",
             "name": "Combat Skin",
             "requirement": "Season: 4 - Tier 18",
-            "image": "/assets/images/nameplates/346.png"
+            "image": "/assets/images/nameplates/346.png",
+            "type": "Season"
         },
         {
             "id": "331",
             "name": "The Rookie",
             "requirement": "Season: 4 - Tier 21",
-            "image": "/assets/images/nameplates/331.png"
+            "image": "/assets/images/nameplates/331.png",
+            "type": "Season"
         },
         {
             "id": "337",
             "name": "Parg Vol",
             "requirement": "Season: 4 - Tier 23",
-            "image": "/assets/images/nameplates/337.png"
+            "image": "/assets/images/nameplates/337.png",
+            "type": "Season"
         },
         {
             "id": "343",
             "name": "Carapace",
             "requirement": "Season: 4 - Tier 25",
-            "image": "/assets/images/nameplates/343.png"
+            "image": "/assets/images/nameplates/343.png",
+            "type": "Season"
         },
         {
             "id": "339",
             "name": "Knight Terror",
             "requirement": "Season: 4 - Tier 27",
-            "image": "/assets/images/nameplates/339.png"
+            "image": "/assets/images/nameplates/339.png",
+            "type": "Season"
         },
         {
             "id": "338",
             "name": "Quattro",
             "requirement": "Season: 4 - Tier 28",
-            "image": "/assets/images/nameplates/338.png"
+            "image": "/assets/images/nameplates/338.png",
+            "type": "Season"
         },
         {
             "id": "352",
             "name": "Lifeshaper",
             "requirement": "Season: 4 - Tier 31",
-            "image": "/assets/images/nameplates/352.png"
+            "image": "/assets/images/nameplates/352.png",
+            "type": "Season"
         },
         {
             "id": "347",
             "name": "Opportynity",
             "requirement": "Season: 4 - Tier 32",
-            "image": "/assets/images/nameplates/347.png"
+            "image": "/assets/images/nameplates/347.png",
+            "type": "Season"
         },
         {
             "id": "332",
             "name": "Half-Jaw",
             "requirement": "Season: 4 - Tier 34",
-            "image": "/assets/images/nameplates/332.png"
+            "image": "/assets/images/nameplates/332.png",
+            "type": "Season"
         },
         {
             "id": "340",
             "name": "Synthesis",
             "requirement": "Season: 4 - Tier 36",
-            "image": "/assets/images/nameplates/340.png"
+            "image": "/assets/images/nameplates/340.png",
+            "type": "Season"
         },
         {
             "id": "345",
             "name": "Augmented",
             "requirement": "Season: 4 - Tier 38",
-            "image": "/assets/images/nameplates/345.png"
+            "image": "/assets/images/nameplates/345.png",
+            "type": "Season"
         },
         {
             "id": "349",
             "name": "Cryptum",
             "requirement": "Season: 4 - Tier 39",
-            "image": "/assets/images/nameplates/349.png"
+            "image": "/assets/images/nameplates/349.png",
+            "type": "Season"
         },
         {
             "id": "348",
             "name": "Infinity",
             "requirement": "Season: 4 - Tier 41",
-            "image": "/assets/images/nameplates/348.png"
+            "image": "/assets/images/nameplates/348.png",
+            "type": "Season"
         },
         {
             "id": "335",
             "name": "Wreckage",
             "requirement": "Season: 4 - Tier 40",
-            "image": "/assets/images/nameplates/335.png"
+            "image": "/assets/images/nameplates/335.png",
+            "type": "Season"
         },
         {
             "id": "334",
             "name": "Requiem",
             "requirement": "Season: 4 - Tier 44",
-            "image": "/assets/images/nameplates/334.png"
+            "image": "/assets/images/nameplates/334.png",
+            "type": "Season"
         },
         {
             "id": "344",
             "name": "Threshold",
             "requirement": "Season: 4 - Tier 46",
-            "image": "/assets/images/nameplates/344.png"
+            "image": "/assets/images/nameplates/344.png",
+            "type": "Season"
         },
         {
             "id": "353",
             "name": "Halsey",
             "requirement": "Season: 4 - Tier 48",
-            "image": "/assets/images/nameplates/353.png"
+            "image": "/assets/images/nameplates/353.png",
+            "type": "Season"
         },
         {
             "id": "350",
             "name": "Sundered",
             "requirement": "Season: 4 - Tier 49",
-            "image": "/assets/images/nameplates/350.png"
+            "image": "/assets/images/nameplates/350.png",
+            "type": "Season"
         },
         {
             "id": "272",
             "name": "Cracked Visor",
             "requirement": "Season: 4 - Tier 50",
-            "image": "/assets/images/nameplates/272.png"
+            "image": "/assets/images/nameplates/272.png",
+            "type": "Season"
         },
         {
             "id": "265",
             "name": "Reach Metal",
             "requirement": "Season: 5 - Tier 1",
-            "image": "/assets/images/nameplates/265.png"
+            "image": "/assets/images/nameplates/265.png",
+            "type": "Season"
         },
         {
             "id": "364",
             "name": "Bullet",
             "requirement": "Season: 5 - Tier 2",
-            "image": "/assets/images/nameplates/364.png"
+            "image": "/assets/images/nameplates/364.png",
+            "type": "Season"
         },
         {
             "id": "285",
             "name": "Bullet Stack",
             "requirement": "Season: 5 - Tier 13",
-            "image": "/assets/images/nameplates/285.png"
+            "image": "/assets/images/nameplates/285.png",
+            "type": "Season"
         },
         {
             "id": "299",
             "name": "No Entry",
             "requirement": "Season: 5 - Tier 13",
-            "image": "/assets/images/nameplates/299.png"
+            "image": "/assets/images/nameplates/299.png",
+            "type": "Season"
         },
         {
             "id": "278",
             "name": "Bandage",
             "requirement": "Season: 5 - Tier 24",
-            "image": "/assets/images/nameplates/278.png"
+            "image": "/assets/images/nameplates/278.png",
+            "type": "Season"
         },
         {
             "id": "290",
             "name": "Cowboy Shells",
             "requirement": "Season: 5 - Tier 35",
-            "image": "/assets/images/nameplates/290.png"
+            "image": "/assets/images/nameplates/290.png",
+            "type": "Season"
         },
         {
             "id": "328",
             "name": "Magnum Blast",
             "requirement": "Season: 5 - Tier 42",
-            "image": "/assets/images/nameplates/328.png"
+            "image": "/assets/images/nameplates/328.png",
+            "type": "Season"
         },
         {
             "id": "283",
             "name": "Bullet Line",
             "requirement": "Season: 5 - Tier 50",
-            "image": "/assets/images/nameplates/283.png"
+            "image": "/assets/images/nameplates/283.png",
+            "type": "Season"
         },
         {
             "id": "284",
             "name": "Bullet Pile",
             "requirement": "Season: 5 - Tier 85",
-            "image": "/assets/images/nameplates/284.png"
+            "image": "/assets/images/nameplates/284.png",
+            "type": "Season"
         },
         {
             "id": "326",
             "name": "Remember Reach",
             "requirement": "Season: 5 - Tier 100",
-            "image": "/assets/images/nameplates/326.png"
+            "image": "/assets/images/nameplates/326.png",
+            "type": "Season"
         },
         {
             "id": "378",
             "name": "Glint",
             "requirement": "Season: 6 - Tier 1",
-            "image": "/assets/images/nameplates/378.gif"
+            "image": "/assets/images/nameplates/378.gif",
+            "type": "Season"
         },
         {
             "id": "382",
             "name": "Graves",
             "requirement": "Season: 6 - Tier 3",
-            "image": "/assets/images/nameplates/382.png"
+            "image": "/assets/images/nameplates/382.png",
+            "type": "Season"
         },
         {
             "id": "386",
             "name": "Specialized",
             "requirement": "Season: 6 - Tier 9",
-            "image": "/assets/images/nameplates/386.png"
+            "image": "/assets/images/nameplates/386.png",
+            "type": "Season"
         },
         {
             "id": "372",
             "name": "Through the Woods",
             "requirement": "Season: 6 - Tier 12",
-            "image": "/assets/images/nameplates/372.gif"
+            "image": "/assets/images/nameplates/372.gif",
+            "type": "Season"
         },
         {
             "id": "376",
             "name": "Centripetal",
             "requirement": "Season: 6 - Tier 15",
-            "image": "/assets/images/nameplates/376.gif"
+            "image": "/assets/images/nameplates/376.gif",
+            "type": "Season"
         },
         {
             "id": "375",
             "name": "Dome Roam",
             "requirement": "Season: 6 - Tier 18",
-            "image": "/assets/images/nameplates/375.gif"
+            "image": "/assets/images/nameplates/375.gif",
+            "type": "Season"
         },
         {
             "id": "384",
             "name": "Lang",
             "requirement": "Season: 6 - Tier 21",
-            "image": "/assets/images/nameplates/384.png"
+            "image": "/assets/images/nameplates/384.png",
+            "type": "Season"
         },
         {
             "id": "387",
             "name": "On Guard",
             "requirement": "Season: 6 - Tier 24",
-            "image": "/assets/images/nameplates/387.png"
+            "image": "/assets/images/nameplates/387.png",
+            "type": "Season"
         },
         {
             "id": "369",
             "name": "Pane",
             "requirement": "Season: 6 - Tier 28",
-            "image": "/assets/images/nameplates/369.gif"
+            "image": "/assets/images/nameplates/369.gif",
+            "type": "Season"
         },
         {
             "id": "373",
             "name": "Forged in Flame",
             "requirement": "Season: 6 - Tier 34",
-            "image": "/assets/images/nameplates/373.gif"
+            "image": "/assets/images/nameplates/373.gif",
+            "type": "Season"
         },
         {
             "id": "393",
             "name": "Anvil Initiative",
             "requirement": "Season: 6 - Tier 36",
-            "image": "/assets/images/nameplates/393.png"
+            "image": "/assets/images/nameplates/393.png",
+            "type": "Season"
         },
         {
             "id": "388",
             "name": "Underdog",
             "requirement": "Season: 6 - Tier 38",
-            "image": "/assets/images/nameplates/388.png"
+            "image": "/assets/images/nameplates/388.png",
+            "type": "Season"
         },
         {
             "id": "383",
             "name": "Hudson",
             "requirement": "Season: 6 - Tier 41",
-            "image": "/assets/images/nameplates/383.png"
+            "image": "/assets/images/nameplates/383.png",
+            "type": "Season"
         },
         {
             "id": "381",
             "name": "New Guard",
             "requirement": "Season: 6 - Tier 43",
-            "image": "/assets/images/nameplates/381.gif"
+            "image": "/assets/images/nameplates/381.gif",
+            "type": "Season"
         },
         {
             "id": "377",
             "name": "Raven Camo",
             "requirement": "Season: 6 - Tier 47",
-            "image": "/assets/images/nameplates/377.gif"
+            "image": "/assets/images/nameplates/377.gif",
+            "type": "Season"
         },
         {
             "id": "389",
             "name": "Nevermore",
             "requirement": "Season: 6 - Tier 51",
-            "image": "/assets/images/nameplates/389.png"
+            "image": "/assets/images/nameplates/389.png",
+            "type": "Season"
         },
         {
             "id": "385",
             "name": "Ramos",
             "requirement": "Season: 6 - Tier 58",
-            "image": "/assets/images/nameplates/385.png"
+            "image": "/assets/images/nameplates/385.png",
+            "type": "Season"
         },
         {
             "id": "390",
             "name": "Fearless",
             "requirement": "Season: 6 - Tier 63",
-            "image": "/assets/images/nameplates/390.png"
+            "image": "/assets/images/nameplates/390.png",
+            "type": "Season"
         },
         {
             "id": "371",
             "name": "Blend",
             "requirement": "Season: 6 - Tier 65",
-            "image": "/assets/images/nameplates/371.gif"
+            "image": "/assets/images/nameplates/371.gif",
+            "type": "Season"
         },
         {
             "id": "392",
             "name": "Anvil Station",
             "requirement": "Season: 6 - Tier 70",
-            "image": "/assets/images/nameplates/392.png"
+            "image": "/assets/images/nameplates/392.png",
+            "type": "Season"
         },
         {
             "id": "391",
             "name": "Evermore",
             "requirement": "Season: 6 - Tier 77",
-            "image": "/assets/images/nameplates/391.png"
+            "image": "/assets/images/nameplates/391.png",
+            "type": "Season"
         },
         {
             "id": "379",
             "name": "Raven",
             "requirement": "Season: 6 - Tier 81",
-            "image": "/assets/images/nameplates/379.gif"
+            "image": "/assets/images/nameplates/379.gif",
+            "type": "Season"
         },
         {
             "id": "370",
             "name": "Contingent Winter",
             "requirement": "Season: 6 - Tier 83",
-            "image": "/assets/images/nameplates/370.gif"
+            "image": "/assets/images/nameplates/370.gif",
+            "type": "Season"
         },
         {
             "id": "380",
             "name": "Old Guard",
             "requirement": "Season: 6 - Tier 87",
-            "image": "/assets/images/nameplates/380.gif"
+            "image": "/assets/images/nameplates/380.gif",
+            "type": "Season"
         },
         {
             "id": "374",
             "name": "Legendary Gaze",
             "requirement": "Season: 6 - Tier 100",
-            "image": "/assets/images/nameplates/374.png"
+            "image": "/assets/images/nameplates/374.png",
+            "type": "Season"
         },
         {
             "id": "160",
             "name": "Make it a Venti",
             "requirement": "Participate in a Microsoft Store Halo tournament (Currently US only)",
-            "image": "/assets/images/nameplates/160.png"
+            "image": "/assets/images/nameplates/160.png",
+            "type": "Community"
         },
         {
             "id": "163",
             "name": "343 Industries",
             "requirement": "Granted to 343 Industries employees.",
-            "image": "/assets/images/nameplates/163.png"
+            "image": "/assets/images/nameplates/163.png",
+            "type": "Community"
         },
         {
             "id": "189",
             "name": "Legacy Insider",
             "requirement": "Complete five or more matches during the networking stress test on October 5, 2019, during the Xbox One Halo: Reach flight.",
-            "image": "/assets/images/nameplates/189.png"
+            "image": "/assets/images/nameplates/189.png",
+            "type": "Community"
         },
         {
             "id": "190",
             "name": "Legendary Insider",
             "requirement": "Complete 12 or more matches during the networking stress test on October 5, 2019, during the Xbox One Halo: Reach flight.",
-            "image": "/assets/images/nameplates/190.png"
+            "image": "/assets/images/nameplates/190.png",
+            "type": "Community"
         },
         {
             "id": "191",
             "name": "Reclamation",
             "requirement": "Become a Reclaimer, a select group of community members and Insiders specially selected for this role.",
-            "image": "/assets/images/nameplates/191.png"
+            "image": "/assets/images/nameplates/191.png",
+            "type": "Community"
         },
         {
             "id": "192",
             "name": "Community MVP",
             "requirement": "Be in the top 10 of most played matches during the networking stress test on October 5, 2019, during the Xbox One Halo: Reach flight.",
-            "image": "/assets/images/nameplates/192.png"
+            "image": "/assets/images/nameplates/192.png",
+            "type": "Community"
         },
         {
             "id": "193",
             "name": "HCS Pro",
             "requirement": "Granted to HCS Pros.",
-            "image": "/assets/images/nameplates/193.png"
+            "image": "/assets/images/nameplates/193.png",
+            "type": "Community"
         },
         {
             "id": "196",
             "name": "343 Fire",
             "requirement": "Granted to players who appeared in the 343 Community Spotlight.",
-            "image": "/assets/images/nameplates/196.png"
+            "image": "/assets/images/nameplates/196.png",
+            "type": "Community"
         },
         {
             "id": "197",
@@ -1975,43 +2302,50 @@
                     "requirement": "Granted to 184 Insiders who played 12 games or more during the December 2018 playtests."
                 }
             ],
-            "image": "/assets/images/nameplates/197.png"
+            "image": "/assets/images/nameplates/197.png",
+            "type": "Community"
         },
         {
             "id": "198",
             "name": "Cartographer",
             "requirement": "Granted to players whose content made it into Matchmaking.",
-            "image": "/assets/images/nameplates/198.png"
+            "image": "/assets/images/nameplates/198.png",
+            "type": "Community"
         },
         {
             "id": "200",
             "name": "Banished",
             "requirement": "Complete the campaign for Halo Wars 2",
-            "image": "/assets/images/nameplates/200.png"
+            "image": "/assets/images/nameplates/200.png",
+            "type": "Franchise"
         },
         {
             "id": "195",
             "name": "Fireteam Raven",
             "requirement": "Granted to players that have log in with their Xbox LIVE Gamertag to a Halo: Fireteam Raven cabinet and play the game.",
-            "image": "/assets/images/nameplates/195.png"
+            "image": "/assets/images/nameplates/195.png",
+            "type": "Franchise"
         },
         {
             "id": "202",
             "name": "Guardian",
             "requirement": "Complete the campaign for Halo 5",
-            "image": "/assets/images/nameplates/202.png"
+            "image": "/assets/images/nameplates/202.png",
+            "type": "Franchise"
         },
         {
             "id": "164",
             "name": "Spartan Strike",
             "requirement": "Earn achievements in Halo: Spartan Strike. Achievements only available on Windows 8/8.1 and Windows Phone 8/8.1",
-            "image": "/assets/images/nameplates/164.png"
+            "image": "/assets/images/nameplates/164.png",
+            "type": "Franchise"
         },
         {
             "id": "199",
             "name": "Spirit of Fire",
             "requirement": "Complete the campaign for Halo Wars: Definitive Edition. Only available to owners of the Xbox One and Windows 10 versions.",
-            "image": "/assets/images/nameplates/199.png"
+            "image": "/assets/images/nameplates/199.png",
+            "type": "Franchise"
         },
         {
             "id": "155",
@@ -2118,7 +2452,8 @@
                     ]
                 }
             ],
-            "image": "/assets/images/nameplates/155.png"
+            "image": "/assets/images/nameplates/155.png",
+            "type": "Event"
         },
         {
             "id": "156",
@@ -2134,7 +2469,8 @@
                     "requirement": "Between February 11 and February 14 in 2021 (Valentine's Day weekend), log into Halo: The Master Chief Collection."
                 }
             ],
-            "image": "/assets/images/nameplates/156.png"
+            "image": "/assets/images/nameplates/156.png",
+            "type": "Event"
         },
         {
             "id": "157",
@@ -2147,7 +2483,8 @@
                     "requirement": "Between May 27 and June 12 in 2020, complete seven matches in 'The Yappening' game category."
                 }
             ],
-            "image": "/assets/images/nameplates/157.png"
+            "image": "/assets/images/nameplates/157.png",
+            "type": "Event"
         },
         {
             "id": "158",
@@ -2160,7 +2497,8 @@
                     "requirement": "Between May 27 and June 12 in 2020, defeat 150 Unggoy with headshots throughout MCC (in Campaign, Spartan Ops, Firefight, or Custom Firefight)."
                 }
             ],
-            "image": "/assets/images/nameplates/158.png"
+            "image": "/assets/images/nameplates/158.png",
+            "type": "Event"
         },
         {
             "id": "201",
@@ -2173,19 +2511,22 @@
                     "requirement": "Between October 1 and 31 in 2019, complete 10 matches of Infection in Social Matchmaking."
                 }
             ],
-            "image": "/assets/images/nameplates/201.png"
+            "image": "/assets/images/nameplates/201.png",
+            "type": "Event"
         },
         {
             "id": "229",
             "name": "Focus Rifle",
             "requirement": "Complete five games in 'Winter Contingency' featured category of Social Matchmaking. Only available between February 5 and February 18 in 2020.",
-            "image": "/assets/images/nameplates/229.png"
+            "image": "/assets/images/nameplates/229.png",
+            "type": "Event"
         },
         {
             "id": "230",
             "name": "Winter Contingency",
             "requirement": "Complete 15 games in 'Winter Contingency' featured category of Social Matchmaking. Only available between February 5 and February 18 in 2020.",
-            "image": "/assets/images/nameplates/230.png"
+            "image": "/assets/images/nameplates/230.png",
+            "type": "Event"
         },
         {
             "id": "231",
@@ -2198,19 +2539,22 @@
                     "requirement": "Play Halo: The Master Chief Collection between June 24 and July 5 in 2020."
                 }
             ],
-            "image": "/assets/images/nameplates/231.png"
+            "image": "/assets/images/nameplates/231.png",
+            "type": "Event"
         },
         {
             "id": "232",
             "name": "Unity 1",
             "requirement": "Play Halo: The Master Chief Collection between June 24 and July 24 in 2020.",
-            "image": "/assets/images/nameplates/232.png"
+            "image": "/assets/images/nameplates/232.png",
+            "type": "Event"
         },
         {
             "id": "233",
             "name": "Unity 2",
             "requirement": "Play Halo: The Master Chief Collection between June 24 and July 24 in 2020.",
-            "image": "/assets/images/nameplates/233.png"
+            "image": "/assets/images/nameplates/233.png",
+            "type": "Event"
         },
         {
             "id": "247",
@@ -2223,61 +2567,71 @@
                     "requirement": "Play The Master Chief Collection between July 29 in 2020 and the release of Halo 3: ODST on PC."
                 }
             ],
-            "image": "/assets/images/nameplates/247.png"
+            "image": "/assets/images/nameplates/247.png",
+            "type": "Event"
         },
         {
             "id": "263",
             "name": "Spider Web",
             "requirement": "Between October 15 and November 4 in 2020, complete ten matchmade games of Infection or Flood.",
-            "image": "/assets/images/nameplates/263.png"
+            "image": "/assets/images/nameplates/263.png",
+            "type": "Event"
         },
         {
             "id": "266",
             "name": "Shotgun Shell",
             "requirement": "Between October 15 and November 4 in 2020, defeat 50 enemies with a shotgun in any campaign missions (on Heroic or Legendary) or multiplayer games.",
-            "image": "/assets/images/nameplates/266.png"
+            "image": "/assets/images/nameplates/266.png",
+            "type": "Event"
         },
         {
             "id": "304",
             "name": "Amandla",
             "requirement": "Play Halo: The Master Chief Collection after July 14 in 2020.",
-            "image": "/assets/images/nameplates/304.png"
+            "image": "/assets/images/nameplates/304.png",
+            "type": "Event"
         },
         {
             "id": "355",
             "name": "Anniversary",
             "requirement": "Unlocked by default as of Season 4.",
-            "image": "/assets/images/nameplates/355.png"
+            "image": "/assets/images/nameplates/355.png",
+            "type": "Event"
         },
         {
             "id": "358",
             "name": "Movember",
             "requirement": "Unlocked by default as of Season 4.",
-            "image": "/assets/images/nameplates/358.png"
+            "image": "/assets/images/nameplates/358.png",
+            "type": "Event"
         },
         {
             "id": "359",
             "name": "Veteran",
             "requirement": "Unlocked by default as of Season 4.",
-            "image": "/assets/images/nameplates/359.png"
+            "image": "/assets/images/nameplates/359.png",
+            "type": "Event"
         },
         {
             "id": "360",
             "name": "National Native American Heritage Month",
             "requirement": "Unlocked by default as of Season 4.",
-            "image": "/assets/images/nameplates/360.png"
+            "image": "/assets/images/nameplates/360.png",
+            "type": "Event"
         },
         {
             "id": "362",
             "name": "Infinite",
             "requirement": "Unlocked by default as of Season 4.",
-            "image": "/assets/images/nameplates/362.png"
+            "image": "/assets/images/nameplates/362.png",
+            "type": "Event"
         },
         {
             "id": "363",
             "name": "Turkey Shoot",
             "requirement": "Unlocked by default as of November 24, 2020.",
-            "image": "/assets/images/nameplates/363.png"
+            "image": "/assets/images/nameplates/363.png",
+            "type": "Event"
         },
         {
             "id": "356",
@@ -2290,49 +2644,57 @@
                     "requirement": "Due to a bugged release, the 343 Day nameplate is now awarded to players who log into The Master Chief Collection before January 4, 2021."
                 }
             ],
-            "image": "/assets/images/nameplates/356.png"
+            "image": "/assets/images/nameplates/356.png",
+            "type": "Event"
         },
         {
             "id": "361",
             "name": "The Inner Circle",
             "requirement": "Granted on December 16, 2020 to all players who have participated actively in Halo flights during the year 2020. (Replaces the version from October 22, 2020)",
-            "image": "/assets/images/nameplates/361.png"
+            "image": "/assets/images/nameplates/361.png",
+            "type": "Event"
         },
         {
             "id": "351",
             "name": "Shadow",
             "requirement": "Unlocked by default as of December 16, 2020.",
-            "image": "/assets/images/nameplates/351.png"
+            "image": "/assets/images/nameplates/351.png",
+            "type": "Event"
         },
         {
             "id": "365",
             "name": "117 Day",
             "requirement": "Play The Master Chief Collection on January 17, 2021 (1/17 in US date notation)",
-            "image": "/assets/images/nameplates/365.png"
+            "image": "/assets/images/nameplates/365.png",
+            "type": "Event"
         },
         {
             "id": "368",
             "name": "Black History Month",
             "requirement": "Play The Master Chief Collection anytime during February 2021.",
-            "image": "/assets/images/nameplates/368.png"
+            "image": "/assets/images/nameplates/368.png",
+            "type": "Event"
         },
         {
             "id": "367",
             "name": "Women's History Month",
             "requirement": "Play The Master Chief Collection anytime during March 2021.",
-            "image": "/assets/images/nameplates/367.png"
+            "image": "/assets/images/nameplates/367.png",
+            "type": "Event"
         },
         {
             "id": "395",
             "name": "Unity 2021",
             "requirement": "Play The Master Chief Collection anytime during June 2021.",
-            "image": "/assets/images/nameplates/395.png"
+            "image": "/assets/images/nameplates/395.png",
+            "type": "Event"
         },
         {
             "id": "394",
             "name": "Hog Wild",
             "requirement": "Play The Master Chief Collection between April 21, 2021 and April 25, 2021.",
-            "image": "/assets/images/nameplates/394.png"
+            "image": "/assets/images/nameplates/394.png",
+            "type": "Event"
         },
         {
             "id": "159",
@@ -2348,7 +2710,8 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/159.png"
+            "image": "/assets/images/nameplates/159.png",
+            "type": "Event"
         },
         {
             "id": "194",
@@ -2364,7 +2727,8 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/194.png"
+            "image": "/assets/images/nameplates/194.png",
+            "type": "Event"
         },
         {
             "id": "234",
@@ -2380,7 +2744,8 @@
                     "requirement": "Be one of the top four teams in EuropaHalo's European Nations Cup or Match Team Grassroots in Halo 3 PC BTB on July 31 in 2020."
                 }
             ],
-            "image": "/assets/images/nameplates/234.png"
+            "image": "/assets/images/nameplates/234.png",
+            "type": "Event"
         },
         {
             "id": "303",
@@ -2396,7 +2761,8 @@
                     "requirement": "Be the owner of a clip featured in #HaloCliptrocity, #HaloGameSense, or the #ClipShowdown on Twitter."
                 }
             ],
-            "image": "/assets/images/nameplates/303.png"
+            "image": "/assets/images/nameplates/303.png",
+            "type": "Event"
         },
         {
             "id": "267",
@@ -2409,7 +2775,8 @@
                     "requirement": "Between (October 9, 2020 - October, 11 2020), Match and complete a game against any of three featured streamers."
                 }
             ],
-            "image": "/assets/images/nameplates/267.png"
+            "image": "/assets/images/nameplates/267.png",
+            "type": "Event"
         },
         {
             "id": "329",
@@ -2425,7 +2792,8 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/329.png"
+            "image": "/assets/images/nameplates/329.png",
+            "type": "Event"
         },
         {
             "id": "333",
@@ -2441,7 +2809,8 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/333.png"
+            "image": "/assets/images/nameplates/333.png",
+            "type": "Event"
         },
         {
             "id": "366",
@@ -2457,7 +2826,8 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/366.png"
+            "image": "/assets/images/nameplates/366.png",
+            "type": "Event"
         },
         {
             "id": "396",
@@ -2473,7 +2843,8 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/396.png"
+            "image": "/assets/images/nameplates/396.png",
+            "type": "Event"
         },
         {
             "id": "397",
@@ -2489,198 +2860,235 @@
                     "requirement": "Match against Halo creators on various playdates."
                 }
             ],
-            "image": "/assets/images/nameplates/397.png"
+            "image": "/assets/images/nameplates/397.png",
+            "type": "Event"
         },
         {
             "name": "Dino Tracker",
             "requirement": "Season 3: Recon, Tier 45",
             "status": "Removed during the December 2020 patch along with other Jurassic Park references in skins. Replaced with a new nameplate of the same name with the same requirement.",
-            "image": "/assets/images/nameplates/removed/dinotracker.png"
+            "image": "/assets/images/nameplates/removed/dinotracker.png",
+            "type": "Removed"
         },
         {
             "name": "MVP",
             "requirement": "Play Halo: The Master Chief Collection before December 19, 2014.",
             "status": "Replaced by 'Fronk' on September 20, 2018.",
-            "image": "/assets/images/nameplates/removed/mvp.png"
+            "image": "/assets/images/nameplates/removed/mvp.png",
+            "type": "Removed"
         },
         {
             "name": "Pro",
             "requirement": "Play Halo: The Master Chief Collection before December 19, 2014.",
             "status": "Replaced by 'Halo Championship Series' on September 20, 2018.",
-            "image": "/assets/images/nameplates/removed/pro.png"
+            "image": "/assets/images/nameplates/removed/pro.png",
+            "type": "Removed"
         },
         {
             "name": "343 Industries (old)",
             "requirement": "Granted to 343 Industries employees.",
             "status": "Replaced by new '343 Industries' version.",
-            "image": "/assets/images/nameplates/removed/343.png"
+            "image": "/assets/images/nameplates/removed/343.png",
+            "type": "Removed"
         },
         {
             "name": "Crescent Moon (China Only)",
             "requirement": "Have the 'Ugly Holiday Sweater' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/crescentmoon.png"
+            "image": "/assets/images/nameplates/removed/crescentmoon.png",
+            "type": "Removed"
         },
         {
             "name": "Half Moon (China Only)",
             "requirement": "Have the 'Put a Ring On It' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/halfmoon.png"
+            "image": "/assets/images/nameplates/removed/halfmoon.png",
+            "type": "Removed"
         },
         {
             "name": "Full Moon (China Only)",
             "requirement": "Have the 'YapYap THE DESTROYER' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/fullmoon.png"
+            "image": "/assets/images/nameplates/removed/fullmoon.png",
+            "type": "Removed"
         },
         {
             "name": "Eclipse (China Only)",
             "requirement": "Have the 'Shut Your Yap' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/eclipse.png"
+            "image": "/assets/images/nameplates/removed/eclipse.png",
+            "type": "Removed"
         },
         {
             "name": "Sun (China Only)",
             "requirement": "Have the 'Came... From... Behind' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/sun.png"
+            "image": "/assets/images/nameplates/removed/sun.png",
+            "type": "Removed"
         },
         {
             "name": "Comet (China Only)",
             "requirement": "Have the 'Know Your Roots' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/comet.png"
+            "image": "/assets/images/nameplates/removed/comet.png",
+            "type": "Removed"
         },
         {
             "name": "Ring (China Only)",
             "requirement": "Have the 'Make it a Venti' nameplate unlocked in the retail version of Halo: The Master Chief Collection.",
             "status": "Removed in the first patch.",
-            "image": "/assets/images/nameplates/removed/ring.png"
+            "image": "/assets/images/nameplates/removed/ring.png",
+            "type": "Removed"
         },
         {
             "name": "Sirens",
             "requirement": "Season 3, Tier 39",
             "status": "Removed after the Season 3 Flight and before the launch of Season 3, due to real-world police controversy.",
-            "image": "/assets/images/nameplates/removed/sirens.png"
+            "image": "/assets/images/nameplates/removed/sirens.png",
+            "type": "Removed"
         },
         {
             "id": "12",
             "name": "H2A",
-            "image": "/assets/images/nameplates/12.png"
+            "image": "/assets/images/nameplates/12.png",
+            "type": "Unreleased"
         },
         {
             "id": "13",
             "name": "Bronze H2A",
-            "image": "/assets/images/nameplates/13.png"
+            "image": "/assets/images/nameplates/13.png",
+            "type": "Unreleased"
         },
         {
             "id": "14",
             "name": "Silver H2A",
-            "image": "/assets/images/nameplates/14.png"
+            "image": "/assets/images/nameplates/14.png",
+            "type": "Unreleased"
         },
         {
             "id": "15",
             "name": "Gold H2A",
-            "image": "/assets/images/nameplates/15.png"
+            "image": "/assets/images/nameplates/15.png",
+            "type": "Unreleased"
         },
         {
             "id": "16",
             "name": "Platinum H2A",
-            "image": "/assets/images/nameplates/16.png"
+            "image": "/assets/images/nameplates/16.png",
+            "type": "Unreleased"
         },
         {
             "id": "162",
             "name": "Guilty Spark",
-            "image": "/assets/images/nameplates/162.png"
+            "image": "/assets/images/nameplates/162.png",
+            "type": "Unreleased"
         },
         {
             "id": "204",
             "name": "Boat Cops",
-            "image": "/assets/images/nameplates/204.png"
+            "image": "/assets/images/nameplates/204.png",
+            "type": "Unreleased"
         },
         {
             "id": "161",
             "name": "Came... From... Behind",
-            "image": "/assets/images/nameplates/161.png"
+            "image": "/assets/images/nameplates/161.png",
+            "type": "Unreleased"
         },
         {
             "id": "291",
             "name": "Crock Skin",
-            "image": "/assets/images/nameplates/291.png"
+            "image": "/assets/images/nameplates/291.png",
+            "type": "Unreleased"
         },
         {
             "id": "292",
             "name": "Dead End",
-            "image": "/assets/images/nameplates/292.png"
+            "image": "/assets/images/nameplates/292.png",
+            "type": "Unreleased"
         },
         {
             "id": "205",
             "name": "Dreamhack",
-            "image": "/assets/images/nameplates/205.png"
+            "image": "/assets/images/nameplates/205.png",
+            "type": "Unreleased"
         },
         {
             "id": "258",
             "name": "Gator Chops",
-            "image": "/assets/images/nameplates/258.png"
+            "image": "/assets/images/nameplates/258.png",
+            "type": "Unreleased"
         },
         {
             "id": "357",
             "name": "Happy Halodays",
-            "image": "/assets/images/nameplates/357.png"
+            "image": "/assets/images/nameplates/357.png",
+            "type": "Unreleased"
         },
         {
             "id": "330",
             "name": "License to Killtacular",
-            "image": "/assets/images/nameplates/330.png"
+            "image": "/assets/images/nameplates/330.png",
+            "type": "Unreleased"
         },
         {
             "id": "298",
             "name": "Mjolnir",
-            "image": "/assets/images/nameplates/298.png"
+            "image": "/assets/images/nameplates/298.png",
+            "type": "Unreleased"
         },
         {
             "id": "228",
             "name": "NEEDS NAME",
-            "image": "/assets/images/nameplates/228.png"
+            "image": "/assets/images/nameplates/228.png",
+            "type": "Unreleased"
         },
         {
             "id": "302",
             "name": "Phalanx",
-            "image": "/assets/images/nameplates/302.png"
+            "image": "/assets/images/nameplates/302.png",
+            "type": "Unreleased"
         },
         {
             "id": "274",
             "name": "Pocket Camo",
-            "image": "/assets/images/nameplates/274.png"
+            "image": "/assets/images/nameplates/274.png",
+            "type": "Unreleased"
         },
         {
             "id": "307",
             "name": "Rubricae",
-            "image": "/assets/images/nameplates/307.png"
+            "image": "/assets/images/nameplates/307.png",
+            "type": "Unreleased"
         },
         {
             "id": "261",
             "name": "Snake Skin",
-            "image": "/assets/images/nameplates/261.png"
+            "image": "/assets/images/nameplates/261.png",
+            "type": "Unreleased"
         },
         {
             "id": "270",
             "name": "Tank Tread",
-            "image": "/assets/images/nameplates/270.png"
+            "image": "/assets/images/nameplates/270.png",
+            "type": "Unreleased"
         },
         {
             "id": "257",
             "name": "Warthog Tread",
-            "image": "/assets/images/nameplates/257.png"
+            "image": "/assets/images/nameplates/257.png",
+            "type": "Unreleased"
         },
         {
             "id": "264",
             "name": "White Tiger",
-            "image": "/assets/images/nameplates/264.png"
+            "image": "/assets/images/nameplates/264.png",
+            "type": "Unreleased"
         },
         {
             "id": "203",
             "name": "Fireteam Apollo",
+            "type": "Unobtainable",
             "requirement": "Granted to players that have linked Loot Crate account to their Halo Waypoint or Xbox LIVE accounts. (Linking Now Disabled)",
             "image": "/assets/images/nameplates/203.png"
         }

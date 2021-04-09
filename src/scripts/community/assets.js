@@ -72,6 +72,21 @@ var Assets = (() => {
                                         })
                                 .end()
                                 .addClass('active');
+                        })
+                        .on('click', '.nameplate-image', (e) => {
+                            $(".main-dialogs")
+                                .empty()
+                                .removeClass('active')
+                                .append(Handlebars.templates['dialog-nameplate']({
+                                    data: Helpers.FromBase64($(e.currentTarget).data(data))
+                                }))
+                                    .find(".dialog-option.select")
+                                        .off('click')
+                                        .on("click", (e) => {
+                                            $(".main-dialogs").empty().removeClass('active');
+                                        })
+                                .end()
+                                .addClass('active');
                         });
             
                 //
