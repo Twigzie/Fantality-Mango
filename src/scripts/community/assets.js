@@ -1,4 +1,7 @@
 var Assets = (() => {
+    let config = {
+        content: []
+    }
     function onInit() {
         console.info("[Assets::Init]");
         try {
@@ -40,6 +43,9 @@ var Assets = (() => {
             $.getJSON(source.endpoint, (cache) => {
 
                 //
+                config.content = cache;
+
+                //
                 if (params.index >= 0 && cache.current[params.index]) {
                     cache.current[params.index].selected = true;
                 }
@@ -78,7 +84,7 @@ var Assets = (() => {
                                 .empty()
                                 .removeClass('active')
                                 .append(Handlebars.templates['dialog-nameplate']({
-                                    data: Helpers.FromBase64($(e.currentTarget).data(data))
+                                    nameplate: Fetch($(e.currentTarget).data('name'))
                                 }))
                                     .find(".dialog-option.select")
                                         .off('click')
@@ -103,6 +109,11 @@ var Assets = (() => {
             $(".main-content").empty();
             console.error("[Assets::Init]", error);
         }
+    }
+    function Fetch(value) {
+        if (!config.content || config.content.current.length <= 0)
+            return {};
+        return config.content.current.find((entry) => entry.name === value) || {};
     }
     return {
         Init: onInit,
@@ -133,10 +144,7 @@ var Groups = {
     "nameplates": {
         element: ".nameplate-image",
         template: "nameplates",
-        endpoint: "https://fantalitystudios.ca/assets/images/nameplates/nameplates.json",
-        callback: (e) => {
-            console.warn("[TODO: ADD CLIPBOARD COPY NOTIFICATION]");
-        }
+        endpoint: "https://fantalitystudios.ca/assets/images/nameplates/nameplates.json"
     },
     "mcc-ranks": {
         element: ".mcc-ranks-image",

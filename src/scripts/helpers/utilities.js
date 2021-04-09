@@ -16,17 +16,9 @@ var Helpers = (() => {
         }
         return params;
     }
-    function ToBase64(source) {
-        return (source) ? btoa(JSON.stringify(source)) : {};
-    }
-    function FromBase64(source) {
-        return (source) ? JSON.parse(atob(source)) : {};
-    }
     return {
         IsEmpty: isEmpty,
-        GetURLParams: GetParams,
-        ToBase64: ToBase64,
-        FromBase64: FromBase64
+        GetURLParams: GetParams
     }
 })();
 
