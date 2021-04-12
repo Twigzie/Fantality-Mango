@@ -3,15 +3,18 @@ var Overlays = (() => {
         console.info("[Overlays::Init]");
         try {
 
+            //
             $(".main-content").empty();
 
+            //
             $.getJSON("https://fantalitystudios.ca/community/overlays/overlays.json", (cache) => {
 
+                //
                 $(".main-content")
                     .append(Handlebars.templates['overlays'](cache))
                         .off('click')
                         .on('click', (e) => {
-
+                            //TODO: Events if needed
                         });
 
             });
