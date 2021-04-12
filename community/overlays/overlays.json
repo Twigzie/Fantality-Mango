@@ -1,0 +1,15 @@
+{
+    "title": "Overlays",
+    "current": [
+        {
+            "name": "Portfolio",
+            "endpoint": "/community/overlays.html?type=portfolio",
+            "description": ""
+        },
+        {
+            "name": "Request",
+            "endpoint": "/community/overlays.html?type=request",
+            "description": ""
+        }
+    ]
+}
