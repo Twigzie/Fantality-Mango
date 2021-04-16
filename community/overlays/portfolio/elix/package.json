@@ -1,0 +1,49 @@
+{
+    "title": "Portfolio/Eli X",
+    "author": "Twigzie",
+    "date": "",
+    "client": {
+        "name": "Eli X",
+        "link": "https://www.twitch.tv/eli_x",
+        "icon": "/assets/logos/twitch.svg"
+    },
+    "package": {
+        "feedback": "Twigzie provided me with some extremely clean and professional looking graphics for my channel! I've received nothing but compliments on the new additions so far and I'm extremely grateful that he reached out to me about them. - Eli X",
+        "tags": [
+            "Controller",
+            "Webcam"
+        ],
+        "assets": [
+            {
+                "title": "Webcam",
+                "images": [
+                    {
+                        "title": "Full",
+                        "image": "/community/overlays/portfolio/elix/images/webcam_full.png"
+                    },
+                    {
+                        "title": "Bottom",
+                        "image": "/community/overlays/portfolio/elix/images/webcam_bottom.png"
+                    }
+                ]
+            },
+            {
+                "title": "Controller",
+                "images": [
+                    {
+                        "title": "Version 1",
+                        "image": "/community/overlays/portfolio/elix/images/controller_01.png"
+                    },
+                    {
+                        "title": "Version 2",
+                        "image": "/community/overlays/portfolio/elix/images/controller_02.png"
+                    },
+                    {
+                        "title": "Version 3",
+                        "image": "/community/overlays/portfolio/elix/images/controller_03.png"
+                    }
+                ]
+            }
+        ]
+    }
+}
