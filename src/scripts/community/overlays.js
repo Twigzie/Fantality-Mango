@@ -1,10 +1,10 @@
-var Overlays = (() => {
+fantalitystudiosvar Overlays = (() => {
     function onInit() {
         console.info("[Overlays::Init]");
         try {
             
             $(".main-content").empty();
-            $.getJSON("https://fantalitystudios.ca/community/overlays/overlays.json", (cache) => {
+            $.getJSON("https://www.fantalitystudios.ca/community/overlays/overlays.json", (cache) => {
                 $(".main-content").append(Handlebars.templates['overlays'](cache));
             });
 
@@ -63,13 +63,13 @@ var Overlays = (() => {
 var Types = {
     "portfolio": {
         template: "overlays",
-        endpoint: "https://fantalitystudios.ca/community/overlays/portfolio/portfolio.json"
+        endpoint: "https://www.fantalitystudios.ca/community/overlays/portfolio/portfolio.json"
     }
 };
 var Groups = {
     "elix": {
         template: "overlays-template",
-        endpoint: "https://fantalitystudios.ca/community/overlays/portfolio/elix/package.json"
+        endpoint: "https://www.fantalitystudios.ca/community/overlays/portfolio/elix/package.json"
     }
 };
 

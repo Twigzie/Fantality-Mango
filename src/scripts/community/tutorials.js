@@ -5,7 +5,7 @@ var Tutorials = (() => {
 
             $(".main-content").empty();
 
-            $.getJSON("https://fantalitystudios.ca/community/tutorials/tutorials.json", (cache) => {
+            $.getJSON("https://www.fantalitystudios.ca/community/tutorials/tutorials.json", (cache) => {
 
                 $(".main-content")
                     .append(Handlebars.templates['tutorials'](cache))
@@ -81,11 +81,11 @@ var Tutorials = (() => {
 var Types = {
     "skins": {
         template: "tutorial",
-        endpoint: "https://fantalitystudios.ca/community/tutorials/controller/skins.json"
+        endpoint: "https://www.fantalitystudios.ca/community/tutorials/controller/skins.json"
     },
     "backgrounds": {
         template: "tutorial",
-        endpoint: "https://fantalitystudios.ca/community/tutorials/backgrounds/backgrounds.json"
+        endpoint: "https://www.fantalitystudios.ca/community/tutorials/backgrounds/backgrounds.json"
     }
 };
 

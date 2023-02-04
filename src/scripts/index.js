@@ -23,7 +23,7 @@ var Settings = {
     background: (() => {
         return { 
             change: function () {
-                $.getJSON("https://fantalitystudios.ca/assets/videos/menus/menus.json", (data) => {
+                $.getJSON("https://www.fantalitystudios.ca/assets/videos/menus/menus.json", (data) => {
                     var game = data.current[Math.floor(Math.random() * data.current.length)];
                     var item = game.videos[Math.floor(Math.random() * game.videos.length)];
                     if (item) {
