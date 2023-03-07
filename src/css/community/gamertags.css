@@ -1,0 +1,377 @@
+/*=================================================*/
+/*= GAMERTAGS | BASE                              =*/
+/*=================================================*/
+
+.gamertags-container {
+    background: #131313a8;
+    border-left: 1px solid #926333a1;
+    border-right: 1px solid #926333a1;
+    min-width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    user-select: none;
+    padding: 1em;
+    box-shadow: #000000f0 0 0 5px 0px;
+}
+
+    .gamertags-options-header {
+        display: flex;
+        align-items: center;
+    }
+
+        .gamertags-options-title {
+            font-size: 4em;
+            padding: 0 0.2em;
+            text-transform: uppercase;
+            text-shadow: #000000f0 0px 0px 4px;
+        }
+        .gamertags-options-menu-container {
+            flex: 1;
+            display: flex;
+            list-style: none;
+            flex-direction: row;
+        }
+
+            .gamertags-options-menu-item {
+                height: 3em;
+                display: flex;
+                text-transform: uppercase;
+            }
+
+                .gamertags-options-menu-item-link {
+                    width: 100%;
+                    font-size: 1.1em;
+                    text-decoration: none;
+                    padding: 0 16px;
+                    display: flex;
+                    cursor: pointer;
+                    flex-direction: column;
+                    justify-content: center;
+                    position: relative;
+                }
+
+                    .gamertags-options-menu-item-link:link, 
+                    .gamertags-options-menu-item-link:visited {
+                        color: inherit;
+                    }
+                    .gamertags-options-menu-item-link:hover {
+                        background-color: rgba(54,58,62,.63);
+                    }
+
+                .gamertags-options-menu-item-link.selected:after {
+                    content: "";
+                    height: 2px;
+                    background-color: #926333;
+                }
+
+                    .gamertags-options-menu-item-link:hover:not(.selected):after {
+                        content: "";                
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        height: 2px;
+                        position: absolute;
+                        background-color: #926333;
+                    }
+                    
+    .gamertags-options-footer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/*=================================================*/
+/*= GAMERTAGS | CONTAINERS                        =*/
+/*=================================================*/
+
+.gamertag-container {
+    flex: 1;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    max-height: 6em;
+    background: #131313a8;
+    border-bottom: 1px solid #926333a1;
+    transition: all .15s ease-in-out;
+}
+    .gamertag-container:hover {
+        background: rgba(19, 19, 19, 0.884);
+    }
+
+    .gamertag-name-container {
+        flex: 1;
+        display: flex;
+        pointer-events: none;
+    }
+        .gamertag-title-name {
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .gamertag-icon-container {
+        flex: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+        .gamertag-icon-image {
+        }
+
+    .gamertag-data-container {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+    }
+
+        .gamertag-email-container {
+            flex: 1;
+            min-width: 20em;
+            display: flex;
+            flex-direction: column;
+            margin-left: 2em;
+        }
+            .gamertag-email-container-left {
+                flex: 1;
+            }
+            .gamertag-email-container-right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .gamertag-title-email {}
+                .gamertag-input-email {}
+                .gamertag-copy-email {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 0.5em;
+                    opacity: 50%;
+                    cursor: copy;
+                    transition: all .15s ease-in-out;
+                }
+                    .gamertag-copy-email:hover {
+                        opacity: 100%;
+                    }
+
+        .gamertag-password-container {
+            flex: 1;
+            min-width: 20em;
+            display: flex;
+            flex-direction: column;
+            margin-left: 2em;
+        }
+            .gamertag-password-container-left {
+                flex: 1;
+            }
+            .gamertag-password-container-right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .gamertag-title-password {}
+                .gamertag-input-password {}
+                .gamertag-copy-password {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 0.5em;
+                    opacity: 50%;
+                    cursor: copy;
+                    transition: all .15s ease-in-out;
+                }
+                    .gamertag-copy-password:hover {
+                        opacity: 100%;
+                    }
+
+        .gamertag-type-container {
+            flex: 1;
+            min-width: 20em;
+            display: flex;
+            flex-direction: column;
+            margin-left: 2em;
+        }
+            .gamertag-type-container-left {
+                flex: 1;
+            }
+            .gamertag-type-container-right {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+                .gamertag-title-type {}
+                .gamertag-input-type {}
+                .gamertag-copy-type {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 0.5em;
+                }
+
+        .gamertag-options-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 1em;
+            border-left: 1px solid #926333a1;
+        }
+            .gamertag-options-menu-container {
+                flex: 1;
+                display: flex;
+                list-style: none;
+                flex-direction: row;
+                margin-left: 1em;
+            }
+                .gamertag-options-menu-item {
+                    height: 3em;
+                    min-width: 6em;
+                    display: flex;
+                    text-transform: uppercase;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                }
+                    .gamertag-options-menu-item-link {
+                        width: 100%;
+                        font-size: 1.1em;
+                        text-decoration: none;
+                        padding: 0 16px;
+                        display: flex;
+                        cursor: pointer;
+                        justify-content: center;
+                        position: relative;
+                    }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"]{
+    width: 100%;
+    line-height: 1.5;
+    border-radius: 0;
+    border: 1px solid #92633362;
+    padding: 2px 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    transition: border-color .15s ease-in-out;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+select {
+    width: 100%;
+    line-height: 1.5;
+    border-radius: 0;
+    border: 1px solid #92633362;
+    padding: 2px 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    background: transparent;
+    transition: border-color .15s ease-in-out;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+    input[type="text"]:hover,
+    input[type="text"]:focus,
+    input[type="email"]:hover,
+    input[type="email"]:focus,
+    input[type="password"]:hover,
+    input[type="password"]:focus,
+    input[type="checkbox"]:hover,
+    input[type="checkbox"]:focus {
+        border-color: #926333;
+        outline: 0;
+    }
+    select:hover,
+    select:focus {
+        border-color: #926333;
+        outline: 0;
+    }
+
+
+/*=================================================*/
+/*= GAMERTAGS | DIALOGS                           =*/
+/*=================================================*/
+
+/*=================================================*/
+/*= GAMERTAGS | DIALOGS | NEW                     =*/
+/*=================================================*/
+
+.dialog-gamertag-new-data-container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .dialog-gamertag-new-name-container {
+        display: flex;
+    }
+        .dialog-gamertag-new-name-container-left {
+            flex: 1;
+            max-width: 10em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 1em;
+        }
+        .dialog-gamertag-new-name-container-right {
+            flex: 1;
+        }
+
+    .dialog-gamertag-new-email-container {
+        display: flex;
+    }
+        .dialog-gamertag-new-email-container-left {
+            flex: 1;
+            max-width: 10em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 1em;
+        }
+        .dialog-gamertag-new-email-container-right {
+            flex: 1;
+        }
+
+    .dialog-gamertag-new-password-container {
+        display: flex;
+    }
+        .dialog-gamertag-new-password-container-left {
+            flex: 1;
+            max-width: 10em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 1em;
+        }
+        .dialog-gamertag-new-password-container-right {
+            flex: 1;
+        }
+
+    .dialog-gamertag-new-type-container {
+        display: flex;
+    }
+        .dialog-gamertag-new-type-container-left {
+            flex: 1;
+            max-width: 10em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 1em;
+        }
+        .dialog-gamertag-new-type-container-right {
+            flex: 1;
+        }
+
+/*=================================================*/
+/*= GAMERTAGS | DIALOGS | IMPORT                  =*/
+/*=================================================*/
+
+/*=================================================*/
+/*= GAMERTAGS | DIALOGS | EXPORT                  =*/
+/*=================================================*/

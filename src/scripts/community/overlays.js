@@ -1,4 +1,4 @@
-fantalitystudiosvar Overlays = (() => {
+var Overlays = (() => {
     function onInit() {
         console.info("[Overlays::Init]");
         try {

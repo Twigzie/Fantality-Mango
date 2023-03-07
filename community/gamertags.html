@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Gamertags</title>
 	<!-- ICONS -->
 	<link rel="icon" type="image/png" sizes="16x16" href="../src/assets/favicon.png">
 	<!-- STYLES -->
 	<link rel="stylesheet" href="../src/css/index.css">
+	<link rel="stylesheet" href="../src/css/community/gamertags.css">
 	<link rel="stylesheet" href="../src/css/external/nprogress.min.css">
 	<!-- SCRIPTS -->
     <script src="../src/scripts/external/jquery.min.js"></script>
@@ -27,35 +28,45 @@
 				<li class="nav-menu-option"><a class="nav-option-link" href="../community/overlays">Overlays</a></li>
 				<li class="nav-menu-option"><a class="nav-option-link" href="../community/tutorials">Tutorials</a></li>
 				<li class="nav-menu-option"><a class="nav-option-link" href="../community/discord">Discord</a></li>
-				<li class="nav-menu-option"><a class="nav-option-link" href="../community/gamertags">Gamertags</a></li>
-				<li class="nav-menu-option"><a class="nav-option-link selected">About</a></li>
+				<li class="nav-menu-option"><a class="nav-option-link selected">Gamertags</a></li>
+				<li class="nav-menu-option"><a class="nav-option-link" href="../community/about">About</a></li>
 			</ul>
 		</div>
 		<div class="main-content">
 
-			<div class="message-container">
-				<div class="message-content">
-				  <div class="message-content-header">
-					<img class="message-image" src="../src/img/assets/construction.svg" alt="Loading...">
-					<span class="message-header-title">Under Construction</span>
-				  </div>
-				  <div class="message-content-footer">
-					<span class="message-footer-title">You may now close this window or tab.</span>
-				  </div>
+			<div class="gamertags-container">
+
+				<div class="gamertags-options-header">
+					<span class="gamertags-options-title">GAMERTAGS</span>
+					<ul class="gamertags-options-menu-container">
+						
+						<li class="gamertags-options-menu-item">
+							<a class="gamertags-options-menu-item-link new">New</a>
+						</li>
+						<li class="gamertags-options-menu-item">
+							<a class="gamertags-options-menu-item-link import">Import</a>
+						</li>
+
+					</ul>
 				</div>
-			  </div>
+			    <div class="gamertags-options-footer"></div>
+
+			</div>
 
 		</div>
 		<div class="main-background">
 			<video id="background" type="video/webm" src poster autoplay muted loop></video>
 		</div>
+		<div class="main-dialogs"></div>
 		<div class="main-notifications"></div>
 		
 	</div>
-    
+
+	<script src="../src/scripts/index.js"></script>
+    <script src="../src/scripts/helpers/settings.js"></script>
 	<script src="../src/scripts/helpers/utilities.js"></script>
 	<script src="../src/scripts/helpers/templates.js"></script>
-	<script src="../src/scripts/index.js"></script>
+	<script src="../src/scripts/community/gamertags.js"></script>
 	
 </body>
 </html>

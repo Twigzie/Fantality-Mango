@@ -291,19 +291,34 @@ a  {
     opacity: 1;
     display: flex;
 }
+
     .main-dialog-container {
         margin: auto;
         height: auto;
         background: linear-gradient(rgb(14 14 14 / 90%), rgb(0 0 0 / 90%));
-        transition: opacity 150ms ease-in-out;
         display: flex;
         flex-direction: column;
         overflow: hidden;
         color: #8a8a8a;
         box-shadow: 0 0 10px 0px rgb(0 0 0 / 90%);
+        animation: main-dialog-container-Animation 0.2s ease-in-out;
+        animation-fill-mode: forwards;
     }
+    @keyframes main-dialog-container-Animation {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+        100% {
+            opacity: 1;
+            height: 33%;
+        }
+    }
+
         .dialog-header {
+            height: 3em;
             width: 100vw;
+            display: flex;
             padding-left: var(--scale);
             padding-right: var(--scale);
             background: rgba(0, 0, 0, 0.65);
@@ -311,41 +326,82 @@ a  {
             border-bottom: 1px solid rgba(76, 76, 76, 0.55);
         }
             .dialog-header-title {
-                display: block;
+                top: 0;
+                left: 0;
                 font-size: 2em;
+                margin: auto auto auto 0;
+                position: relative;
                 text-transform: uppercase;
+                animation: dialog-header-title-Animation 0.25s ease-in-out;
+                animation-fill-mode: forwards;
+                animation-delay: 5ms;
             }
+            @keyframes dialog-header-title-Animation {
+                0% {
+                    left: 100vw;
+                }
+                100% {
+                    left: 0;
+                }
+            }
+                .dialog-header-message {    
+                    font-size: 1.5em;                
+                    padding: 1em 0 1em 0;                
+                    display: block;
+                }
+
         .dialog-footer {
             flex: 1;
             display: flex;
             flex-direction: column;
             padding: 0.5em var(--scale) 0.5em var(--scale);
         }
+
             .dialog-footer-content {
+                left: -100vw;
                 flex: 1;
+                position: relative;
                 display: flex;
+                flex-direction: column;
+                margin: 1.5em 0 1.5em 0;
+                animation: dialog-footer-content-Animation 0.25s ease-in-out;
+                animation-fill-mode: forwards;
+                animation-delay: 25ms;
             }
-                .dialog-footer-caption {
+            @keyframes dialog-footer-content-Animation {
+                0% {
+                    left: -100vw;
+                }
+                100% {
+                    left: 0;
+                }
+            }
+                .dialog-footer-content-message {
                     flex: 1;
                     font-size: 1.5em;
                 }
-            .dialog-footer-options { 
-                margin: 2em 0em;
+
+            .dialog-footer-content-options {
+                position: relative;
                 list-style: none;
+                margin-top: 2em;
+                margin-bottom: 2em;
             }
-                .dialog-option {
+
+                .dialog-footer-option {
                     height: 2em;
                     padding: 0 0.5em;
                     display: flex;
                     cursor: pointer;
                     pointer-events: auto;
                 }
-                    .dialog-option.selected {
+                
+                    .dialog-footer-option.selected {
                         background-image: url('../img/assets/misc/hover.svg');
                         background-position: center;
                         background-repeat: no-repeat;
                     }
-                .dialog-option-title {
+                .dialog-footer-option-title {
                     flex: 1;
                     color: rgb(165 165 165);
                     font-size: 1em;
@@ -354,6 +410,16 @@ a  {
                     align-self: center;
                     pointer-events: none;
                 }
+
+                .dialog-footer-option-checkbox-container {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                    .dialog-footer-option-checkbox {
+                    }
+                        .dialog-footer-option-checkbox-title {
+                            margin-left: 0.5em;
+                        }
 
 /********************************************************/
 /* DIALOG | PREVIEW                                     */

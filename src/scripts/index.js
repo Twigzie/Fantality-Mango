@@ -1,6 +1,12 @@
 var Settings = {
     init: () => {
 
+        $(".main-dialogs")
+            .on("mouseenter", ".dialog-footer-option.select", (e) => {
+                $(".dialog-footer-option.select").removeClass("selected");
+                $(e.currentTarget).addClass("selected");
+            })
+
         Handlebars.registerHelper('switch', function(value, options) {
           this.switch_value = value;
           return options.fn(this);
@@ -20,6 +26,12 @@ var Settings = {
         Settings.background.change();
         
     },
+    load: ((name) => {
+        return JSON.parse(localStorage.getItem(name));
+    }),
+    save: ((name, value) => {
+        localStorage.setItem(name, JSON.stringify(value));
+    }),
     background: (() => {
         return { 
             change: function () {
